@@ -1,0 +1,3 @@
+2025-06-06 19:46:41,037 - qiki - INFO - Logger initialized. Log file: logs/qiki_20250606_194641.log
+2025-06-06 19:46:41,044 - qiki.test_environment - INFO - Initial bot position: [ 0.  0. 99.], velocity: [ 0.  0. 10.]
+2025-06-06 19:46:41,050 - qiki.test_environment - INFO - Environment test completed.

@@ -1,0 +1,3 @@
+2025-06-07 04:52:11,635 - qiki - INFO - Logger initialized. Log file: logs/qiki_20250607_045211.log
+2025-06-07 04:52:11,635 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-07 04:52:11,636 - qiki.frame_core - INFO - QIKI_Frame initialized with base mass 5.0 kg.

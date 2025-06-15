@@ -1,0 +1,11 @@
+2025-06-11 01:36:46,392 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250611_013646.log
+2025-06-11 01:36:46,392 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-11 01:36:46,393 - qiki.debug_test - INFO - Starting debug test
+2025-06-11 01:36:46,394 - qiki.environment - INFO - Environment initialized with gravity [0.0, 0.0, -9.81] and bounds {'x': (-100.0, 100.0), 'y': (-100.0, 100.0), 'z': (-100.0, 100.0)}, bot radius 0.5m.
+2025-06-11 01:36:46,394 - qiki.debug_test - INFO - Environment created successfully
+2025-06-11 01:36:46,394 - qiki.physics - INFO - PhysicsObject 'DEBUG_BOT' initialized with mass 10.0 kg at position [0.0, 0.0, 0.0].
+2025-06-11 01:36:46,395 - qiki.debug_test - INFO - Physics object created successfully
+2025-06-11 01:36:46,395 - qiki.debug_test - INFO - Bot radius: 0.5
+2025-06-11 01:36:46,397 - qiki.debug_test - INFO - Gravity vector: [ 0.    0.   -9.81]
+2025-06-11 01:36:46,398 - qiki.debug_test - INFO - Environment bounds: {'x': (-100.0, 100.0), 'y': (-100.0, 100.0), 'z': (-100.0, 100.0)}
+2025-06-11 01:36:46,398 - qiki.debug_test - INFO - Environmental forces applied successfully

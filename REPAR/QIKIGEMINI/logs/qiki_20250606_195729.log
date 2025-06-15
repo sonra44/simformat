@@ -1,0 +1,6 @@
+2025-06-06 19:57:29,670 - qiki - INFO - Logger initialized. Log file: logs/qiki_20250606_195729.log
+2025-06-06 19:57:29,673 - qiki.test_agent - INFO - Agent initial target: [50.  0. 10.]
+2025-06-06 19:57:29,682 - qiki.test_agent - INFO - Test 1 completed.
+2025-06-06 19:57:29,686 - qiki.test_agent - INFO - Test 2 completed.
+2025-06-06 19:57:29,689 - qiki.test_agent - INFO - Test 3 completed.
+2025-06-06 19:57:29,689 - qiki.test_agent - INFO - Agent module test completed.

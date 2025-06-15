@@ -1,0 +1,100 @@
+2025-06-14 07:44:17,343 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250614_074417.log
+2025-06-14 07:44:17,343 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-14 07:44:17,660 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-14 07:44:17,660 - qiki.structural_sensors - INFO - StructuralSensors initialized.
+2025-06-14 07:44:17,660 - qiki.frame_core - INFO - FrameCore 'QIKI_FrameCore' initialized with base mass 5.00 kg.
+2025-06-14 07:44:17,660 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-14 07:44:17,660 - qiki.power_systems - INFO - QIKI_PowerSystems initialized. Main Battery: 10000.0Wh, Reserve Battery: 2000.0Wh.
+2025-06-14 07:44:17,660 - qiki.thermal_system - INFO - QIKI_ThermalSystem initialized. Initial Core Temp: 20.0°C, Initial Radiator Temp: 10.0°C.
+2025-06-14 07:44:17,661 - qiki.physics.QIKI_Physics - INFO - PhysicsObject 'QIKI_Physics' initialized with mass 43.0 kg, inertia 1.0 kg*m^2
+2025-06-14 07:44:17,661 - qiki.agent - INFO - Async Agent initialized with event system and command queue
+2025-06-14 07:44:17,661 - qiki.sensors - INFO - Async Sensors initialized with all subsystems
+2025-06-14 07:44:17,661 - qiki.environment - INFO - Async Environment initialized with gravity [0.0, 0.0, -9.81] and bounds {'x': (-100.0, 100.0), 'y': (-100.0, 100.0), 'z': (-100.0, 100.0)}, bot radius 0.5m.
+2025-06-14 07:44:17,661 - qiki.bot_interface - INFO - BotInterface initialized.
+2025-06-14 07:44:17,661 - qiki.qik_os.kernel - INFO - QikOS Kernel initialized.
+2025-06-14 07:44:17,661 - qiki.qik_os.shell - INFO - QikOS Shell initialized.
+2025-06-14 07:44:17,661 - qiki.qik_os - INFO - QikOS initialized.
+2025-06-14 07:44:17,691 - qiki.visualizer - INFO - Visualizer initialized.
+2025-06-14 07:44:17,691 - qiki.ascii_visualizer - INFO - AsciiVisualizer initialized in simplified mode.
+2025-06-14 07:44:17,691 - qiki.analyzer - INFO - Analyzer initialized. Session file: data/session_20250614_074417.json
+2025-06-14 07:44:17,691 - qiki.main - INFO - QIKI Simulation initialized.
+2025-06-14 07:44:17,692 - qiki.main - INFO - Starting QIKI Simulation main loop...
+2025-06-14 07:44:17,692 - qiki.agent - INFO - Starting agent control loop
+2025-06-14 07:44:17,692 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:17,692 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:18,693 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:18,693 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:19,694 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:19,694 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:20,694 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:20,695 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:21,696 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:21,696 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:22,692 - qiki.main - INFO - Initiating graceful shutdown of QIKI Simulation...
+2025-06-14 07:44:22,692 - qiki.main - INFO - Stopping QikOS...
+2025-06-14 07:44:22,692 - qiki.qik_os - WARNING - QikOS is not running.
+2025-06-14 07:44:22,692 - qiki.main - INFO - Closing visualizer...
+2025-06-14 07:44:22,692 - qiki.visualizer - INFO - Closing Visualizer.
+2025-06-14 07:44:22,692 - qiki.visualizer - INFO - Visualizer closed.
+2025-06-14 07:44:22,692 - qiki.main - INFO - Finalizing analyzer data...
+2025-06-14 07:44:22,692 - qiki.analyzer - WARNING - No simulation steps recorded for statistics calculation.
+2025-06-14 07:44:22,693 - qiki.analyzer - INFO - Session data and report saved to data/session_20250614_074417.json
+2025-06-14 07:44:22,693 - qiki.main - INFO - QIKI Simulation shutdown complete with exit code 0.
+2025-06-14 07:44:22,696 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:22,697 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:23,698 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:23,698 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:24,699 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:24,699 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:25,700 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:25,700 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:26,700 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:26,701 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:27,702 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:27,702 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:28,704 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:28,704 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:29,704 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:29,705 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:30,705 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:30,705 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:31,707 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:31,707 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:32,708 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:32,709 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:33,710 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:33,710 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:34,711 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:34,711 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:35,712 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:35,713 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:36,713 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:36,714 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:37,715 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:37,715 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:38,716 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:38,716 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:39,717 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:39,717 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:40,718 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:40,718 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:41,720 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:41,720 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:42,721 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:42,721 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:43,722 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:43,722 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:44,723 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:44,723 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:45,724 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:45,724 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:46,724 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:46,725 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:47,725 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:47,725 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:48,726 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:48,726 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:49,727 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:49,727 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:50,727 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_charging_state'
+2025-06-14 07:44:50,728 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_charging_state'

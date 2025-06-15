@@ -1,0 +1,112 @@
+2025-06-14 16:17:03,164 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250614_161703.log
+2025-06-14 16:17:03,164 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-14 16:17:03,182 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-14 16:17:03,183 - qiki.structural_sensors - INFO - StructuralSensors initialized.
+2025-06-14 16:17:03,183 - qiki.frame_core - INFO - FrameCore 'QIKI_FrameCore' initialized with base mass 5.00 kg.
+2025-06-14 16:17:03,184 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-14 16:17:03,184 - qiki.power_systems - INFO - QIKI_PowerSystems initialized. Main Battery: 10000.0Wh, Reserve Battery: 2000.0Wh.
+2025-06-14 16:17:03,184 - qiki.thermal_system - INFO - QIKI_ThermalSystem initialized. Initial Core Temp: 20.0°C, Initial Radiator Temp: 10.0°C.
+2025-06-14 16:17:03,185 - qiki.physics.QIKI_Physics - INFO - PhysicsObject 'QIKI_Physics' initialized with mass 43.0 kg, inertia 1.0 kg*m^2
+2025-06-14 16:17:03,185 - qiki.agent - INFO - Async Agent initialized with event system and command queue
+2025-06-14 16:17:03,186 - qiki.sensors - INFO - Async Sensors initialized with all subsystems
+2025-06-14 16:17:03,186 - qiki.environment - INFO - Async Environment initialized with gravity [0.0, 0.0, -9.81] and bounds {'x': (-100.0, 100.0), 'y': (-100.0, 100.0), 'z': (-100.0, 100.0)}, bot radius 0.5m.
+2025-06-14 16:17:03,186 - qiki.bot_interface - INFO - BotInterface initialized.
+2025-06-14 16:17:03,187 - qiki.qik_os.kernel - INFO - QikOS Kernel initialized.
+2025-06-14 16:17:03,187 - qiki.qik_os.shell - INFO - QikOS Shell initialized.
+2025-06-14 16:17:03,188 - qiki.qik_os - INFO - QikOS initialized.
+2025-06-14 16:17:03,188 - qiki.display_manager - INFO - DisplayManager initialized in STANDARD mode
+2025-06-14 16:17:03,188 - qiki.qiki_display_adapter - INFO - QikiDisplayAdapter initialized
+2025-06-14 16:17:03,189 - qiki.main - INFO - QikiDisplayAdapter initialized.
+2025-06-14 16:17:03,189 - qiki.bot_controller - INFO - BotController initialized
+2025-06-14 16:17:03,190 - qiki.qiki_bot_control - INFO - QikiBotControlIntegration initialized
+2025-06-14 16:17:03,190 - qiki.main - INFO - QikiBotControlIntegration initialized.
+2025-06-14 16:17:03,190 - qiki.analyzer - INFO - Analyzer initialized. Session file: data/session_20250614_161703.json
+2025-06-14 16:17:03,191 - qiki.main - INFO - QIKI Simulation initialized.
+2025-06-14 16:17:03,191 - qiki.main - INFO - Starting QIKI Simulation main loop...
+2025-06-14 16:17:03,192 - qiki.input_handler - INFO - Input handler started
+2025-06-14 16:17:03,195 - qiki.display_manager - INFO - Display manager started
+2025-06-14 16:17:03,196 - qiki.qiki_display_adapter - INFO - Display adapter started
+2025-06-14 16:17:03,196 - qiki.bot_controller - INFO - Platform detected: Desktop
+2025-06-14 16:17:03,197 - qiki.bot_controller - INFO - Added interface: TextInterface
+2025-06-14 16:17:03,197 - qiki.bot_controller - INFO - Added interface: KeyboardInterface
+2025-06-14 16:17:03,198 - qiki.text_interface - INFO - Text interface started
+2025-06-14 16:17:03,199 - qiki.keyboard_interface - INFO - Keyboard interface started
+2025-06-14 16:17:03,200 - qiki.bot_controller - INFO - BotController started with 2 active interfaces
+2025-06-14 16:17:03,200 - qiki.qiki_bot_control - INFO - Bot control system started
+2025-06-14 16:17:03,201 - qiki.main - INFO - Creating simulation tasks...
+2025-06-14 16:17:03,202 - qiki.main - INFO - Waiting for 3 tasks to complete...
+2025-06-14 16:17:03,202 - qiki.main - INFO - Entering main simulation loop...
+2025-06-14 16:17:03,203 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00056s
+2025-06-14 16:17:03,203 - qiki.agent - INFO - Starting agent control loop
+2025-06-14 16:17:03,205 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00268s
+2025-06-14 16:17:03,208 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00264s
+2025-06-14 16:17:03,210 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00145s
+2025-06-14 16:17:03,211 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00169s
+2025-06-14 16:17:03,213 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00161s
+2025-06-14 16:17:03,214 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00148s
+2025-06-14 16:17:03,216 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00145s
+2025-06-14 16:17:03,217 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00169s
+2025-06-14 16:17:03,219 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00134s
+2025-06-14 16:17:03,220 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00134s
+2025-06-14 16:17:03,221 - qiki.main - INFO - Performed 1 physics updates
+2025-06-14 16:17:03,223 - qiki.main - INFO - Simulation time: 0.02s, dt: 0.00250s
+2025-06-14 16:17:03,224 - qiki.main - INFO - Simulation time: 0.02s, dt: 0.00155s
+2025-06-14 16:17:03,226 - qiki.main - INFO - Simulation time: 0.02s, dt: 0.00161s
+2025-06-14 16:17:03,227 - qiki.main - INFO - Simulation time: 0.02s, dt: 0.00139s
+2025-06-14 16:17:03,229 - qiki.main - INFO - Simulation time: 0.02s, dt: 0.00137s
+2025-06-14 16:17:03,230 - qiki.main - INFO - Simulation time: 0.02s, dt: 0.00137s
+2025-06-14 16:17:03,231 - qiki.main - INFO - Simulation time: 0.02s, dt: 0.00136s
+2025-06-14 16:17:03,233 - qiki.main - INFO - Simulation time: 0.02s, dt: 0.00136s
+2025-06-14 16:17:03,234 - qiki.main - INFO - Simulation time: 0.02s, dt: 0.00138s
+2025-06-14 16:17:03,235 - qiki.main - INFO - Simulation time: 0.02s, dt: 0.00134s
+2025-06-14 16:17:03,237 - qiki.main - INFO - Simulation time: 0.02s, dt: 0.00131s
+2025-06-14 16:17:03,237 - qiki.main - INFO - Performed 1 physics updates
+2025-06-14 16:17:03,239 - qiki.main - INFO - Simulation time: 0.03s, dt: 0.00228s
+2025-06-14 16:17:03,240 - qiki.main - INFO - Simulation time: 0.03s, dt: 0.00137s
+2025-06-14 16:17:03,242 - qiki.main - INFO - Simulation time: 0.03s, dt: 0.00133s
+2025-06-14 16:17:03,243 - qiki.main - INFO - Simulation time: 0.03s, dt: 0.00140s
+2025-06-14 16:17:03,244 - qiki.main - INFO - Simulation time: 0.03s, dt: 0.00139s
+2025-06-14 16:17:03,246 - qiki.main - INFO - Simulation time: 0.03s, dt: 0.00139s
+2025-06-14 16:17:03,247 - qiki.main - INFO - Simulation time: 0.03s, dt: 0.00131s
+2025-06-14 16:17:03,249 - qiki.main - INFO - Simulation time: 0.03s, dt: 0.00137s
+2025-06-14 16:17:03,250 - qiki.main - INFO - Simulation time: 0.03s, dt: 0.00146s
+2025-06-14 16:17:03,251 - qiki.main - INFO - Simulation time: 0.03s, dt: 0.00135s
+2025-06-14 16:17:03,253 - qiki.main - INFO - Simulation time: 0.03s, dt: 0.00136s
+2025-06-14 16:17:03,254 - qiki.main - INFO - Performed 1 physics updates
+2025-06-14 16:17:03,255 - qiki.main - INFO - Simulation time: 0.05s, dt: 0.00249s
+2025-06-14 16:17:03,257 - qiki.main - INFO - Simulation time: 0.05s, dt: 0.00140s
+2025-06-14 16:17:03,258 - qiki.main - INFO - Simulation time: 0.05s, dt: 0.00136s
+2025-06-14 16:17:03,259 - qiki.main - INFO - Simulation time: 0.05s, dt: 0.00138s
+2025-06-14 16:17:03,261 - qiki.main - INFO - Simulation time: 0.05s, dt: 0.00138s
+2025-06-14 16:17:03,262 - qiki.main - INFO - Simulation time: 0.05s, dt: 0.00136s
+2025-06-14 16:17:03,263 - qiki.main - INFO - Simulation time: 0.05s, dt: 0.00132s
+2025-06-14 16:17:03,265 - qiki.main - INFO - Simulation time: 0.05s, dt: 0.00132s
+2025-06-14 16:17:03,266 - qiki.main - INFO - Simulation time: 0.05s, dt: 0.00136s
+2025-06-14 16:17:03,267 - qiki.main - INFO - Simulation time: 0.05s, dt: 0.00135s
+2025-06-14 16:17:03,269 - qiki.main - INFO - Simulation time: 0.05s, dt: 0.00142s
+2025-06-14 16:17:03,270 - qiki.main - INFO - Simulation time: 0.05s, dt: 0.00148s
+2025-06-14 16:17:03,271 - qiki.main - INFO - Performed 1 physics updates
+2025-06-14 16:17:03,272 - qiki.main - INFO - Simulation time: 0.07s, dt: 0.00212s
+2025-06-14 16:17:03,274 - qiki.main - INFO - Simulation time: 0.07s, dt: 0.00136s
+2025-06-14 16:17:03,275 - qiki.main - INFO - Simulation time: 0.07s, dt: 0.00146s
+2025-06-14 16:17:03,277 - qiki.main - INFO - Simulation time: 0.07s, dt: 0.00136s
+2025-06-14 16:17:03,278 - qiki.main - INFO - Simulation time: 0.07s, dt: 0.00142s
+2025-06-14 16:17:03,278 - qiki.main - INFO - Debug: Exiting main loop after 50 iterations
+2025-06-14 16:17:03,278 - qiki.main - INFO - QIKI Simulation main loop finished at time 0.07s.
+2025-06-14 16:17:03,278 - qiki.main - INFO - Initiating graceful shutdown of QIKI Simulation...
+2025-06-14 16:17:03,279 - qiki.main - INFO - Cancelling simulation main loop task...
+2025-06-14 16:17:03,279 - qiki.main - INFO - Simulation main loop task cancelled successfully.
+2025-06-14 16:17:03,279 - qiki.main - INFO - Stopping QikOS...
+2025-06-14 16:17:03,279 - qiki.qik_os - WARNING - QikOS is not running.
+2025-06-14 16:17:03,279 - qiki.main - INFO - Closing display...
+2025-06-14 16:17:03,279 - qiki.display_manager - INFO - Display manager stopped
+2025-06-14 16:17:03,279 - qiki.qiki_display_adapter - INFO - Display adapter closed
+2025-06-14 16:17:03,279 - qiki.main - INFO - Stopping bot control...
+2025-06-14 16:17:03,279 - qiki.bot_controller - INFO - BotController stopped
+2025-06-14 16:17:03,279 - qiki.qiki_bot_control - INFO - Bot control integration stopped
+2025-06-14 16:17:03,279 - qiki.main - INFO - Finalizing analyzer data...
+2025-06-14 16:17:03,280 - qiki.analyzer - INFO - Session statistics calculated.
+2025-06-14 16:17:03,280 - qiki.analyzer - INFO - Session data and report saved to data/session_20250614_161703.json
+2025-06-14 16:17:03,281 - qiki.main - INFO - QIKI Simulation shutdown complete with exit code 0.
+2025-06-14 16:17:03,281 - qiki.main - INFO - Tasks completed: 1, pending: 2
+2025-06-14 16:17:03,281 - qiki.main - INFO - Task result: None

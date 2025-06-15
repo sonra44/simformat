@@ -1,0 +1,29 @@
+2025-06-10 19:42:45,846 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250610_194245.log
+2025-06-10 19:42:45,847 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-10 19:42:46,168 - qiki - WARNING - Using fallback logging due to central logger initialization failure.
+2025-06-10 19:42:46,168 - qiki.main - WARNING - Using fallback logger due to initialization failure.
+2025-06-10 19:42:46,168 - qiki.structural_sensors - INFO - StructuralSensors initialized.
+2025-06-10 19:42:46,169 - qiki.frame_core - INFO - FrameCore 'QIKI_FrameCore' initialized with base mass 5.00 kg.
+2025-06-10 19:42:46,169 - qiki - CRITICAL - An unhandled exception prevented application startup or proper shutdown: type object 'Config' has no attribute 'MAIN_BATTERY_CAPACITY_WH'
+Traceback (most recent call last):
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 426, in <module>
+    asyncio.run(main_entry_point())
+  File "/usr/local/python/3.12.1/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/asyncio/base_events.py", line 684, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 375, in main_entry_point
+    simulation = QikiSimulation()
+                 ^^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 56, in __init__
+    self.power_systems = PowerSystems()
+                         ^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/hardware/power_systems.py", line 96, in __init__
+    self.main_battery_charge_wh: float = Config.MAIN_BATTERY_CAPACITY_WH
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Config' has no attribute 'MAIN_BATTERY_CAPACITY_WH'. Did you mean: 'BATTERY_CAPACITY_WH'?

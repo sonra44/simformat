@@ -1,0 +1,80 @@
+2025-06-14 07:42:50,123 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250614_074250.log
+2025-06-14 07:42:50,123 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-14 07:42:50,445 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-14 07:42:50,445 - qiki.structural_sensors - INFO - StructuralSensors initialized.
+2025-06-14 07:42:50,445 - qiki.frame_core - INFO - FrameCore 'QIKI_FrameCore' initialized with base mass 5.00 kg.
+2025-06-14 07:42:50,446 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-14 07:42:50,446 - qiki.power_systems - INFO - QIKI_PowerSystems initialized. Main Battery: 10000.0Wh, Reserve Battery: 2000.0Wh.
+2025-06-14 07:42:50,446 - qiki.thermal_system - INFO - QIKI_ThermalSystem initialized. Initial Core Temp: 20.0°C, Initial Radiator Temp: 10.0°C.
+2025-06-14 07:42:50,446 - qiki.physics.QIKI_Physics - INFO - PhysicsObject 'QIKI_Physics' initialized with mass 43.0 kg, inertia 1.0 kg*m^2
+2025-06-14 07:42:50,446 - qiki.agent - INFO - Async Agent initialized with event system and command queue
+2025-06-14 07:42:50,446 - qiki.sensors - INFO - Async Sensors initialized with all subsystems
+2025-06-14 07:42:50,446 - qiki.environment - INFO - Async Environment initialized with gravity [0.0, 0.0, -9.81] and bounds {'x': (-100.0, 100.0), 'y': (-100.0, 100.0), 'z': (-100.0, 100.0)}, bot radius 0.5m.
+2025-06-14 07:42:50,446 - qiki.bot_interface - INFO - BotInterface initialized.
+2025-06-14 07:42:50,447 - qiki.qik_os.kernel - INFO - QikOS Kernel initialized.
+2025-06-14 07:42:50,447 - qiki.qik_os.shell - INFO - QikOS Shell initialized.
+2025-06-14 07:42:50,447 - qiki.qik_os - INFO - QikOS initialized.
+2025-06-14 07:42:50,476 - qiki.visualizer - INFO - Visualizer initialized.
+2025-06-14 07:42:50,476 - qiki.ascii_visualizer - INFO - AsciiVisualizer initialized in simplified mode.
+2025-06-14 07:42:50,476 - qiki.analyzer - INFO - Analyzer initialized. Session file: data/session_20250614_074250.json
+2025-06-14 07:42:50,476 - qiki.main - INFO - QIKI Simulation initialized.
+2025-06-14 07:42:50,476 - qiki.main - INFO - Starting QIKI Simulation main loop...
+2025-06-14 07:42:50,477 - qiki.agent - INFO - Starting agent control loop
+2025-06-14 07:42:50,477 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:50,477 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:51,478 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:51,478 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:52,478 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:52,478 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:53,479 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:53,479 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:54,481 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:54,481 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:55,477 - qiki.main - INFO - Initiating graceful shutdown of QIKI Simulation...
+2025-06-14 07:42:55,477 - qiki.main - INFO - Stopping QikOS...
+2025-06-14 07:42:55,477 - qiki.qik_os - WARNING - QikOS is not running.
+2025-06-14 07:42:55,478 - qiki.main - INFO - Closing visualizer...
+2025-06-14 07:42:55,478 - qiki.visualizer - INFO - Closing Visualizer.
+2025-06-14 07:42:55,478 - qiki.visualizer - INFO - Visualizer closed.
+2025-06-14 07:42:55,478 - qiki.main - INFO - Finalizing analyzer data...
+2025-06-14 07:42:55,478 - qiki.analyzer - WARNING - No simulation steps recorded for statistics calculation.
+2025-06-14 07:42:55,478 - qiki.analyzer - INFO - Session data and report saved to data/session_20250614_074250.json
+2025-06-14 07:42:55,478 - qiki.main - INFO - QIKI Simulation shutdown complete with exit code 0.
+2025-06-14 07:42:55,482 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:55,482 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:56,482 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:56,482 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:57,483 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:57,483 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:58,485 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:58,485 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:59,487 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:42:59,487 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:00,489 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:00,489 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:01,491 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:01,492 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:02,493 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:02,493 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:03,493 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:03,494 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:04,494 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:04,494 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:05,495 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:05,495 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:06,496 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:06,496 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:07,497 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:07,497 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:08,499 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:08,499 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:09,501 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:09,501 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:10,503 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:10,504 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:11,504 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:11,505 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:12,505 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:12,506 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:13,507 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_solar_power'
+2025-06-14 07:43:13,507 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_solar_power'

@@ -1,0 +1,19 @@
+2025-06-07 04:12:33,048 - qiki - INFO - Logger initialized. Log file: logs/qiki_20250607_041233.log
+2025-06-07 04:12:33,049 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-07 04:12:33,049 - qiki.frame_core - INFO - QIKI_Frame initialized with base mass 5.0 kg.
+2025-06-07 04:12:33,049 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-07 04:12:33,049 - qiki.power_systems - INFO - QIKI_PowerSystem initialized. Total mass: 21.50 kg.
+2025-06-07 04:12:33,050 - qiki.agent - INFO - Agent initialized.
+2025-06-07 04:12:33,050 - qiki.sensors - INFO - Sensors initialized with access to PhysicsObject, FrameCore, and PowerSystems.
+2025-06-07 04:12:34,556 - qiki.analyzer - INFO - Analyzer initialized. Session file: data/session_20250607_041234.json
+2025-06-07 04:12:34,556 - qiki.main - INFO - QIKI Simulation initialized successfully
+2025-06-07 04:12:34,556 - qiki.main - INFO - Starting QIKI Simulation main loop...
+2025-06-07 04:12:34,557 - qiki.main - ERROR - An error occurred during simulation: 'Agent' object has no attribute 'make_decision'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/QIKIGEMINI/main.py", line 93, in run
+    force, torque = self.agent.make_decision(sensor_data, current_sim_time)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Agent' object has no attribute 'make_decision'
+2025-06-07 04:12:34,561 - qiki.main - INFO - Simulation ended. Total real time: 0.00 seconds.
+2025-06-07 04:12:34,562 - qiki.analyzer - INFO - Analysis finalized. Total steps: 0
+2025-06-07 04:12:34,638 - qiki.main - INFO - Application exited.

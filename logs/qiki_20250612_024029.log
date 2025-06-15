@@ -1,0 +1,2 @@
+2025-06-12 02:40:29,649 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250612_024029.log
+2025-06-12 02:40:29,649 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.

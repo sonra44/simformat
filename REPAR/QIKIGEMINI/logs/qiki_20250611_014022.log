@@ -1,0 +1,43 @@
+2025-06-11 01:40:22,979 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250611_014022.log
+2025-06-11 01:40:22,979 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-11 01:40:23,330 - qiki - WARNING - Using fallback logging due to central logger initialization failure.
+2025-06-11 01:40:23,330 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-11 01:40:23,330 - qiki.structural_sensors - INFO - StructuralSensors initialized.
+2025-06-11 01:40:23,330 - qiki.frame_core - INFO - FrameCore 'QIKI_FrameCore' initialized with base mass 5.00 kg.
+2025-06-11 01:40:23,330 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-11 01:40:23,330 - qiki.power_systems - INFO - QIKI_PowerSystems initialized. Main Battery: 10000.0Wh, Reserve Battery: 2000.0Wh.
+2025-06-11 01:40:23,330 - qiki.thermal_system - INFO - QIKI_ThermalSystem initialized. Initial Core Temp: 20.0°C, Initial Radiator Temp: 10.0°C.
+2025-06-11 01:40:23,331 - qiki.physics - INFO - PhysicsObject 'QIKI_Physics' initialized with mass 38.0 kg at position [0.0, 0.0, 0.0].
+2025-06-11 01:40:23,331 - qiki.agent - INFO - Agent initialized.
+2025-06-11 01:40:23,331 - qiki.sensors - INFO - Sensors initialized with access to PhysicsObject, FrameCore, PowerSystems, and ThermalSystem.
+2025-06-11 01:40:23,331 - qiki.environment - INFO - Environment initialized with gravity [0.0, 0.0, -9.81] and bounds {'x': (-100.0, 100.0), 'y': (-100.0, 100.0), 'z': (-100.0, 100.0)}, bot radius 0.5m.
+2025-06-11 01:40:23,331 - qiki.bot_interface - INFO - BotInterface initialized.
+2025-06-11 01:40:23,331 - qiki.qik_os.kernel - INFO - QikOS Kernel initialized.
+2025-06-11 01:40:23,331 - qiki.qik_os.shell - INFO - QikOS Shell initialized.
+2025-06-11 01:40:23,331 - qiki.qik_os - INFO - QikOS initialized.
+2025-06-11 01:40:23,372 - qiki - CRITICAL - An unhandled exception prevented application startup or proper shutdown: name 'config' is not defined
+Traceback (most recent call last):
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 423, in <module>
+    asyncio.run(main_entry_point())
+  File "/home/codespace/.python/current/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/asyncio/base_events.py", line 684, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 372, in main_entry_point
+    simulation = QikiSimulation()
+                 ^^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 83, in __init__
+    self.visualizer = Visualizer()
+                      ^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/visualizer.py", line 37, in __init__
+    self._setup_dashboard()  # Настройка внешнего вида дашборда
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/visualizer.py", line 54, in _setup_dashboard
+    self.ax_3d.set_xlim(config.BOUNDS["x"][0], config.BOUNDS["x"][1])
+                        ^^^^^^
+NameError: name 'config' is not defined. Did you mean: 'Config'?

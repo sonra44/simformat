@@ -1,0 +1,110 @@
+2025-06-14 07:35:29,338 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250614_073529.log
+2025-06-14 07:35:29,338 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-14 07:35:29,680 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-14 07:35:29,680 - qiki.structural_sensors - INFO - StructuralSensors initialized.
+2025-06-14 07:35:29,680 - qiki.frame_core - INFO - FrameCore 'QIKI_FrameCore' initialized with base mass 5.00 kg.
+2025-06-14 07:35:29,680 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-14 07:35:29,680 - qiki.power_systems - INFO - QIKI_PowerSystems initialized. Main Battery: 10000.0Wh, Reserve Battery: 2000.0Wh.
+2025-06-14 07:35:29,680 - qiki.thermal_system - INFO - QIKI_ThermalSystem initialized. Initial Core Temp: 20.0°C, Initial Radiator Temp: 10.0°C.
+2025-06-14 07:35:29,681 - qiki.physics.QIKI_Physics - INFO - PhysicsObject 'QIKI_Physics' initialized with mass 43.0 kg, inertia 1.0 kg*m^2
+2025-06-14 07:35:29,681 - qiki.agent - INFO - Async Agent initialized with event system and command queue
+2025-06-14 07:35:29,681 - qiki.sensors - INFO - Async Sensors initialized with all subsystems
+2025-06-14 07:35:29,681 - qiki.environment - INFO - Async Environment initialized with gravity [0.0, 0.0, -9.81] and bounds {'x': (-100.0, 100.0), 'y': (-100.0, 100.0), 'z': (-100.0, 100.0)}, bot radius 0.5m.
+2025-06-14 07:35:29,681 - qiki.bot_interface - INFO - BotInterface initialized.
+2025-06-14 07:35:29,681 - qiki.qik_os.kernel - INFO - QikOS Kernel initialized.
+2025-06-14 07:35:29,681 - qiki.qik_os.shell - INFO - QikOS Shell initialized.
+2025-06-14 07:35:29,681 - qiki.qik_os - INFO - QikOS initialized.
+2025-06-14 07:35:29,711 - qiki.visualizer - INFO - Visualizer initialized.
+2025-06-14 07:35:29,711 - qiki.ascii_visualizer - INFO - AsciiVisualizer initialized in simplified mode.
+2025-06-14 07:35:29,711 - qiki.analyzer - INFO - Analyzer initialized. Session file: data/session_20250614_073529.json
+2025-06-14 07:35:29,711 - qiki.main - INFO - QIKI Simulation initialized.
+2025-06-14 07:35:29,712 - qiki.main - INFO - Starting QIKI Simulation main loop...
+2025-06-14 07:35:29,712 - qiki.agent - INFO - Starting agent control loop
+2025-06-14 07:35:29,712 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:29,712 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:30,713 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:30,713 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:31,714 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:31,715 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:32,715 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:32,715 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:33,717 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:33,717 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:34,718 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:34,718 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:35,720 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:35,721 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:36,723 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:36,723 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:37,724 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:37,724 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:38,725 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:38,725 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:39,727 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:39,727 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:40,728 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:40,729 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:41,731 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:41,731 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:42,732 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:42,732 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:43,733 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:43,734 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:44,735 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:44,735 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:45,736 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:45,736 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:46,738 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:46,738 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:47,740 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:47,740 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:48,741 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:48,741 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:49,742 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:49,742 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:50,743 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:50,743 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:51,744 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:51,744 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:52,746 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:52,746 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:53,747 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:53,747 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:54,747 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:54,747 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:55,749 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:55,749 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:56,750 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:56,750 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:57,750 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:57,750 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:58,751 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:58,751 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:59,752 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:35:59,752 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:00,753 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:00,753 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:01,755 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:01,755 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:02,757 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:02,757 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:03,759 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:03,759 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:04,761 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:04,761 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:05,763 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:05,763 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:06,764 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:06,764 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:07,765 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:07,765 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:08,766 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:08,766 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:09,767 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:09,767 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:10,768 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:10,768 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:11,769 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:11,769 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:12,770 - qiki.sensors - ERROR - Error reading sensors: 'PowerSystems' object has no attribute 'get_total_battery_percentage'
+2025-06-14 07:36:12,770 - qiki.sensors - ERROR - Error in sensor update loop: 'PowerSystems' object has no attribute 'get_total_battery_percentage'

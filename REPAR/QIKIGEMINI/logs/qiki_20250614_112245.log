@@ -1,0 +1,85 @@
+2025-06-14 11:22:45,407 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250614_112245.log
+2025-06-14 11:22:45,407 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-14 11:22:45,735 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-14 11:22:45,735 - qiki.structural_sensors - INFO - StructuralSensors initialized.
+2025-06-14 11:22:45,735 - qiki.frame_core - INFO - FrameCore 'QIKI_FrameCore' initialized with base mass 5.00 kg.
+2025-06-14 11:22:45,736 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-14 11:22:45,736 - qiki.power_systems - INFO - QIKI_PowerSystems initialized. Main Battery: 10000.0Wh, Reserve Battery: 2000.0Wh.
+2025-06-14 11:22:45,736 - qiki.thermal_system - INFO - QIKI_ThermalSystem initialized. Initial Core Temp: 20.0°C, Initial Radiator Temp: 10.0°C.
+2025-06-14 11:22:45,736 - qiki.physics.QIKI_Physics - INFO - PhysicsObject 'QIKI_Physics' initialized with mass 43.0 kg, inertia 1.0 kg*m^2
+2025-06-14 11:22:45,736 - qiki.agent - INFO - Async Agent initialized with event system and command queue
+2025-06-14 11:22:45,736 - qiki.sensors - INFO - Async Sensors initialized with all subsystems
+2025-06-14 11:22:45,736 - qiki.environment - INFO - Async Environment initialized with gravity [0.0, 0.0, -9.81] and bounds {'x': (-100.0, 100.0), 'y': (-100.0, 100.0), 'z': (-100.0, 100.0)}, bot radius 0.5m.
+2025-06-14 11:22:45,737 - qiki.bot_interface - INFO - BotInterface initialized.
+2025-06-14 11:22:45,737 - qiki.qik_os.kernel - INFO - QikOS Kernel initialized.
+2025-06-14 11:22:45,737 - qiki.qik_os.shell - INFO - QikOS Shell initialized.
+2025-06-14 11:22:45,737 - qiki.qik_os - INFO - QikOS initialized.
+2025-06-14 11:22:45,737 - qiki.main - INFO - Visualization disabled.
+2025-06-14 11:22:45,737 - qiki.analyzer - INFO - Analyzer initialized. Session file: data/session_20250614_112245.json
+2025-06-14 11:22:45,737 - qiki.main - INFO - QIKI Simulation initialized.
+2025-06-14 11:22:45,738 - qiki.main - INFO - Starting QIKI Simulation main loop...
+2025-06-14 11:22:45,738 - qiki.main - INFO - Creating simulation tasks...
+2025-06-14 11:22:45,738 - qiki.main - INFO - Waiting for 3 tasks to complete...
+2025-06-14 11:22:45,738 - qiki.main - INFO - Entering main simulation loop...
+2025-06-14 11:22:45,738 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00011s
+2025-06-14 11:22:45,738 - qiki.agent - INFO - Starting agent control loop
+2025-06-14 11:22:46,740 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 0s
+2025-06-14 11:22:47,741 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 1s
+2025-06-14 11:22:48,742 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 2s
+2025-06-14 11:22:49,743 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 3s
+2025-06-14 11:22:50,744 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 4s
+2025-06-14 11:22:51,746 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 5s
+2025-06-14 11:22:52,747 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 6s
+2025-06-14 11:22:53,748 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 7s
+2025-06-14 11:22:54,749 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 8s
+2025-06-14 11:22:55,750 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 9s
+2025-06-14 11:22:56,750 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 10s
+2025-06-14 11:22:57,751 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 11s
+2025-06-14 11:22:58,752 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 12s
+2025-06-14 11:22:59,753 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 13s
+2025-06-14 11:23:00,754 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 14s
+2025-06-14 11:23:01,755 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 15s
+2025-06-14 11:23:02,757 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 16s
+2025-06-14 11:23:03,759 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 17s
+2025-06-14 11:23:04,761 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 18s
+2025-06-14 11:23:05,763 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 19s
+2025-06-14 11:23:06,763 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 20s
+2025-06-14 11:23:07,764 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 21s
+2025-06-14 11:23:08,765 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 22s
+2025-06-14 11:23:09,765 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 23s
+2025-06-14 11:23:10,766 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 24s
+2025-06-14 11:23:11,767 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 25s
+2025-06-14 11:23:12,768 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 26s
+2025-06-14 11:23:13,769 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 27s
+2025-06-14 11:23:14,770 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 28s
+2025-06-14 11:23:15,770 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 29s
+2025-06-14 11:23:16,771 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 30s
+2025-06-14 11:23:17,772 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 31s
+2025-06-14 11:23:18,772 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 32s
+2025-06-14 11:23:19,773 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 33s
+2025-06-14 11:23:20,774 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 34s
+2025-06-14 11:23:21,775 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 35s
+2025-06-14 11:23:22,775 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 36s
+2025-06-14 11:23:23,776 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 37s
+2025-06-14 11:23:24,777 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 38s
+2025-06-14 11:23:25,777 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 39s
+2025-06-14 11:23:26,779 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 40s
+2025-06-14 11:23:27,780 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 41s
+2025-06-14 11:23:28,781 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 42s
+2025-06-14 11:23:29,782 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 43s
+2025-06-14 11:23:30,783 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 44s
+2025-06-14 11:23:31,784 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 45s
+2025-06-14 11:23:32,784 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 46s
+2025-06-14 11:23:33,785 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 47s
+2025-06-14 11:23:34,786 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 48s
+2025-06-14 11:23:35,787 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 49s
+2025-06-14 11:23:36,788 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 50s
+2025-06-14 11:23:37,788 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 51s
+2025-06-14 11:23:38,789 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 52s
+2025-06-14 11:23:39,790 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 53s
+2025-06-14 11:23:40,791 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 54s
+2025-06-14 11:23:41,792 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 55s
+2025-06-14 11:23:42,792 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 56s
+2025-06-14 11:23:43,794 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 57s
+2025-06-14 11:23:44,794 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 58s
+2025-06-14 11:23:45,795 - qiki.main - INFO - Still waiting for tasks... Time elapsed: 59s

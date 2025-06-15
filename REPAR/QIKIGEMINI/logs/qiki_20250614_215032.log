@@ -1,0 +1,24 @@
+2025-06-14 21:50:32,661 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250614_215032.log
+2025-06-14 21:50:32,661 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-14 21:50:32,680 - qiki.qiki_clean - INFO - 🚀 Starting QIKI Clean Simulation...
+2025-06-14 21:50:32,681 - qiki.physics.qiki_bot - INFO - PhysicsObject 'qiki_bot' initialized with mass 10.0 kg, inertia 1.0 kg*m^2
+2025-06-14 21:50:32,681 - qiki.agent - INFO - Async Agent initialized with event system and command queue
+2025-06-14 21:50:32,681 - qiki.structural_sensors - INFO - StructuralSensors initialized.
+2025-06-14 21:50:32,681 - qiki.frame_core - INFO - FrameCore 'QIKI_FrameCore' initialized with base mass 5.00 kg.
+2025-06-14 21:50:32,682 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-14 21:50:32,682 - qiki.power_systems - INFO - QIKI_PowerSystems initialized. Main Battery: 10000.0Wh, Reserve Battery: 2000.0Wh.
+2025-06-14 21:50:32,682 - qiki.thermal_system - INFO - QIKI_ThermalSystem initialized. Initial Core Temp: 20.0°C, Initial Radiator Temp: 10.0°C.
+2025-06-14 21:50:32,682 - qiki.sensors - INFO - Async Sensors initialized with all subsystems
+2025-06-14 21:50:32,683 - qiki.environment - INFO - Async Environment initialized with gravity [0.0, 0.0, -9.81] and bounds {'x': (-100.0, 100.0), 'y': (-100.0, 100.0), 'z': (-100.0, 100.0)}, bot radius 0.5m.
+2025-06-14 21:50:32,683 - qiki.qik_os.kernel - INFO - QikOS Kernel initialized.
+2025-06-14 21:50:32,683 - qiki.qik_os.shell - INFO - QikOS Shell initialized.
+2025-06-14 21:50:32,683 - qiki.qik_os - INFO - QikOS initialized.
+2025-06-14 21:50:32,684 - qiki.analyzer - INFO - Analyzer initialized. Session file: data/session_20250614_215032.json
+2025-06-14 21:50:32,684 - qiki.display_manager - INFO - DisplayManager initialized in STANDARD mode
+2025-06-14 21:50:32,684 - qiki.qiki_display_adapter - INFO - QikiDisplayAdapter initialized
+2025-06-14 21:50:32,684 - qiki.qiki_clean - INFO - ✅ Display adapter initialized
+2025-06-14 21:50:32,684 - qiki.qiki_clean - WARNING - ⚠️ Bot control failed: QikiBotControlIntegration.__init__() got an unexpected keyword argument 'qik_os'
+2025-06-14 21:50:32,685 - qiki.qiki_clean - INFO - 🎬 Starting simulation...
+2025-06-14 21:50:32,686 - qiki.input_handler - INFO - Input handler started
+2025-06-14 21:50:32,690 - qiki.qiki_clean - ERROR - ❌ Simulation error: [Errno 32] Broken pipe
+2025-06-14 21:50:32,690 - qiki.qiki_clean - INFO - 🧹 Cleaning up...

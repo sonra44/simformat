@@ -1,0 +1,20 @@
+qiki_hardware/
+├── hardware/
+│   ├── __init__.py
+│   ├── frame_core.py        # Каркас бота
+│   ├── power_systems.py     # Энергетические системы
+│   ├── propulsion.py        # Двигательная установка
+│   ├── sensors.py           # Сенсорные системы
+│   ├── thermal.py           # Термосистемы
+│   ├── communication.py     # Связь
+│   └── nexus_core.py        # Материнская плата
+├── simulation/
+│   ├── __init__.py
+│   ├── physics_engine.py    # Физический движок
+│   └── environment.py       # Космическая среда
+├── interface/
+│   ├── __init__.py
+│   └── hardware_monitor.py  # Мониторинг железа
+├── config/
+│   └── son44_specs.py       # Спецификации бота
+└── main.py                  # Запуск симуляции

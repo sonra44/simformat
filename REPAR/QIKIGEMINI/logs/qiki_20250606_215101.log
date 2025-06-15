@@ -1,0 +1,7 @@
+2025-06-06 21:51:01,779 - qiki - INFO - Logger initialized. Log file: logs/qiki_20250606_215101.log
+2025-06-06 21:51:01,779 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-06 21:51:01,779 - qiki.frame_core - INFO - QIKI_Frame initialized with base mass 5.0 kg.
+2025-06-06 21:51:01,779 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-06 21:51:01,780 - qiki.power_systems - INFO - QIKI_PowerSystem initialized. Total mass: 21.50 kg.
+2025-06-06 21:51:01,780 - qiki.agent - INFO - Agent initialized.
+2025-06-06 21:51:01,780 - qiki.sensors - INFO - Sensors initialized with access to PhysicsObject, FrameCore, and PowerSystems.

@@ -1,0 +1,30 @@
+2025-06-15 00:08:02,776 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250615_000802.log
+2025-06-15 00:08:02,776 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-15 00:08:02,795 - qiki.qiki_clean - INFO - 🚀 Starting QIKI Clean Simulation...
+2025-06-15 00:08:02,796 - qiki.physics.qiki_bot - INFO - PhysicsObject 'qiki_bot' initialized with mass 10.0 kg, inertia 1.0 kg*m^2
+2025-06-15 00:08:02,796 - qiki.agent - INFO - Async Agent initialized with event system and command queue
+2025-06-15 00:08:02,796 - qiki.structural_sensors - INFO - StructuralSensors initialized.
+2025-06-15 00:08:02,797 - qiki.frame_core - INFO - FrameCore 'QIKI_FrameCore' initialized with base mass 5.00 kg.
+2025-06-15 00:08:02,797 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-15 00:08:02,798 - qiki.power_systems - INFO - QIKI_PowerSystems initialized. Main Battery: 10000.0Wh, Reserve Battery: 2000.0Wh.
+2025-06-15 00:08:02,799 - qiki.thermal_system - INFO - QIKI_ThermalSystem initialized. Initial Core Temp: 20.0°C, Initial Radiator Temp: 10.0°C.
+2025-06-15 00:08:02,799 - qiki.sensors - INFO - Async Sensors initialized with all subsystems
+2025-06-15 00:08:02,799 - qiki.environment - INFO - Async Environment initialized with gravity [0.0, 0.0, -9.81] and bounds {'x': (-100.0, 100.0), 'y': (-100.0, 100.0), 'z': (-100.0, 100.0)}, bot radius 0.5m.
+2025-06-15 00:08:02,800 - qiki.qik_os.kernel - INFO - QikOS Kernel initialized.
+2025-06-15 00:08:02,800 - qiki.qik_os.shell - INFO - QikOS Shell initialized.
+2025-06-15 00:08:02,800 - qiki.qik_os - INFO - QikOS initialized.
+2025-06-15 00:08:02,801 - qiki.analyzer - INFO - Analyzer initialized. Session file: data/session_20250615_000802.json
+2025-06-15 00:08:02,803 - qiki.display_manager - INFO - DisplayManager initialized in STANDARD mode
+2025-06-15 00:08:02,803 - qiki.qiki_display_adapter - INFO - QikiDisplayAdapter initialized
+2025-06-15 00:08:02,803 - qiki.qiki_clean - INFO - ✅ Display adapter initialized
+2025-06-15 00:08:02,803 - qiki.bot_controller - INFO - BotController initialized
+2025-06-15 00:08:02,803 - qiki.qiki_bot_control - INFO - QikiBotControlIntegration initialized
+2025-06-15 00:08:02,804 - qiki.qiki_clean - INFO - ✅ Bot control initialized
+2025-06-15 00:08:02,804 - qiki.qiki_clean - INFO - 🎬 Starting simulation...
+2025-06-15 00:08:02,805 - qiki.input_handler - INFO - Input handler started
+2025-06-15 00:08:02,811 - qiki.display_manager - INFO - Display manager started
+2025-06-15 00:08:02,811 - qiki.qiki_display_adapter - INFO - Display adapter started
+2025-06-15 00:08:02,811 - qiki.bot_controller - INFO - Platform detected: Desktop
+2025-06-15 00:08:02,812 - qiki.bot_controller - INFO - Added interface: TextInterface
+2025-06-15 00:08:02,812 - qiki.bot_controller - INFO - Added interface: KeyboardInterface
+2025-06-15 00:08:02,812 - qiki.text_interface - INFO - Text interface started

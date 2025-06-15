@@ -1,0 +1,26 @@
+2025-06-07 05:15:26,281 - qiki - INFO - Logger initialized. Log file: logs/qiki_20250607_051526.log
+2025-06-07 05:15:26,281 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-07 05:15:26,281 - qiki.frame_core - INFO - QIKI_Frame initialized with base mass 5.0 kg.
+2025-06-07 05:15:26,282 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-07 05:15:26,282 - qiki.power_systems - INFO - QIKI_PowerSystem initialized. Total mass: 16.80 kg.
+2025-06-07 05:15:26,282 - qiki.thermal_system - INFO - ThermalSystem initialized. Core temp: 20.0°C
+2025-06-07 05:15:26,283 - qiki.agent - INFO - Agent initialized.
+2025-06-07 05:15:26,283 - qiki.sensors - INFO - Sensors initialized with access to PhysicsObject, FrameCore, PowerSystems, and ThermalSystem.
+2025-06-07 05:15:28,040 - qiki.analyzer - INFO - Analyzer initialized. Session file: data/session_20250607_051528.json
+2025-06-07 05:15:28,040 - qiki.main - INFO - QIKI Simulation initialized.
+2025-06-07 05:15:28,040 - qiki.main - INFO - Starting QIKI Simulation...
+2025-06-07 05:15:28,040 - qiki.main - ERROR - An error occurred during simulation: 'PowerSensors' object has no attribute 'get_data'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/QIKIGEMINI/main.py", line 94, in run
+    sensor_data = self.sensors.read_all(forces_applied=(np.zeros(3), np.zeros(3)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/QIKIGEMINI/sensors.py", line 36, in read_all
+    power_data = self._read_power()
+                 ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/QIKIGEMINI/sensors.py", line 75, in _read_power
+    return self.power_systems.power_sensors.get_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PowerSensors' object has no attribute 'get_data'
+2025-06-07 05:15:28,051 - qiki.main - INFO - Simulation ended. Total real time: 0.01 seconds.
+2025-06-07 05:15:28,052 - qiki.analyzer - INFO - Analysis finalized. Total steps: 0
+2025-06-07 05:15:28,121 - qiki.main - INFO - Application exited.

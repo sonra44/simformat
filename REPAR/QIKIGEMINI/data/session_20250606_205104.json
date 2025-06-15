@@ -1,0 +1,44 @@
+{
+  "start_time": "20250606_205104",
+  "steps": [
+    {
+      "step": 0,
+      "time": 0.0,
+      "position": [
+        0.07960049711915279,
+        3.775023546561638e-06,
+        4.909890326072988
+      ],
+      "velocity": [
+        0.7960049711915278,
+        3.7750235465616375e-05,
+        -0.9010967392701187
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.86721964471644,
+      "temperature": 20.035392603679544,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    }
+  ],
+  "end_time": "20250606_205104",
+  "total_steps": 1,
+  "duration": 0.0
+}

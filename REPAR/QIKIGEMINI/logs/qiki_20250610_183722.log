@@ -1,0 +1,8 @@
+2025-06-10 18:37:22,129 - qiki - INFO - Central QIKI Logger initialized to level DEBUG. Log file: logs/qiki_20250610_183722.log
+2025-06-10 18:37:22,129 - qiki.main_app - INFO - Main application started.
+2025-06-10 18:37:22,129 - qiki.main_app - DEBUG - This is a debug message from main_app.
+2025-06-10 18:37:22,129 - qiki.module_a - WARNING - Something potentially bad happened in module A.
+2025-06-10 18:37:22,129 - qiki.module_a - ERROR - An error occurred in module A.
+2025-06-10 18:37:22,129 - qiki.another_module - INFO - Info from another module.
+2025-06-10 18:37:22,129 - qiki.main_app - INFO - Current log level for main_app: NOTSET
+2025-06-10 18:37:22,130 - qiki.module_a - ERROR - This error message should appear.

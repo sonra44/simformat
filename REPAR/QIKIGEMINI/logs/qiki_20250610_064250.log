@@ -1,0 +1,253 @@
+2025-06-10 06:42:50,451 - qiki - INFO - Logger initialized. Log file: logs\qiki_20250610_064250.log
+2025-06-10 06:42:50,452 - qiki.main_entry - INFO - Starting QIKI Simulation application...
+2025-06-10 06:42:50,452 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-10 06:42:50,453 - qiki.structural_sensors - INFO - StructuralSensors initialized.
+2025-06-10 06:42:50,453 - qiki.frame_core - INFO - FrameCore 'QIKI_Frame' initialized with base mass 5.00 kg.
+2025-06-10 06:42:50,453 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-10 06:42:50,454 - qiki.power_systems - INFO - QIKI_PowerSystem initialized. Main battery: 5000.0 Wh, Reserve battery: 1000.0 Wh.
+2025-06-10 06:42:50,454 - qiki.thermal_system - INFO - QIKI_ThermalSystem initialized. Initial Core Temp: 20.0°C, Initial Radiator Temp: 15.0°C.
+2025-06-10 06:42:50,459 - qiki.physics.qiki_bot - INFO - PhysicsObject 'qiki_bot' initialized with mass 44.00 kg.
+2025-06-10 06:42:50,460 - qiki.agent - INFO - Agent initialized.
+2025-06-10 06:42:50,460 - qiki.sensors - INFO - Sensors initialized with access to PhysicsObject, FrameCore, PowerSystems, and ThermalSystem.
+2025-06-10 06:42:50,460 - qiki.environment - INFO - Environment initialized with gravity [0.0, 0.0, -9.81] and bounds {'x': (-100, 100), 'y': (-100, 100), 'z': (-100, 100)}.
+2025-06-10 06:42:50,461 - qiki.analyzer - INFO - Analyzer initialized. Session file: data\session_20250610_064250.json
+2025-06-10 06:42:50,461 - qiki.main - INFO - QIKI Simulation initialized successfully.
+2025-06-10 06:42:50,462 - qiki.main - INFO - Simulation started. Max simulation time: 3600.0s. Time step: 0.50s.
+2025-06-10 06:42:50,967 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [0.0, 0.0, 2.5475]. Battery: 100.0%, Temp: 20.0°C, Integrity: 98.8%, Stress: 0.25. Thrust: [62.556257966338045, 62.556257966338045, 46.62005124941343], Torque: [0.0, -2.9877983426852013, 4.009122231043544]
+2025-06-10 06:42:51,463 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [0.35543328389964796, 0.35543328389964796, -2.09124635511697]. Battery: 100.0%, Temp: 20.0°C, Integrity: 97.4%, Stress: 0.28. Thrust: [52.91282675855431, 52.91282675855431, 66.33600476994705], Torque: [0.4225022626634284, -3.830469186963158, 2.7183603246792076]
+2025-06-10 06:42:51,965 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [1.0111307160724092, 1.0111307160724092, -8.800664516796644]. Battery: 100.0%, Temp: 20.0°C, Integrity: 96.1%, Stress: 0.26. Thrust: [39.607209369238596, 39.607209369238596, 82.84043657515691], Torque: [1.6242264274828457, -2.3895163345993287, 0.365896159321035]
+2025-06-10 06:42:52,465 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [1.8908597545340977, 1.8908597545340977, -17.481570153060837]. Battery: 100.0%, Temp: 19.9°C, Integrity: 95.1%, Stress: 0.23. Thrust: [27.231619868775926, 27.231619868775926, 92.28693167856962], Torque: [2.360278526617877, 0.8684316910216577, -0.9527135393277967]
+2025-06-10 06:42:52,966 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [2.923560524970084, 2.923560524970084, -28.073316379316662]. Battery: 100.0%, Temp: 19.9°C, Integrity: 94.1%, Stress: 0.22. Thrust: [17.975743351533875, 17.975743351533875, 96.7147625852412], Torque: [1.295242609621889, 4.208503228467227, -1.0229454119826389]
+2025-06-10 06:42:53,466 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [4.055886747095392, 4.055886747095392, -40.542309059632956]. Battery: 100.0%, Temp: 19.8°C, Integrity: 93.0%, Stress: 0.24. Thrust: [11.601301331944459, 11.601301331944459, 98.64491682195717], Torque: [-1.0345316777203608, 4.870951960530292, -0.4511886589877966]
+2025-06-10 06:42:53,966 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [5.250894243576699, 5.250894243576699, -54.86769364494229]. Battery: 100.0%, Temp: 19.8°C, Integrity: 92.0%, Stress: 0.24. Thrust: [7.28228956293224, 7.28228956293224, 99.46826889738865], Torque: [-3.019087745066466, 3.9849853837374867, -0.07071547912642458]
+2025-06-10 06:42:54,467 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [6.48336073619177, 6.48336073619177, -71.03345403150652]. Battery: 100.0%, Temp: 19.7°C, Integrity: 90.9%, Stress: 0.24. Thrust: [4.331587437692849, 4.331587437692849, 99.81219715314978], Torque: [-4.54733470669717, 2.0761131172405305, 0.1072445322110409]
+2025-06-10 06:42:54,967 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [7.735884150861741, 7.735884150861741, -89.02486184480541]. Battery: 100.0%, Temp: 19.7°C, Integrity: 89.9%, Stress: 0.24. Thrust: [2.2852171944700057, 2.2852171944700057, 99.94776418083697], Torque: [-3.4910214918667393, -1.2022029842269226, 0.10730642509292905]
+2025-06-10 06:42:54,968 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:42:55,468 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [8.996245478295727, 8.996245478295727, -100.0]. Battery: 100.0%, Temp: 19.6°C, Integrity: 89.0%, Stress: 0.22. Thrust: [0.5502589149040958, 0.5502589149040958, 60.30207518933945], Torque: [-0.6046753689526513, -3.674969514930331, 0.03905193548623731]
+2025-06-10 06:42:55,968 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [10.25685157241412, 10.25685157241412, -92.23146193695084]. Battery: 100.0%, Temp: 19.5°C, Integrity: 88.0%, Stress: 0.26. Thrust: [-0.17323589638198383, -0.17323589638198383, 68.95094618511553], Torque: [2.7457302668776142, -4.178630438420011, -0.003600091940386324]
+2025-06-10 06:42:56,468 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [11.514189820126505, 11.514189820126505, -86.53772961660256]. Battery: 100.0%, Temp: 19.4°C, Integrity: 87.0%, Stress: 0.26. Thrust: [-1.21353500769667, -1.21353500769667, 77.36937132724562], Torque: [4.4207130939954435, -2.335856672241634, 0.032700876463351916]
+2025-06-10 06:42:56,969 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [12.762928452046655, 12.762928452046655, -82.86461739398304]. Battery: 100.0%, Temp: 19.3°C, Integrity: 86.0%, Stress: 0.26. Thrust: [-2.54505871392305, -2.54505871392305, 85.54181109489535], Torque: [4.997669777721303, -0.03914804759109303, 0.14752702539165388]
+2025-06-10 06:42:57,470 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [13.996049852838668, 13.996049852838668, -81.16137445073466]. Battery: 100.0%, Temp: 19.2°C, Integrity: 85.1%, Stress: 0.25. Thrust: [-4.096471778244517, -4.096471778244517, 93.45228699740451], Torque: [3.2757044926682837, 2.385370962913737, 0.24815268393537068]
+2025-06-10 06:42:57,971 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [15.205212678174828, 15.205212678174828, -81.38059622605442]. Battery: 100.0%, Temp: 19.1°C, Integrity: 84.2%, Stress: 0.24. Thrust: [-5.677797598761857, -5.677797598761857, 99.67710483784623], Torque: [-0.3662878184513309, 3.3166698997957984, 0.16805937857183043]
+2025-06-10 06:42:58,471 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [16.38164151537833, 16.38164151537833, -83.48588491926057]. Battery: 100.0%, Temp: 19.0°C, Integrity: 83.4%, Stress: 0.23. Thrust: [-6.794726533062431, -6.794726533062431, 99.53724620804914], Torque: [-3.8824223057901532, 2.336804015096922, -0.10550878198708544]
+2025-06-10 06:42:58,971 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [17.51874651185366, 17.51874651185366, -87.47683717610796]. Battery: 100.0%, Temp: 18.9°C, Integrity: 82.6%, Stress: 0.24. Thrust: [-7.667881385926845, -7.667881385926845, 99.410297203573], Torque: [-4.9850941922838965, -0.01346741817189692, -0.38555741816899924]
+2025-06-10 06:42:59,472 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [18.61117202632388, 18.61117202632388, -93.35155544959977]. Battery: 100.0%, Temp: 18.7°C, Integrity: 81.7%, Stress: 0.25. Thrust: [-8.274677434463463, -8.274677434463463, 99.31293685472787], Torque: [-4.483407084460156, -2.1434087381909044, -0.5521411921414316]
+2025-06-10 06:42:59,474 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:42:59,972 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [19.655074169356567, 19.655074169356567, -100.0]. Battery: 100.0%, Temp: 18.6°C, Integrity: 80.9%, Stress: 0.24. Thrust: [-7.433174508810975, -7.433174508810975, 84.68595700323833], Torque: [-2.8118483620122983, -3.924900130813338, -0.5913073305321143]
+2025-06-10 06:43:00,473 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [20.655758025231638, 20.655758025231638, -98.09757106255167]. Battery: 100.0%, Temp: 18.5°C, Integrity: 80.1%, Stress: 0.25. Thrust: [-9.103600935606847, -9.103600935606847, 92.35167941423678], Torque: [0.7235877374813485, -3.381020849371763, -0.26195745131180326]
+2025-06-10 06:43:00,974 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [21.604177627764084, 21.604177627764084, -98.12394185386113]. Battery: 100.0%, Temp: 18.3°C, Integrity: 79.4%, Stress: 0.23. Thrust: [-10.61077120789197, -10.61077120789197, 98.86770488257297], Torque: [3.6833909510009555, -0.9977605427248564, 0.2882297090341194]
+2025-06-10 06:43:00,976 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:01,473 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [22.492019591483736, 22.492019591483736, -100.0]. Battery: 100.0%, Temp: 18.2°C, Integrity: 78.6%, Stress: 0.23. Thrust: [-10.877512873400127, -10.877512873400127, 95.78326445226915], Torque: [4.488926980278089, 2.0722783245787357, 0.7451155019274407]
+2025-06-10 06:43:01,474 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:01,975 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [23.317738755311755, 23.317738755311755, -100.0]. Battery: 100.0%, Temp: 18.0°C, Integrity: 77.9%, Stress: 0.25. Thrust: [-11.803951449557871, -11.803951449557871, 97.49663087012331], Torque: [2.9857219269478836, 3.9224907272720944, 0.8363797399549135]
+2025-06-10 06:43:01,976 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:02,475 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [24.076153432188246, 24.076153432188246, -100.0]. Battery: 100.0%, Temp: 17.9°C, Integrity: 77.1%, Stress: 0.25. Thrust: [-12.335372511292707, -12.335372511292707, 96.3964326461067], Torque: [0.8300872324262203, 4.8762431697088084, 0.7302107479564829]
+2025-06-10 06:43:02,476 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:02,974 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [24.764258881506873, 24.764258881506873, -100.0]. Battery: 100.0%, Temp: 17.7°C, Integrity: 76.4%, Stress: 0.25. Thrust: [-12.973159864938305, -12.973159864938305, 96.65555153131844], Torque: [-1.87277038984758, 3.478379883238686, 0.21550576566392177]
+2025-06-10 06:43:02,975 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:03,475 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [25.378474687376134, 25.378474687376134, -100.0]. Battery: 100.0%, Temp: 17.6°C, Integrity: 75.7%, Stress: 0.24. Thrust: [-13.455696556340255, -13.455696556340255, 96.24664677651243], Torque: [-3.4096256525293605, 0.05463997474658253, -0.4690414756571991]
+2025-06-10 06:43:03,477 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:03,975 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [25.916085936460426, 25.916085936460426, -100.0]. Battery: 100.0%, Temp: 17.4°C, Integrity: 75.0%, Stress: 0.23. Thrust: [-13.914015125071954, -13.914015125071954, 96.16319425944818], Torque: [-3.0375077045642898, -3.5122436840047975, -0.9476945996628782]
+2025-06-10 06:43:03,975 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:04,476 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [26.374519934186406, 26.374519934186406, -100.0]. Battery: 100.0%, Temp: 17.2°C, Integrity: 74.3%, Stress: 0.24. Thrust: [-14.279532239868137, -14.279532239868137, 95.92638762533225], Torque: [-0.8664082109356128, -4.850275006071306, -0.8509813026755332]
+2025-06-10 06:43:04,478 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:04,977 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [26.751725306360825, 26.751725306360825, -100.0]. Battery: 100.0%, Temp: 17.0°C, Integrity: 73.7%, Stress: 0.25. Thrust: [-14.585414566507058, -14.585414566507058, 95.77494693675337], Torque: [1.3545740911607738, -4.784587562835149, -0.5223513043146017]
+2025-06-10 06:43:04,978 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:05,477 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [27.045987987543533, 27.045987987543533, -100.0]. Battery: 100.0%, Temp: 16.9°C, Integrity: 73.0%, Stress: 0.25. Thrust: [-14.814108191759862, -14.814108191759862, 95.59738645154452], Torque: [3.32788037235836, -3.1851147325459506, 0.02212346710251178]
+2025-06-10 06:43:05,477 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:05,978 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [27.256028694289856, 27.256028694289856, -100.0]. Battery: 100.0%, Temp: 16.7°C, Integrity: 72.3%, Stress: 0.24. Thrust: [-14.973952540044866, -14.973952540044866, 95.45271444466154], Torque: [3.2792303721136378, 0.4275116100461751, 0.581487690967987]
+2025-06-10 06:43:05,979 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:06,478 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [27.380956614310623, 27.380956614310623, -100.0]. Battery: 100.0%, Temp: 16.5°C, Integrity: 71.7%, Stress: 0.23. Thrust: [-15.060804610702887, -15.060804610702887, 95.31630185494403], Torque: [1.3690088073244202, 3.708527097001148, 0.8022948296426106]
+2025-06-10 06:43:06,478 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:06,979 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [27.42029300919965, 27.42029300919965, -100.0]. Battery: 100.0%, Temp: 16.3°C, Integrity: 71.1%, Stress: 0.24. Thrust: [-15.07708690231313, -15.07708690231313, 95.20388425031666], Torque: [-1.3978720809161365, 4.770809897601261, 0.534159682440591]
+2025-06-10 06:43:06,980 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:07,480 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [27.37395842141834, 27.37395842141834, -100.0]. Battery: 100.0%, Temp: 16.1°C, Integrity: 70.5%, Stress: 0.25. Thrust: [-15.022307505553687, -15.022307505553687, 95.11095776387877], Torque: [-3.3622249629424243, 3.7003501432135275, 0.05340520748422485]
+2025-06-10 06:43:07,481 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:07,980 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [27.242276560761596, 27.242276560761596, -100.0]. Battery: 100.0%, Temp: 15.9°C, Integrity: 69.9%, Stress: 0.25. Thrust: [-14.897695859357086, -14.897695859357086, 95.04235352880198], Torque: [-4.639935109665093, 1.8094636011763665, -0.44367065951562434]
+2025-06-10 06:43:07,982 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:08,480 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [27.025968574891586, 27.025968574891586, -100.0]. Battery: 100.0%, Temp: 15.7°C, Integrity: 69.3%, Stress: 0.25. Thrust: [-14.703897246585838, -14.703897246585838, 94.99774946781501], Torque: [-3.577162539387202, -1.158292429529974, -0.7329609771690732]
+2025-06-10 06:43:08,481 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:08,980 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [26.726150483380383, 26.726150483380383, -100.0]. Battery: 100.0%, Temp: 15.5°C, Integrity: 68.7%, Stress: 0.24. Thrust: [-14.442077534459152, -14.442077534459152, 94.97872988581663], Torque: [-0.43899962401985265, -3.3595357753123514, -0.5775897700516167]
+2025-06-10 06:43:08,980 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:09,481 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [26.34432731089589, 26.34432731089589, -100.0]. Battery: 100.0%, Temp: 15.3°C, Integrity: 68.2%, Stress: 0.23. Thrust: [-14.11337269117164, -14.11337269117164, 94.9853099793181], Torque: [3.098913132255027, -3.686453993257406, -0.08729963764316795]
+2025-06-10 06:43:09,482 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:09,982 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [25.882387030784734, 25.882387030784734, -100.0]. Battery: 100.0%, Temp: 15.1°C, Integrity: 67.6%, Stress: 0.25. Thrust: [-13.719151199943154, -13.719151199943154, 95.01762103320205], Torque: [4.6548889092189665, -1.777471467773681, 0.415456885946949]
+2025-06-10 06:43:09,983 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:10,482 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [25.34259286822105, 25.34259286822105, -100.0]. Battery: 100.0%, Temp: 14.9°C, Integrity: 67.0%, Stress: 0.25. Thrust: [-13.260892438033215, -13.260892438033215, 95.07507503539637], Torque: [4.924599659508166, 0.43524738317669726, 0.7475813728350225]
+2025-06-10 06:43:10,484 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:10,983 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [24.72757474469429, 24.72757474469429, -100.0]. Battery: 100.0%, Temp: 14.7°C, Integrity: 66.5%, Stress: 0.25. Thrust: [-12.740258616947067, -12.740258616947067, 95.15677035481022], Torque: [3.5291391820938323, 2.697114631521162, 0.8336147129041156]
+2025-06-10 06:43:10,984 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:11,482 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [24.04031951562932, 24.04031951562932, -100.0]. Battery: 100.0%, Temp: 14.4°C, Integrity: 65.9%, Stress: 0.24. Thrust: [-12.159082225156139, -12.159082225156139, 95.26129681581007], Torque: [-0.060236325072694115, 3.368222466358968, 0.42222893069939094]
+2025-06-10 06:43:11,483 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:11,983 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [23.284160124641023, 23.284160124641023, -100.0]. Battery: 100.0%, Temp: 14.2°C, Integrity: 65.4%, Stress: 0.23. Thrust: [-11.519400952971216, -11.519400952971216, 95.38684364970912], Torque: [-3.5687763025782346, 2.1395583975070576, -0.1725996318542682]
+2025-06-10 06:43:11,985 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:12,484 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [22.462763508099172, 22.462763508099172, -100.0]. Battery: 100.0%, Temp: 14.0°C, Integrity: 64.9%, Stress: 0.24. Thrust: [-10.823476045831763, -10.823476045831763, 95.53116885093507], Torque: [-4.9474127182765395, -0.39576926331086665, -0.6053710310660051]
+2025-06-10 06:43:12,485 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:12,984 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [21.580117171697676, 21.580117171697676, -100.0]. Battery: 100.0%, Temp: 13.8°C, Integrity: 64.4%, Stress: 0.25. Thrust: [-10.073822674511094, -10.073822674511094, 95.69164782758126], Torque: [-4.20453347084322, -2.6090963578963815, -0.7172966525579905]
+2025-06-10 06:43:12,986 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:13,485 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [20.64051428568317, 20.64051428568317, -100.0]. Battery: 100.0%, Temp: 13.5°C, Integrity: 63.9%, Stress: 0.25. Thrust: [-9.273236827647722, -9.273236827647722, 95.86529594849908], Torque: [-2.424289350607132, -4.3239691957480595, -0.652772195145236]
+2025-06-10 06:43:13,486 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:13,984 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [19.64853716306148, 19.64853716306148, -100.0]. Battery: 100.0%, Temp: 13.3°C, Integrity: 63.4%, Stress: 0.25. Thrust: [-8.424823536499378, -8.424823536499378, 96.04881790400651], Torque: [0.892927772221473, -3.4835281588380917, -0.22723185549919894]
+2025-06-10 06:43:13,985 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:14,486 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [18.60903897558939, 18.60903897558939, -100.0]. Battery: 100.0%, Temp: 13.1°C, Integrity: 62.9%, Stress: 0.23. Thrust: [-7.532021493440712, -7.532021493440712, 96.23865876641084], Torque: [3.5369396301785834, -0.7133075654961492, 0.22098871361431832]
+2025-06-10 06:43:14,487 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:14,986 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [17.527123582171754, 17.527123582171754, -100.0]. Battery: 100.0%, Temp: 12.8°C, Integrity: 62.4%, Stress: 0.23. Thrust: [-6.598623416987651, -6.598623416987651, 96.43106931150146], Torque: [4.238632271773717, 2.6104299594821274, 0.46867034396952506]
+2025-06-10 06:43:14,988 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:15,487 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [16.4081233677748, 16.4081233677748, -100.0]. Battery: 100.0%, Temp: 12.6°C, Integrity: 62.0%, Stress: 0.25. Thrust: [-5.6287894778424885, -5.6287894778424885, 96.62217891689522], Torque: [2.554208338325913, 4.279896724361384, 0.39812534863667753]
+2025-06-10 06:43:15,488 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:15,987 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [15.257575029917806, 15.257575029917806, -100.0]. Battery: 100.0%, Temp: 12.3°C, Integrity: 61.5%, Stress: 0.25. Thrust: [-4.627052117566147, -4.627052117566147, 96.80807787544464], Torque: [0.4763747213981272, 4.970441819579389, 0.260336787621697]
+2025-06-10 06:43:15,989 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:16,487 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [14.08119329807393, 14.08119329807393, -100.0]. Battery: 100.0%, Temp: 12.1°C, Integrity: 61.0%, Stress: 0.25. Thrust: [-3.598310431901619, -3.598310431901619, 96.98490578625075], Torque: [-1.9920145609346538, 3.8698165871975565, 0.06966975495176185]
+2025-06-10 06:43:16,489 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:16,988 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [12.884842629814516, 12.884842629814516, -100.0]. Battery: 100.0%, Temp: 11.9°C, Integrity: 60.6%, Stress: 0.24. Thrust: [-2.547812870309882, -2.547812870309882, 97.14894422234278], Torque: [-3.273667585859753, 0.3638283859423358, -0.07631298336206478]
+2025-06-10 06:43:16,989 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:17,489 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [11.674506992864183, 11.674506992864183, -100.0]. Battery: 100.0%, Temp: 11.6°C, Integrity: 60.2%, Stress: 0.23. Thrust: [-1.4811274694430867, -1.4811274694430867, 97.29671021562231], Torque: [-2.6445825743551925, -3.337486520599011, -0.09106378664815935]
+2025-06-10 06:43:17,490 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:17,989 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [10.45625791174025, 10.45625791174025, -100.0]. Battery: 100.0%, Temp: 11.4°C, Integrity: 59.7%, Stress: 0.24. Thrust: [-0.40409953262126014, -0.40409953262126014, 97.42504720366304], Torque: [-0.3620275960600994, -4.98682702750035, -0.022185974915889764]
+2025-06-10 06:43:17,990 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:18,490 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [9.236221027362285, 9.236221027362285, -100.0]. Battery: 100.0%, Temp: 11.1°C, Integrity: 59.3%, Stress: 0.25. Thrust: [0.6772026098260572, 0.6772026098260572, 97.53120961631974], Torque: [1.9145372120046118, -4.61889539467855, 0.018777562858246343]
+2025-06-10 06:43:18,491 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:18,991 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [8.020541483848406, 8.020541483848406, -100.0]. Battery: 100.0%, Temp: 10.9°C, Integrity: 58.9%, Stress: 0.25. Thrust: [1.7565523667257845, 1.7565523667257845, 97.61293745902316], Torque: [3.9066132961135254, -3.108084618829217, -0.014369585369469907]
+2025-06-10 06:43:18,992 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:19,491 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [6.815348514390158, 6.815348514390158, -100.0]. Battery: 100.0%, Temp: 10.6°C, Integrity: 58.4%, Stress: 0.25. Thrust: [2.8276380855523358, 2.8276380855523358, 97.66851751792068], Torque: [3.5597501595890018, 0.4090072960425067, -0.11490099388274562]
+2025-06-10 06:43:19,493 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:19,992 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [5.626719643692509, 5.626719643692509, -100.0]. Battery: 100.0%, Temp: 10.3°C, Integrity: 58.0%, Stress: 0.23. Thrust: [3.884142006166774, 3.884142006166774, 97.69682843729038], Torque: [1.3060764394416216, 3.5241269947789435, -0.1920348526895071]
+2025-06-10 06:43:19,993 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:20,492 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [4.460644954720432, 4.460644954720432, -100.0]. Battery: 100.0%, Temp: 10.1°C, Integrity: 57.6%, Stress: 0.23. Thrust: [4.919821879920801, 4.919821879920801, 97.69736772017563], Torque: [-1.770576598966106, 4.673722846146835, -0.14619598010459103]
+2025-06-10 06:43:20,494 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:20,993 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [3.3229918801627405, 3.3229918801627405, -100.0]. Battery: 100.0%, Temp: 9.8°C, Integrity: 57.2%, Stress: 0.25. Thrust: [5.928591971975544, 5.928591971975544, 97.67025967510801], Torque: [-3.728529333249923, 3.331289179599688, 0.024112506649527476]
+2025-06-10 06:43:20,994 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:21,493 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [2.2194709730968043, 2.2194709730968043, -100.0]. Battery: 100.0%, Temp: 9.6°C, Integrity: 56.8%, Stress: 0.25. Thrust: [6.9046002062988725, 6.9046002062988725, 97.61624435391052], Torque: [-4.813157992042244, 1.3314891495615289, 0.24626568628168777]
+2025-06-10 06:43:21,493 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:21,994 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [1.15560308713771, 1.15560308713771, -100.0]. Battery: 100.0%, Temp: 9.3°C, Integrity: 56.4%, Stress: 0.25. Thrust: [7.842298482371925, 7.842298482371925, 97.5366485199649], Torque: [-3.811664669071049, -1.4092213619625877, 0.41977807541163414]
+2025-06-10 06:43:21,995 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:22,493 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [0.13668835549171088, 0.13668835549171088, -100.0]. Battery: 100.0%, Temp: 9.0°C, Integrity: 56.1%, Stress: 0.24. Thrust: [8.736503659013986, 8.736503659013986, 97.43334055825095], Torque: [-0.47709352316065146, -3.247593577351402, 0.3339795422784577]
+2025-06-10 06:43:22,494 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:22,995 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-0.8322226964819693, -0.8322226964819693, -100.0]. Battery: 100.0%, Temp: 8.8°C, Integrity: 55.7%, Stress: 0.23. Thrust: [9.582447314232201, 9.582447314232201, 97.30867192269571], Torque: [3.2115916624153753, -3.2088463690391507, -0.0002703420838039715]
+2025-06-10 06:43:22,996 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:23,495 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-1.7463556358411387, -1.7463556358411387, -100.0]. Battery: 100.0%, Temp: 8.5°C, Integrity: 55.3%, Stress: 0.24. Thrust: [10.37581308941185, 10.37581308941185, 97.1654081673455], Torque: [4.836122624715793, -1.2090934577610668, -0.3873124954238075]
+2025-06-10 06:43:23,497 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:23,996 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-2.6012360060951103, -2.6012360060951103, -100.0]. Battery: 100.0%, Temp: 8.3°C, Integrity: 54.9%, Stress: 0.25. Thrust: [11.112761147583889, 11.112761147583889, 97.00665281111802], Torque: [4.861069003019631, 0.9617976240801841, -0.6670483327281798]
+2025-06-10 06:43:23,997 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:24,496 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-3.392710487113222, -3.392710487113222, -100.0]. Battery: 100.0%, Temp: 8.0°C, Integrity: 54.6%, Stress: 0.25. Thrust: [11.789939960092283, 11.789939960092283, 96.83576725249547], Torque: [3.729830381708589, 3.1252873949547713, -0.8346237067083241]
+2025-06-10 06:43:24,496 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:24,996 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-4.116965279979556, -4.116965279979556, -100.0]. Battery: 100.0%, Temp: 7.7°C, Integrity: 54.2%, Stress: 0.25. Thrust: [12.404486236239753, 12.404486236239753, 96.65628971415511], Torque: [0.1813850982214111, 3.433653457335934, -0.46393976158718625]
+2025-06-10 06:43:24,996 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:25,497 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-4.770541733875168, -4.770541733875168, -100.0]. Battery: 100.0%, Temp: 7.4°C, Integrity: 53.9%, Stress: 0.23. Thrust: [12.954014293920242, 12.954014293920242, 96.47185580629221], Torque: [-3.2789396368319736, 1.8374509918582502, 0.19355971081355947]
+2025-06-10 06:43:25,498 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:25,997 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-5.350349292973855, -5.350349292973855, -100.0]. Battery: 100.0%, Temp: 7.2°C, Integrity: 53.5%, Stress: 0.23. Thrust: [13.436596519498503, 13.436596519498503, 96.2861228064273], Torque: [-4.848652421600299, -0.9181251135933104, 0.8047459041826975]
+2025-06-10 06:43:25,997 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:26,497 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-5.853675893642816, -5.853675893642816, -100.0]. Battery: 100.0%, Temp: 6.9°C, Integrity: 53.2%, Stress: 0.25. Thrust: [13.850736780915778, 13.850736780915778, 96.1026992176419], Torque: [-3.843126625844502, -3.0407322755787676, 0.9921315265521146]
+2025-06-10 06:43:26,498 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:26,998 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-6.278195985525502, -6.278195985525502, -100.0]. Battery: 100.0%, Temp: 6.6°C, Integrity: 52.8%, Stress: 0.25. Thrust: [14.195338750119925, 14.195338750119925, 95.92508063557281], Torque: [-2.0413109160149485, -4.461720261192735, 0.9623419636597208]
+2025-06-10 06:43:27,000 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:27,499 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-6.621976385048127, -6.621976385048127, -100.0]. Battery: 100.0%, Temp: 6.4°C, Integrity: 52.5%, Stress: 0.25. Thrust: [14.469671079094056, 14.469671079094056, 95.75659246707187], Torque: [0.8424663786839981, -3.940250111339473, 0.4681026186380505]
+2025-06-10 06:43:27,499 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:27,999 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-6.883480198087762, -6.883480198087762, -100.0]. Battery: 100.0%, Temp: 6.1°C, Integrity: 52.1%, Stress: 0.24. Thrust: [14.673331282427183, 14.673331282427183, 95.60033962961032], Torque: [3.1921939883372463, -1.0336981457275125, -0.3312992892396017]
+2025-06-10 06:43:27,999 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:28,500 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-7.061569071013038, -7.061569071013038, -100.0]. Battery: 100.0%, Temp: 5.8°C, Integrity: 51.8%, Stress: 0.23. Thrust: [14.806210033130617, 14.806210033130617, 95.45916303861166], Torque: [3.750873227656522, 2.543680217694552, -0.9763178034458221]
+2025-06-10 06:43:28,501 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:29,000 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-7.1555040423165, -7.1555040423165, -100.0]. Battery: 100.0%, Temp: 5.5°C, Integrity: 51.5%, Stress: 0.24. Thrust: [14.868457395008335, 14.868457395008335, 95.33560246417987], Torque: [2.0140412950974738, 4.463525680716019, -1.0102356948904025]
+2025-06-10 06:43:29,002 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:29,501 - qiki.agent - DEBUG - Agent Status: NOMINAL. Target: [10.0, 10.0, 10.0]. Pos: [-7.164945253931392, -7.164945253931392, -100.0]. Battery: 100.0%, Temp: 5.3°C, Integrity: 51.2%, Stress: 0.25. Thrust: [14.860452294489471, 14.860452294489471, 95.23186518870185], Torque: [-0.14701247725529745, 4.941522565259018, -0.7481591198182331]
+2025-06-10 06:43:29,502 - qiki.thermal_system - WARNING - Core temperature LOW: 5.0°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:29,503 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:30,000 - qiki.agent - WARNING - Core temperature 5.0°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:30,001 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:30,001 - qiki.thermal_system - WARNING - Core temperature LOW: 4.7°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:30,001 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:30,501 - qiki.agent - WARNING - Core temperature 4.7°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:30,502 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:30,504 - qiki.thermal_system - WARNING - Core temperature LOW: 4.4°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:30,506 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:31,001 - qiki.agent - WARNING - Core temperature 4.4°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:31,002 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:31,004 - qiki.thermal_system - WARNING - Core temperature LOW: 4.1°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:31,005 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:31,502 - qiki.agent - WARNING - Core temperature 4.1°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:31,503 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:31,505 - qiki.thermal_system - WARNING - Core temperature LOW: 3.9°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:31,507 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:32,002 - qiki.agent - WARNING - Core temperature 3.9°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:32,003 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:32,005 - qiki.thermal_system - WARNING - Core temperature LOW: 3.6°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:32,007 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:32,502 - qiki.agent - WARNING - Core temperature 3.6°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:32,502 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:32,503 - qiki.thermal_system - WARNING - Core temperature LOW: 3.3°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:32,503 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:33,003 - qiki.agent - WARNING - Core temperature 3.3°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:33,004 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:33,006 - qiki.thermal_system - WARNING - Core temperature LOW: 3.0°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:33,007 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:33,504 - qiki.agent - WARNING - Core temperature 3.0°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:33,505 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:33,506 - qiki.thermal_system - WARNING - Core temperature LOW: 2.7°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:33,508 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:34,004 - qiki.agent - WARNING - Core temperature 2.7°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:34,005 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:34,007 - qiki.thermal_system - WARNING - Core temperature LOW: 2.4°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:34,009 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:34,505 - qiki.agent - WARNING - Core temperature 2.4°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:34,505 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:34,507 - qiki.thermal_system - WARNING - Core temperature LOW: 2.2°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:34,508 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:35,005 - qiki.agent - WARNING - Core temperature 2.2°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:35,006 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:35,006 - qiki.thermal_system - WARNING - Core temperature LOW: 1.9°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:35,007 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:35,506 - qiki.agent - WARNING - Core temperature 1.9°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:35,506 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:35,506 - qiki.thermal_system - WARNING - Core temperature LOW: 1.6°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:35,507 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:36,006 - qiki.agent - WARNING - Core temperature 1.6°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:36,007 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:36,007 - qiki.thermal_system - WARNING - Core temperature LOW: 1.3°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:36,007 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:36,507 - qiki.agent - WARNING - Core temperature 1.3°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:36,508 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:36,510 - qiki.thermal_system - WARNING - Core temperature LOW: 1.0°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:36,512 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:37,007 - qiki.agent - WARNING - Core temperature 1.0°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:37,008 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:37,009 - qiki.thermal_system - WARNING - Core temperature LOW: 0.7°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:37,009 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:37,508 - qiki.agent - WARNING - Core temperature 0.7°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:37,510 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:37,511 - qiki.thermal_system - WARNING - Core temperature LOW: 0.4°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:37,513 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:38,009 - qiki.agent - WARNING - Core temperature 0.4°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:38,010 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:38,012 - qiki.thermal_system - WARNING - Core temperature LOW: 0.1°C (Warning Threshold: 5.0°C)
+2025-06-10 06:43:38,013 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:38,509 - qiki.agent - WARNING - Core temperature 0.1°C is low (Warning: {Config.WARNING_TEMPERATURE_C_LOW}°C). Reducing activity.
+2025-06-10 06:43:38,510 - qiki.agent - INFO - Agent status: LOW_TEMP_WARNING. Reducing activity.
+2025-06-10 06:43:38,512 - qiki.thermal_system - CRITICAL - Core temperature CRITICAL: -0.1°C (Threshold: 0.0°C)
+2025-06-10 06:43:38,514 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:39,009 - qiki.agent - CRITICAL - Core temperature -0.1°C is too low (Threshold: {Config.FREEZE_THRESHOLD_C}°C)! Initiating emergency stop.
+2025-06-10 06:43:39,010 - qiki.agent - CRITICAL - EMERGENCY STOP ACTIVATED!
+2025-06-10 06:43:39,010 - qiki.thermal_system - CRITICAL - Core temperature CRITICAL: -0.4°C (Threshold: 0.0°C)
+2025-06-10 06:43:39,011 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:39,510 - qiki.agent - WARNING - Emergency stop engaged. Agent is inactive.
+2025-06-10 06:43:39,512 - qiki.thermal_system - CRITICAL - Core temperature CRITICAL: -0.7°C (Threshold: 0.0°C)
+2025-06-10 06:43:39,514 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:40,010 - qiki.agent - WARNING - Emergency stop engaged. Agent is inactive.
+2025-06-10 06:43:40,011 - qiki.thermal_system - CRITICAL - Core temperature CRITICAL: -1.0°C (Threshold: 0.0°C)
+2025-06-10 06:43:40,011 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:40,511 - qiki.main - INFO - Step: 100, Sim Time: 50.0s
+2025-06-10 06:43:40,512 - qiki.agent - WARNING - Emergency stop engaged. Agent is inactive.
+2025-06-10 06:43:40,514 - qiki.thermal_system - CRITICAL - Core temperature CRITICAL: -1.3°C (Threshold: 0.0°C)
+2025-06-10 06:43:40,516 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:41,013 - qiki.agent - WARNING - Emergency stop engaged. Agent is inactive.
+2025-06-10 06:43:41,015 - qiki.thermal_system - CRITICAL - Core temperature CRITICAL: -1.6°C (Threshold: 0.0°C)
+2025-06-10 06:43:41,016 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:41,513 - qiki.agent - WARNING - Emergency stop engaged. Agent is inactive.
+2025-06-10 06:43:41,515 - qiki.thermal_system - CRITICAL - Core temperature CRITICAL: -1.9°C (Threshold: 0.0°C)
+2025-06-10 06:43:41,517 - qiki.environment - DEBUG - Bot hit MIN boundary on axis z at -100.00
+2025-06-10 06:43:41,724 - qiki.main - WARNING - Signal SIGINT received. Initiating graceful shutdown...
+2025-06-10 06:43:42,014 - qiki.main - INFO - Simulation ended. Total steps: 103, Total simulation time: 51.50s, Total real time elapsed: 51.55s.
+2025-06-10 06:43:42,015 - qiki.main - INFO - Performing simulation cleanup...
+2025-06-10 06:43:42,021 - qiki.analyzer - INFO - Session statistics calculated.
+2025-06-10 06:43:42,053 - qiki.analyzer - INFO - Session data and report saved to data\session_20250610_064250.json
+2025-06-10 06:43:42,053 - qiki.main - INFO - QIKI Simulation application exited.
+2025-06-10 06:43:42,054 - qiki.main_entry - INFO - Application main block finished.

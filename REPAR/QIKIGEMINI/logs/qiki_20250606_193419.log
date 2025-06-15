@@ -1,0 +1,4 @@
+2025-06-06 19:34:19,167 - qiki - INFO - Logger initialized. Log file: logs/qiki_20250606_193419.log
+2025-06-06 19:34:19,168 - qiki.main - INFO - This is an INFO message from main.
+2025-06-06 19:34:19,169 - qiki.main - DEBUG - This is a DEBUG message from main (should go to file).
+2025-06-06 19:34:19,170 - qiki.agent - WARNING - Agent encountered a WARNING.

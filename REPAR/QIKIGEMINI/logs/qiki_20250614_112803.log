@@ -1,0 +1,90 @@
+2025-06-14 11:28:03,449 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250614_112803.log
+2025-06-14 11:28:03,450 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-14 11:28:03,777 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-14 11:28:03,777 - qiki.structural_sensors - INFO - StructuralSensors initialized.
+2025-06-14 11:28:03,777 - qiki.frame_core - INFO - FrameCore 'QIKI_FrameCore' initialized with base mass 5.00 kg.
+2025-06-14 11:28:03,777 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-14 11:28:03,777 - qiki.power_systems - INFO - QIKI_PowerSystems initialized. Main Battery: 10000.0Wh, Reserve Battery: 2000.0Wh.
+2025-06-14 11:28:03,777 - qiki.thermal_system - INFO - QIKI_ThermalSystem initialized. Initial Core Temp: 20.0°C, Initial Radiator Temp: 10.0°C.
+2025-06-14 11:28:03,777 - qiki.physics.QIKI_Physics - INFO - PhysicsObject 'QIKI_Physics' initialized with mass 43.0 kg, inertia 1.0 kg*m^2
+2025-06-14 11:28:03,778 - qiki.agent - INFO - Async Agent initialized with event system and command queue
+2025-06-14 11:28:03,778 - qiki.sensors - INFO - Async Sensors initialized with all subsystems
+2025-06-14 11:28:03,778 - qiki.environment - INFO - Async Environment initialized with gravity [0.0, 0.0, -9.81] and bounds {'x': (-100.0, 100.0), 'y': (-100.0, 100.0), 'z': (-100.0, 100.0)}, bot radius 0.5m.
+2025-06-14 11:28:03,778 - qiki.bot_interface - INFO - BotInterface initialized.
+2025-06-14 11:28:03,778 - qiki.qik_os.kernel - INFO - QikOS Kernel initialized.
+2025-06-14 11:28:03,778 - qiki.qik_os.shell - INFO - QikOS Shell initialized.
+2025-06-14 11:28:03,778 - qiki.qik_os - INFO - QikOS initialized.
+2025-06-14 11:28:03,778 - qiki.main - INFO - Visualization disabled.
+2025-06-14 11:28:03,778 - qiki.analyzer - INFO - Analyzer initialized. Session file: data/session_20250614_112803.json
+2025-06-14 11:28:03,778 - qiki.main - INFO - QIKI Simulation initialized.
+2025-06-14 11:28:03,779 - qiki.main - INFO - Starting QIKI Simulation main loop...
+2025-06-14 11:28:03,779 - qiki.main - INFO - Creating simulation tasks...
+2025-06-14 11:28:03,779 - qiki.main - INFO - Waiting for 3 tasks to complete...
+2025-06-14 11:28:03,779 - qiki.main - INFO - Entering main simulation loop...
+2025-06-14 11:28:03,779 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00012s
+2025-06-14 11:28:03,780 - qiki.agent - INFO - Starting agent control loop
+2025-06-14 11:28:03,780 - qiki.main - ERROR - Error checking critical status: 'min_x'
+Traceback (most recent call last):
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 270, in _main_loop
+    critical_status = self.sensors.check_critical_status(sensor_data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/sensors.py", line 325, in check_critical_status
+    position[0] < config.BOUNDS["min_x"] or position[0] > config.BOUNDS["max_x"] or
+                  ~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'min_x'
+2025-06-14 11:28:03,782 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00245s
+2025-06-14 11:28:03,782 - qiki.main - ERROR - Error checking critical status: 'min_x'
+Traceback (most recent call last):
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 270, in _main_loop
+    critical_status = self.sensors.check_critical_status(sensor_data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/sensors.py", line 325, in check_critical_status
+    position[0] < config.BOUNDS["min_x"] or position[0] > config.BOUNDS["max_x"] or
+                  ~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'min_x'
+2025-06-14 11:28:03,784 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00181s
+2025-06-14 11:28:03,784 - qiki.main - ERROR - Error checking critical status: 'min_x'
+Traceback (most recent call last):
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 270, in _main_loop
+    critical_status = self.sensors.check_critical_status(sensor_data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/sensors.py", line 325, in check_critical_status
+    position[0] < config.BOUNDS["min_x"] or position[0] > config.BOUNDS["max_x"] or
+                  ~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'min_x'
+2025-06-14 11:28:03,786 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00188s
+2025-06-14 11:28:03,786 - qiki.main - ERROR - Error checking critical status: 'min_x'
+Traceback (most recent call last):
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 270, in _main_loop
+    critical_status = self.sensors.check_critical_status(sensor_data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/sensors.py", line 325, in check_critical_status
+    position[0] < config.BOUNDS["min_x"] or position[0] > config.BOUNDS["max_x"] or
+                  ~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'min_x'
+2025-06-14 11:28:03,787 - qiki.main - INFO - Simulation time: 0.00s, dt: 0.00169s
+2025-06-14 11:28:03,787 - qiki.main - ERROR - Error checking critical status: 'min_x'
+Traceback (most recent call last):
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 270, in _main_loop
+    critical_status = self.sensors.check_critical_status(sensor_data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/sensors.py", line 325, in check_critical_status
+    position[0] < config.BOUNDS["min_x"] or position[0] > config.BOUNDS["max_x"] or
+                  ~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'min_x'
+2025-06-14 11:28:03,788 - qiki.main - INFO - Debug: Exiting main loop after 5 iterations
+2025-06-14 11:28:03,788 - qiki.main - INFO - QIKI Simulation main loop finished at time 0.00s.
+2025-06-14 11:28:03,788 - qiki.main - INFO - Initiating graceful shutdown of QIKI Simulation...
+2025-06-14 11:28:03,788 - qiki.main - INFO - Cancelling simulation main loop task...
+2025-06-14 11:28:03,788 - qiki.main - INFO - Simulation main loop task cancelled successfully.
+2025-06-14 11:28:03,788 - qiki.main - INFO - Stopping QikOS...
+2025-06-14 11:28:03,788 - qiki.qik_os - WARNING - QikOS is not running.
+2025-06-14 11:28:03,788 - qiki.main - INFO - Closing visualizer...
+2025-06-14 11:28:03,789 - qiki.main - INFO - Finalizing analyzer data...
+2025-06-14 11:28:03,789 - qiki.analyzer - WARNING - No simulation steps recorded for statistics calculation.
+2025-06-14 11:28:03,789 - qiki.analyzer - INFO - Session data and report saved to data/session_20250614_112803.json
+2025-06-14 11:28:03,789 - qiki.main - INFO - QIKI Simulation shutdown complete with exit code 0.
+2025-06-14 11:28:03,789 - qiki.main - INFO - Tasks completed: 1, pending: 2
+2025-06-14 11:28:03,789 - qiki.main - INFO - Task result: None
+2025-06-14 11:54:22,753 - qiki.main - INFO - Stopping simulation via stop() method...
+2025-06-14 11:54:22,753 - qiki.main - INFO - Shutdown already initiated. Skipping duplicate call.

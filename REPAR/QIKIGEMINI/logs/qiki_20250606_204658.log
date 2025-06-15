@@ -1,0 +1,15 @@
+2025-06-06 20:46:58,908 - qiki - INFO - Logger initialized. Log file: logs/qiki_20250606_204658.log
+2025-06-06 20:46:58,908 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-06 20:47:00,759 - qiki.analyzer - INFO - Analyzer initialized. Session file: data/session_20250606_204700.json
+2025-06-06 20:47:00,759 - qiki.main - INFO - QIKI Simulation initialized successfully
+2025-06-06 20:47:00,759 - qiki.main - INFO - Starting QIKI Simulation main loop...
+2025-06-06 20:47:00,760 - qiki.main - ERROR - An error occurred during simulation: Environment.update() missing 1 required positional argument: 'dt'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/QIKIGEMINI/main.py", line 106, in <module>
+    simulation.run()
+  File "/data/data/com.termux/files/home/QIKIGEMINI/main.py", line 74, in run
+    self.environment.update(self.bot)
+TypeError: Environment.update() missing 1 required positional argument: 'dt'
+2025-06-06 20:47:00,763 - qiki.analyzer - DEBUG - Session data saved to data/session_20250606_204700.json
+2025-06-06 20:47:00,763 - qiki.analyzer - INFO - Analysis finalized. Total steps: 0
+2025-06-06 20:47:00,805 - qiki.main - INFO - Application exited.

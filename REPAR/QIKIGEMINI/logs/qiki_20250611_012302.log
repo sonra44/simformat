@@ -1,0 +1,27 @@
+2025-06-11 01:23:02,467 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250611_012302.log
+2025-06-11 01:23:02,467 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-11 01:23:02,853 - qiki - WARNING - Using fallback logging due to central logger initialization failure.
+2025-06-11 01:23:02,854 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-11 01:23:02,854 - qiki - CRITICAL - An unhandled exception prevented application startup or proper shutdown: name 'config' is not defined
+Traceback (most recent call last):
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 423, in <module>
+    asyncio.run(main_entry_point())
+  File "/usr/local/python/3.12.1/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/asyncio/base_events.py", line 684, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 372, in main_entry_point
+    simulation = QikiSimulation()
+                 ^^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 52, in __init__
+    self.frame_core = FrameCore()
+                      ^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/hardware/frame_core.py", line 90, in __init__
+    self.base_mass: float = config.FRAME_CORE_MASS  # Масса каркаса из конфига
+                            ^^^^^^
+NameError: name 'config' is not defined. Did you mean: 'Config'?

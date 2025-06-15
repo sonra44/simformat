@@ -1,0 +1,12 @@
+2025-06-11 02:45:44,220 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250611_024544.log
+2025-06-11 02:45:44,220 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-11 02:45:44,225 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-11 02:45:44,226 - qiki.structural_sensors - INFO - StructuralSensors initialized.
+2025-06-11 02:45:44,226 - qiki.frame_core - INFO - FrameCore 'QIKI_FrameCore' initialized with base mass 5.00 kg.
+2025-06-11 02:45:44,226 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-11 02:45:44,226 - qiki.power_systems - INFO - QIKI_PowerSystems initialized. Main Battery: 10000.0Wh, Reserve Battery: 2000.0Wh.
+2025-06-11 02:45:44,227 - qiki.thermal_system - INFO - QIKI_ThermalSystem initialized. Initial Core Temp: 20.0°C, Initial Radiator Temp: 10.0°C.
+2025-06-11 02:45:44,227 - qiki.physics - INFO - PhysicsObject 'QIKI_Physics' initialized with mass 38.0 kg at position [0.0, 0.0, 0.0].
+2025-06-11 02:45:44,227 - qiki.agent - INFO - Agent initialized.
+2025-06-11 02:45:44,227 - qiki.sensors - INFO - Sensors initialized with access to PhysicsObject, FrameCore, PowerSystems, and ThermalSystem.
+2025-06-11 02:45:44,248 - qiki.main - INFO - Simulation ended

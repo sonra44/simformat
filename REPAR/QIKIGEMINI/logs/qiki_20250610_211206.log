@@ -1,0 +1,27 @@
+2025-06-10 21:12:06,280 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250610_211206.log
+2025-06-10 21:12:06,281 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-10 21:12:07,379 - qiki - WARNING - Using fallback logging due to central logger initialization failure.
+2025-06-10 21:12:07,379 - qiki.main - WARNING - Using fallback logger due to initialization failure.
+2025-06-10 21:12:07,380 - qiki - CRITICAL - An unhandled exception prevented application startup or proper shutdown: type object 'Config' has no attribute 'FRAME_CORE_MASS'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/QIKIGEMINI/main.py", line 426, in <module>
+    asyncio.run(main_entry_point())
+  File "/data/data/com.termux/files/usr/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/QIKIGEMINI/main.py", line 375, in main_entry_point
+    simulation = QikiSimulation()
+                 ^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/QIKIGEMINI/main.py", line 55, in __init__
+    self.frame_core = FrameCore()
+                      ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/QIKIGEMINI/hardware/frame_core.py", line 90, in __init__
+    self.base_mass: float = Config.FRAME_CORE_MASS  # Масса каркаса из конфига
+                            ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Config' has no attribute 'FRAME_CORE_MASS'. Did you mean: 'FRAME_BASE_MASS'?

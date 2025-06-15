@@ -1,0 +1,3641 @@
+{
+  "start_time": "20250606_210059",
+  "steps": [
+    {
+      "step": 0,
+      "time": 0.0,
+      "position": [
+        0.07959968884159419,
+        1.3477964238382478e-05,
+        4.909907786818156
+      ],
+      "velocity": [
+        0.7959968884159419,
+        0.00013477964238382478,
+        -0.9009221318184442
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.5921840415314,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.79224233384258,
+      "temperature": 19.247664269153155,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 1,
+      "time": 0.1,
+      "position": [
+        0.2387010321249862,
+        3.1810846042074284e-05,
+        4.72992478051241
+      ],
+      "velocity": [
+        1.59101343283392,
+        0.00018332881803691803,
+        -1.7998300630574642
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.83524483419897,
+      "temperature": 19.428954625389746,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 2,
+      "time": 0.2,
+      "position": [
+        0.47718677189918945,
+        6.486852415828821e-05,
+        4.460423119150057
+      ],
+      "velocity": [
+        2.3848573977420324,
+        0.00033057678116213933,
+        -2.6950166136235287
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.61851048230384,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 3,
+      "time": 0.30000000000000004,
+      "position": [
+        0.794911406210035,
+        8.146933460029336e-05,
+        4.102031369904339
+      ],
+      "velocity": [
+        3.1772463431084548,
+        0.00016600810442005137,
+        -3.5839174924571764
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.27034763985365,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.84808401984827,
+      "temperature": 20.02562594980781,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 4,
+      "time": 0.4,
+      "position": [
+        1.1917157765759991,
+        6.69134320758894e-05,
+        3.655478433845713
+      ],
+      "velocity": [
+        3.9680437036596414,
+        -0.00014555902524403952,
+        -4.465529360586262
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.261497025804857,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 5,
+      "time": 0.5,
+      "position": [
+        1.667416193636606,
+        6.103083859611555e-05,
+        3.1216253653306625
+      ],
+      "velocity": [
+        4.75700417060607,
+        -5.8825934797738545e-05,
+        -5.338530685150505
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.89687920778684,
+      "temperature": 20.03423071056635,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 6,
+      "time": 0.6000000000000001,
+      "position": [
+        2.221794873476032,
+        3.559390750037089e-05,
+        2.501534703130747
+      ],
+      "velocity": [
+        5.543786798394258,
+        -0.00025436931095744664,
+        -6.200906621999154
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.9841527263876,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.55589233684294,
+      "temperature": 19.93472198437752,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 7,
+      "time": 0.7000000000000001,
+      "position": [
+        2.8545997176046862,
+        2.3265393012240402e-05,
+        1.7964102645231832
+      ],
+      "velocity": [
+        6.3280484412865405,
+        -0.00012328514488130484,
+        -7.051244386075636
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.71312348157637,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 18.977135225826995,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 8,
+      "time": 0.8,
+      "position": [
+        3.565525183527482,
+        1.2158333612999942e-05,
+        1.007670501914061
+      ],
+      "velocity": [
+        7.1092546592279575,
+        -0.0001110705939924046,
+        -7.887397626091221
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 18.81751886617213,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 9,
+      "time": 0.9,
+      "position": [
+        4.354203953233404,
+        -4.306789643581116e-06,
+        0.13692983144913873
+      ],
+      "velocity": [
+        7.886787697059222,
+        -0.00016465123256581056,
+        -8.707406704649223
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.50373620870938,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.727079890917757,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 10,
+      "time": 1.0,
+      "position": [
+        5.220212696744843,
+        -2.9058583923453832e-05,
+        -0.8140628126225161
+      ],
+      "velocity": [
+        8.660087435114388,
+        -0.00024751794279872716,
+        -9.509926440716548
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.5648220270475,
+      "temperature": 20.02839319615434,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 11,
+      "time": 1.1,
+      "position": [
+        6.163035003571029,
+        -4.130917203300785e-05,
+        -1.8433369447227674
+      ],
+      "velocity": [
+        9.428223068261849,
+        -0.00012250588109554016,
+        -10.292741321002513
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.83489216620173,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.73110169872004,
+      "temperature": 19.630998744185195,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 12,
+      "time": 1.2000000000000002,
+      "position": [
+        7.182056789157098,
+        -3.4662305909413673e-05,
+        -2.9487374162905384
+      ],
+      "velocity": [
+        10.190217855860695,
+        6.646866123594173e-05,
+        -11.054004715677708
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.247241819672,
+      "temperature": 19.28593999166045,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 13,
+      "time": 1.3,
+      "position": [
+        8.276529126931345,
+        -3.183016559973707e-05,
+        -4.127845362414273
+      ],
+      "velocity": [
+        10.94472337774248,
+        2.8321403096766045e-05,
+        -11.791079461237342
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.12511268161192,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.96285540420067,
+      "temperature": 19.756847034597282,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 14,
+      "time": 1.4000000000000001,
+      "position": [
+        9.445577257003176,
+        -3.337687354582198e-05,
+        -5.378111641960761
+      ],
+      "velocity": [
+        11.690481300718309,
+        -1.546707946084912e-05,
+        -12.502662795464879
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.25615008028769,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 15,
+      "time": 1.5,
+      "position": [
+        10.688142001029739,
+        -5.075831901408467e-05,
+        -6.696735472971014
+      ],
+      "velocity": [
+        12.425647440265617,
+        -0.0001738144546826269,
+        -13.186238310102526
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.65957414269648,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 16,
+      "time": 1.6,
+      "position": [
+        12.002979751085133,
+        -6.325754589876367e-05,
+        -8.080752864856187
+      ],
+      "velocity": [
+        13.148377500553943,
+        -0.00012499226884679006,
+        -13.840173918851725
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.51616083038417,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.07357753106189,
+      "temperature": 20.903592099383275,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 17,
+      "time": 1.7000000000000002,
+      "position": [
+        13.388599286381492,
+        -4.707997960834832e-05,
+        -9.526952213205483
+      ],
+      "velocity": [
+        13.85619535296359,
+        0.00016177566290415354,
+        -14.461993483492968
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.86135372352058,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.188489516170335,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 18,
+      "time": 1.8,
+      "position": [
+        14.843276583906118,
+        -3.7423801740490455e-05,
+        -11.032002380787965
+      ],
+      "velocity": [
+        14.546772975246254,
+        9.656177867857866e-05,
+        -15.050501675824814
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.381405838622214,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 19,
+      "time": 1.9000000000000001,
+      "position": [
+        16.365015852068478,
+        -7.639987385699711e-06,
+        -12.592442148930784
+      ],
+      "velocity": [
+        15.217392681623588,
+        0.0002978381435479074,
+        -15.604397681428193
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.48443994480535,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 20,
+      "time": 2.0,
+      "position": [
+        17.951497309074615,
+        4.2785394437816256e-05,
+        -14.20466721013158
+      ],
+      "velocity": [
+        15.864814570061377,
+        0.0005042538182351596,
+        -16.122250612007953
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 98.86590632737025,
+      "temperature": 19.23808477662754,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 21,
+      "time": 2.1,
+      "position": [
+        19.600083029254737,
+        8.83360480233725e-05,
+        -15.86501643476417
+      ],
+      "velocity": [
+        16.485857201801235,
+        0.0004555065358555625,
+        -16.603492246325896
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.41684529753573,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 22,
+      "time": 2.2,
+      "position": [
+        21.307773593293653,
+        0.0001293221830456105,
+        -17.569784970703367
+      ],
+      "velocity": [
+        17.07690564038915,
+        0.0004098613502223801,
+        -17.04768535939197
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.32127094567194,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.45340281837028,
+      "temperature": 19.55094705690797,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 23,
+      "time": 2.3000000000000003,
+      "position": [
+        23.071256713805727,
+        0.0001624525124760949,
+        -19.31533327240921
+      ],
+      "velocity": [
+        17.634831205120726,
+        0.00033130329430484386,
+        -17.455483017058434
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.7375296883032,
+      "battery_level": 1000.0,
+      "battery_percentage": 98.97001189855958,
+      "temperature": 20.483548855569136,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 24,
+      "time": 2.4000000000000004,
+      "position": [
+        24.886950437365684,
+        0.000250029889313941,
+        -21.09817284149849
+      ],
+      "velocity": [
+        18.156937235599575,
+        0.0008757737683784612,
+        -17.82839569089279
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.80207087546962,
+      "temperature": 19.80002516129606,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 25,
+      "time": 2.5,
+      "position": [
+        26.750908641383816,
+        0.0003323734905672519,
+        -22.914912429617704
+      ],
+      "velocity": [
+        18.639582040181313,
+        0.0008234360125331095,
+        -18.16739588119216
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.98434182682485,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.222785693084536,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 26,
+      "time": 2.6,
+      "position": [
+        28.658939626254273,
+        0.00045771573720778427,
+        -24.76238790577626
+      ],
+      "velocity": [
+        19.080309848704587,
+        0.0012534224664053233,
+        -18.474754761585558
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.94963084235376,
+      "temperature": 19.783149579470106,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 27,
+      "time": 2.7,
+      "position": [
+        30.606701953112765,
+        0.0005814200417428179,
+        -26.63774091462334
+      ],
+      "velocity": [
+        19.4776232685849,
+        0.0012370430453503365,
+        -18.753530088470782
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.14182965335301,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.69210739148303,
+      "temperature": 20.477331604564593,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 28,
+      "time": 2.8000000000000003,
+      "position": [
+        32.58975903938446,
+        0.000706448008630554,
+        -28.538433100583596
+      ],
+      "velocity": [
+        19.83057086271699,
+        0.001250279668877361,
+        -19.00692185960255
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.634174156864113,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 29,
+      "time": 2.9000000000000004,
+      "position": [
+        34.60358143731788,
+        0.0008303612373569379,
+        -30.4622334723366
+      ],
+      "velocity": [
+        20.138223979334153,
+        0.0012391322872638392,
+        -19.23800371753003
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.755379345267766,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 30,
+      "time": 3.0,
+      "position": [
+        36.64365449135409,
+        0.0009765187069878122,
+        -32.407251803812244
+      ],
+      "velocity": [
+        20.40073054036216,
+        0.0014615746963087424,
+        -19.450183314756472
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.822264983623,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.150232712333736,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 31,
+      "time": 3.1,
+      "position": [
+        38.70552685358841,
+        0.0011212509586674515,
+        -34.37192705731114
+      ],
+      "velocity": [
+        20.618723622343214,
+        0.0014473225167963932,
+        -19.646752534988945
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.70242926161939,
+      "battery_level": 1000.0,
+      "battery_percentage": 98.96309641306698,
+      "temperature": 20.341724529266514,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 32,
+      "time": 3.2,
+      "position": [
+        40.78486446442679,
+        0.001284692063556006,
+        -36.355010566066134
+      ],
+      "velocity": [
+        20.793376108383804,
+        0.001634411048885546,
+        -19.830835087549918
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.0278017492367,
+      "temperature": 20.245751871061696,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 33,
+      "time": 3.3000000000000003,
+      "position": [
+        42.877534616962095,
+        0.0014169428974267508,
+        -38.35555212988532
+      ],
+      "velocity": [
+        20.926701525353067,
+        0.001322508338707448,
+        -20.005415638191806
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.337869421575625,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 34,
+      "time": 3.4000000000000004,
+      "position": [
+        44.979539984948026,
+        0.0015321341338754096,
+        -40.372843747245284
+      ],
+      "velocity": [
+        21.02005367985934,
+        0.001151912364486588,
+        -20.17291617359963
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.43494792689434,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.8842888456573,
+      "temperature": 19.747024131693507,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 35,
+      "time": 3.5,
+      "position": [
+        47.08715825977738,
+        0.001645680184234774,
+        -42.406407870413666
+      ],
+      "velocity": [
+        21.076182748293565,
+        0.001135460503593645,
+        -20.3356412316838
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.67189603661176,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.80296490487795,
+      "temperature": 19.390944293117183,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 36,
+      "time": 3.6,
+      "position": [
+        49.19688875831379,
+        0.0017609888009936735,
+        -44.45595800065373
+      ],
+      "velocity": [
+        21.097304985364108,
+        0.0011530861675889954,
+        -20.495501302400612
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.69385685728965,
+      "temperature": 19.375233827363317,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 37,
+      "time": 3.7,
+      "position": [
+        51.30548222280776,
+        0.001895122896543575,
+        -46.5213622809626
+      ],
+      "velocity": [
+        21.085934644939698,
+        0.0013413409554990149,
+        -20.654042803088664
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.51390109611185,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.64264698104677,
+      "temperature": 19.53394859984027,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 38,
+      "time": 3.8000000000000003,
+      "position": [
+        53.409903354704454,
+        0.0020333587690878033,
+        -48.60261664917992
+      ],
+      "velocity": [
+        21.04421131896694,
+        0.0013823587254422826,
+        -20.81254368217326
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.35165001617939,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.28291916067964,
+      "temperature": 19.350022772608597,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 39,
+      "time": 3.9000000000000004,
+      "position": [
+        55.5073737170638,
+        0.0021685684700624543,
+        -50.69981652186353
+      ],
+      "velocity": [
+        20.974703623593463,
+        0.0013520970097465085,
+        -20.97199872683613
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.63414137249723,
+      "temperature": 20.350544725194347,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 40,
+      "time": 4.0,
+      "position": [
+        57.59528787160392,
+        0.002289779696694844,
+        -52.81313801207503
+      ],
+      "velocity": [
+        20.879141545401225,
+        0.0012121122663239002,
+        -21.133214902114982
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.4021145681352,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.72598497868461,
+      "temperature": 19.279243129386924,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 41,
+      "time": 4.1000000000000005,
+      "position": [
+        59.67132448274382,
+        0.0023909790773870188,
+        -54.942810320776445
+      ],
+      "velocity": [
+        20.76036611139899,
+        0.001011993806921745,
+        -21.296723087014172
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.173595122345,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 42,
+      "time": 4.2,
+      "position": [
+        61.73326145741425,
+        0.0024879711544017833,
+        -57.08911654121329
+      ],
+      "velocity": [
+        20.619369746704326,
+        0.0009699207701476459,
+        -21.463062204368477
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.78531434776093,
+      "temperature": 19.277993653889745,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 43,
+      "time": 4.3,
+      "position": [
+        63.77913590218197,
+        0.0025625096288053647,
+        -59.25235977942551
+      ],
+      "velocity": [
+        20.45874444767717,
+        0.0007453847440358118,
+        -21.63243238212218
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 18.939025067126785,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 44,
+      "time": 4.4,
+      "position": [
+        65.8071447431319,
+        0.0026300097996874595,
+        -61.43286396326708
+      ],
+      "velocity": [
+        20.280088409499356,
+        0.0006750017088209469,
+        -21.80504183841573
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.55936069114206,
+      "temperature": 20.430200082755242,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 45,
+      "time": 4.5,
+      "position": [
+        67.81564329059415,
+        0.0026894816353121727,
+        -63.63095785130066
+      ],
+      "velocity": [
+        20.084985474622496,
+        0.0005947183562471313,
+        -21.98093888033573
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.89040307199589,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.09201796610482,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 46,
+      "time": 4.6000000000000005,
+      "position": [
+        69.80311224594593,
+        0.00277482815882167,
+        -65.8469786704463
+      ],
+      "velocity": [
+        19.874689553517655,
+        0.0008534652350949722,
+        -22.16020819145652
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.334750280131942,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 47,
+      "time": 4.7,
+      "position": [
+        71.76819028890473,
+        0.0028576454779465302,
+        -68.08125586031878
+      ],
+      "velocity": [
+        19.650780429588135,
+        0.0008281731912486026,
+        -22.342771898724706
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.71248900484333,
+      "temperature": 20.023556451082275,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 48,
+      "time": 4.800000000000001,
+      "position": [
+        73.70961962696782,
+        0.0029513645022959095,
+        -70.33411450477237
+      ],
+      "velocity": [
+        19.414293380630923,
+        0.0009371902434937902,
+        -22.5285864445359
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 98.92774088993868,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.42385172898736,
+      "temperature": 19.8041489370589,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 49,
+      "time": 4.9,
+      "position": [
+        75.62627358807342,
+        0.0030538380466065772,
+        -72.60586484413803
+      ],
+      "velocity": [
+        19.16653961105593,
+        0.0010247354431066787,
+        -22.717503393656592
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.96343304707385,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 50,
+      "time": 5.0,
+      "position": [
+        77.5171177912894,
+        0.003158672783447173,
+        -74.8968088329124
+      ],
+      "velocity": [
+        18.908442032159815,
+        0.0010483473684059557,
+        -22.90943988774369
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.45915837963341,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.68800757008806,
+      "temperature": 20.038319579141394,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 51,
+      "time": 5.1000000000000005,
+      "position": [
+        79.38123110593243,
+        0.003264163997760386,
+        -77.20722444839848
+      ],
+      "velocity": [
+        18.641133146430303,
+        0.0010549121431321306,
+        -23.104156154860764
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.38263969181236,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.811217897869945,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 52,
+      "time": 5.2,
+      "position": [
+        81.21775256313659,
+        0.003345012233526576,
+        -79.53738689118227
+      ],
+      "velocity": [
+        18.36521457204157,
+        0.0008084823576619013,
+        -23.301624427837837
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.32576015868531,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.11593581016587,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 53,
+      "time": 5.300000000000001,
+      "position": [
+        83.02592435093065,
+        0.0034118714478695426,
+        -81.88754435725343
+      ],
+      "velocity": [
+        18.08171787794066,
+        0.0006685921434296633,
+        -23.501574660711622
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.47057237621493,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 54,
+      "time": 5.4,
+      "position": [
+        84.80505374724193,
+        0.003465465074061522,
+        -84.2579284205823
+      ],
+      "velocity": [
+        17.791293963112714,
+        0.0005359362619197968,
+        -23.703840633288753
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.73163833469836,
+      "temperature": 20.013825865288418,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 55,
+      "time": 5.5,
+      "position": [
+        86.55450633527676,
+        0.0035238470759214016,
+        -86.64876269911076
+      ],
+      "velocity": [
+        17.494525880348263,
+        0.000583820018598795,
+        -23.908342785284614
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.12820570599577,
+      "temperature": 19.479171654636378,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 56,
+      "time": 5.6000000000000005,
+      "position": [
+        88.2737208317932,
+        0.0035921345681435577,
+        -89.06024538048861
+      ],
+      "velocity": [
+        17.19214496516437,
+        0.0006828749222215611,
+        -24.114826813778475
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.75147241335488,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.494559103956817,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 57,
+      "time": 5.7,
+      "position": [
+        89.96220850232532,
+        0.0036694364437439,
+        -91.49255367228848
+      ],
+      "velocity": [
+        16.884876705321297,
+        0.0007730187560034235,
+        -24.323082917998697
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.74412556315808,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.25335156555727,
+      "temperature": 19.624264218075606,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 58,
+      "time": 5.800000000000001,
+      "position": [
+        91.61953498589955,
+        0.003749936148739868,
+        -93.9458464487734
+      ],
+      "velocity": [
+        16.57326483574228,
+        0.0008049970499596779,
+        -24.53292776484919
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.4153537472425,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.4761747242665,
+      "temperature": 20.324507699852578,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 59,
+      "time": 5.9,
+      "position": [
+        93.24529478958073,
+        0.0038245844325225896,
+        -96.42027565887744
+      ],
+      "velocity": [
+        16.25759803681177,
+        0.000746482837827216,
+        -24.744292101040468
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.61416380708859,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.57926478686319,
+      "temperature": 19.691209717078657,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 60,
+      "time": 6.0,
+      "position": [
+        94.83913893532478,
+        0.0039000042112033494,
+        -98.91597193340999
+      ],
+      "velocity": [
+        15.938441457440568,
+        0.0007541977868075967,
+        -24.956962745325516
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.49772111020737,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.7989970571031,
+      "temperature": 20.10288288016973,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 61,
+      "time": 6.1000000000000005,
+      "position": [
+        96.4007809159096,
+        0.0039774318543337964,
+        -101.4330446651403
+      ],
+      "velocity": [
+        15.616419805848203,
+        0.0007742764313044668,
+        -25.170727317303026
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.586877027791,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.83441892494974,
+      "temperature": 19.391850862232996,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 62,
+      "time": 6.2,
+      "position": [
+        97.92994961046335,
+        0.004065771215502636,
+        -98.00782008845535
+      ],
+      "velocity": [
+        15.291686945537448,
+        0.0008833936116883947,
+        19.92179911544659
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.3986250120198,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 63,
+      "time": 6.300000000000001,
+      "position": [
+        99.42498288688219,
+        0.00415385083482564,
+        -96.04280846025199
+      ],
+      "velocity": [
+        14.950332764188316,
+        0.0008807961932300398,
+        19.650116282033622
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.189347858346085,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 64,
+      "time": 6.4,
+      "position": [
+        100.88457769302678,
+        0.004242078618993218,
+        -94.10554637560779
+      ],
+      "velocity": [
+        14.595948061445924,
+        0.000882277841675774,
+        19.372620846441976
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.17643836239832,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.21026014128645,
+      "temperature": 20.043084923771378,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 65,
+      "time": 6.5,
+      "position": [
+        98.79558080793481,
+        0.004316762239921526,
+        -92.19664693836641
+      ],
+      "velocity": [
+        -12.04419192065184,
+        0.000746836209283084,
+        19.08899437241374
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.92687818239745,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.0489975943841,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 66,
+      "time": 6.6000000000000005,
+      "position": [
+        97.55800989590844,
+        0.004389814255396141,
+        -90.31575647209422
+      ],
+      "velocity": [
+        -12.375709120263748,
+        0.0007305201547461535,
+        18.80890466272197
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.752066361663417,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 67,
+      "time": 6.7,
+      "position": [
+        96.28753842073351,
+        0.0044586830348475074,
+        -88.46274358618012
+      ],
+      "velocity": [
+        -12.704714751749309,
+        0.0006886877945136598,
+        18.530128859140984
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.55810105326957,
+      "temperature": 20.35930863264868,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 68,
+      "time": 6.800000000000001,
+      "position": [
+        94.98442428285084,
+        0.004514064318835627,
+        -86.63747082050202
+      ],
+      "velocity": [
+        -13.031141378826765,
+        0.0005538128398811957,
+        18.25272765678106
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.84922694496461,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 69,
+      "time": 6.9,
+      "position": [
+        93.64897621561632,
+        0.00457925167499424,
+        -84.83978157119101
+      ],
+      "velocity": [
+        -13.354480672345218,
+        0.0006518735615861241,
+        17.976892493110032
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.90680205955842,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.307105078568114,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 70,
+      "time": 7.0,
+      "position": [
+        92.28154330046895,
+        0.004625989623777223,
+        -83.06949822527497
+      ],
+      "velocity": [
+        -13.67432915147367,
+        0.0004673794878298301,
+        17.70283345916045
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.48922483349871,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.62492619064089,
+      "temperature": 19.434805081747786,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 71,
+      "time": 7.1000000000000005,
+      "position": [
+        90.88252170385867,
+        0.004672215944740292,
+        -81.32642743499576
+      ],
+      "velocity": [
+        -13.990215966102754,
+        0.0004622632096306826,
+        17.43070790279212
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.39601587268265,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.89318950762681,
+      "temperature": 20.118471584151926,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 72,
+      "time": 7.2,
+      "position": [
+        89.45235221780497,
+        0.004701569439899634,
+        -79.61035737485331
+      ],
+      "velocity": [
+        -14.301694860536983,
+        0.0002935349515934289,
+        17.160700601424566
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.127379283083837,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 73,
+      "time": 7.300000000000001,
+      "position": [
+        87.99152987798406,
+        0.004714505056378609,
+        -77.92105465094824
+      ],
+      "velocity": [
+        -14.608223398209041,
+        0.00012935616478975355,
+        16.893027239050788
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.4301651239348,
+      "temperature": 20.688512103360992,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 74,
+      "time": 7.4,
+      "position": [
+        86.50058499373662,
+        0.00471455698701957,
+        -76.25827046734871
+      ],
+      "velocity": [
+        -14.909448842474344,
+        5.193064096140304e-07,
+        16.627841835995234
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.12449718828907,
+      "temperature": 20.131355398606008,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 75,
+      "time": 7.5,
+      "position": [
+        84.9801133427178,
+        0.004717084376156088,
+        -74.6217349855841
+      ],
+      "velocity": [
+        -15.204716510188272,
+        2.5273891365178324e-05,
+        16.365354817646157
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.68302449088037,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.34523013359563,
+      "temperature": 19.52390785939882,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 76,
+      "time": 7.6000000000000005,
+      "position": [
+        83.43073981294042,
+        0.004709516896305515,
+        -73.01117293358156
+      ],
+      "velocity": [
+        -15.493735297773865,
+        -7.567479850573344e-05,
+        16.1056205200253
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.1656652763895,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 77,
+      "time": 7.7,
+      "position": [
+        81.85317889924758,
+        0.004719276328144982,
+        -71.4262792442735
+      ],
+      "velocity": [
+        -15.775609136928335,
+        9.759431839467783e-05,
+        15.848936893080662
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.74190094690033,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 21.18693714478892,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 78,
+      "time": 7.800000000000001,
+      "position": [
+        80.24820096827114,
+        0.004749649705528734,
+        -69.86672972803798
+      ],
+      "velocity": [
+        -16.049779309764414,
+        0.0003037337738375228,
+        15.595495162355197
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.6061012847766,
+      "temperature": 20.29077315771222,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 79,
+      "time": 7.9,
+      "position": [
+        78.61664292752114,
+        0.004771604959407516,
+        -68.33218479728542
+      ],
+      "velocity": [
+        -16.315580407499986,
+        0.00021955253878781588,
+        15.345449307525595
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.65327250071465,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.1905496718209,
+      "temperature": 20.078469773395028,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 80,
+      "time": 8.0,
+      "position": [
+        76.95940014648168,
+        0.004779186636494856,
+        -66.82229350597581
+      ],
+      "velocity": [
+        -16.572427810394572,
+        7.581677087340968e-05,
+        15.098912913096123
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.92180776462267,
+      "temperature": 19.491842944296547,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 81,
+      "time": 8.1,
+      "position": [
+        75.27748784503117,
+        0.004793069417296006,
+        -65.33667822724314
+      ],
+      "velocity": [
+        -16.819123014505095,
+        0.0001388278080115051,
+        14.856152787326634
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.080836759180507,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 82,
+      "time": 8.200000000000001,
+      "position": [
+        73.57197316934175,
+        0.004811441584481377,
+        -63.87495377270463
+      ],
+      "velocity": [
+        -17.055146756894327,
+        0.00018372167185370898,
+        14.617244545385123
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.677240222311543,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 83,
+      "time": 8.3,
+      "position": [
+        71.84401068210313,
+        0.00481912964859093,
+        -62.436726082174175
+      ],
+      "velocity": [
+        -17.279624872386183,
+        7.688064109553474e-05,
+        14.382276905304547
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.79282634051478,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 84,
+      "time": 8.4,
+      "position": [
+        70.0948545112142,
+        0.004828492067221942,
+        -61.02158577365979
+      ],
+      "velocity": [
+        -17.491561708889424,
+        9.362418631011566e-05,
+        14.151403085143903
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.95510841028941,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.353022278032736,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 85,
+      "time": 8.5,
+      "position": [
+        68.3258401345455,
+        0.0048309857316788975,
+        -59.629124817756725
+      ],
+      "velocity": [
+        -17.69014376668693,
+        2.4936644569553974e-05,
+        13.924609559030639
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.05943713456781,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 86,
+      "time": 8.6,
+      "position": [
+        66.53839962921796,
+        0.004840558524618549,
+        -58.25893433093075
+      ],
+      "velocity": [
+        -17.87440505327534,
+        9.572792939651258e-05,
+        13.701904868259765
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.4206356600291,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.639737495068953,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 87,
+      "time": 8.700000000000001,
+      "position": [
+        64.73407184684643,
+        0.004835850103704461,
+        -56.91060354319828
+      ],
+      "velocity": [
+        -18.04327782371536,
+        -4.708420914088583e-05,
+        13.483307877324723
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.36073015869268,
+      "temperature": 20.082925836522776,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 88,
+      "time": 8.8,
+      "position": [
+        62.914537567307576,
+        0.004812364782583501,
+        -55.583723277261626
+      ],
+      "velocity": [
+        -18.195342795388555,
+        -0.0002348532112096004,
+        13.268802659366527
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.55374317373997,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.243438227223283,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 89,
+      "time": 8.9,
+      "position": [
+        61.08156487148472,
+        0.004786378295071221,
+        -54.27790730021008
+      ],
+      "velocity": [
+        -18.329726958228544,
+        -0.000259864875122802,
+        13.058159770515465
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.83351760498101,
+      "temperature": 20.212008502321694,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 90,
+      "time": 9.0,
+      "position": [
+        59.23702329441541,
+        0.004736735274479989,
+        -52.99279194912861
+      ],
+      "velocity": [
+        -18.44541577069316,
+        -0.0004964302059123213,
+        12.851153510814704
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.77709298326718,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.60142482283459,
+      "temperature": 20.563447707056188,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 91,
+      "time": 9.1,
+      "position": [
+        57.382897983182595,
+        0.004667315000389169,
+        -51.728040157157785
+      ],
+      "velocity": [
+        -18.541253112328132,
+        -0.0006942027409082027,
+        12.647517919708253
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.7729596266979,
+      "temperature": 19.400884937899267,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 92,
+      "time": 9.200000000000001,
+      "position": [
+        55.52130304369607,
+        0.004594201792853102,
+        -50.48334586520745
+      ],
+      "velocity": [
+        -18.61594939486524,
+        -0.0007311320753606698,
+        12.446942919503355
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.44327686779663,
+      "temperature": 19.81355184315017,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 93,
+      "time": 9.3,
+      "position": [
+        53.65447180683564,
+        0.004495424940682971,
+        -49.258453686160856
+      ],
+      "velocity": [
+        -18.668312368604337,
+        -0.0009877685217013067,
+        12.248921790465884
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.91301480801015,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.79289555867098,
+      "temperature": 20.260733347233767,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 94,
+      "time": 9.4,
+      "position": [
+        51.784788339341695,
+        0.004396428562791254,
+        -48.05315889755754
+      ],
+      "velocity": [
+        -18.69683467493943,
+        -0.0009899637789171714,
+        12.052947886033197
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.53691633765666,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.31198636978371,
+      "temperature": 19.61544225370476,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 95,
+      "time": 9.5,
+      "position": [
+        49.91469231495207,
+        0.004296424734101358,
+        -46.867329159614044
+      ],
+      "velocity": [
+        -18.700960243896247,
+        -0.0010000382868989616,
+        11.858297379434939
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.7189000959726,
+      "temperature": 20.929633133742712,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 96,
+      "time": 9.600000000000001,
+      "position": [
+        48.0467765722472,
+        0.004210177329705988,
+        -45.70090499840084
+      ],
+      "velocity": [
+        -18.679157427048704,
+        -0.000862474043953695,
+        11.664241612132093
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.90973664416754,
+      "temperature": 20.088928978875458,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 97,
+      "time": 9.700000000000001,
+      "position": [
+        46.18371795609684,
+        0.0041020930715323116,
+        -44.5539118230951
+      ],
+      "velocity": [
+        -18.630586161503555,
+        -0.0010808425817367654,
+        11.469931753057363
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.41896575345399,
+      "temperature": 19.32415014279998,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 98,
+      "time": 9.8,
+      "position": [
+        44.32828029841244,
+        0.003976776333011377,
+        -43.42647358781167
+      ],
+      "velocity": [
+        -18.554376576844017,
+        -0.0012531673852093483,
+        11.274382352834255
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 100,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 19.644963134304344,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 99,
+      "time": 9.9,
+      "position": [
+        42.48332650722467,
+        0.0038524760692022963,
+        -42.31882348158909
+      ],
+      "velocity": [
+        -18.44953791187769,
+        -0.0012430026380908052,
+        11.07650106222578
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.32546841006985,
+      "battery_level": 1000.0,
+      "battery_percentage": 100,
+      "temperature": 20.55376155074221,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    },
+    {
+      "step": 100,
+      "time": 10.0,
+      "position": [
+        40.651750157783155,
+        0.003721459555181752,
+        -41.23130131465423
+      ],
+      "velocity": [
+        -18.31576349441512,
+        -0.001310165140205444,
+        10.875221669348605
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "angular_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel_level": 1000.0,
+      "fuel_percentage": 99.9523193608409,
+      "battery_level": 1000.0,
+      "battery_percentage": 99.74247764938154,
+      "temperature": 20.244910237278066,
+      "target": [
+        50.0,
+        0.0,
+        10.0
+      ],
+      "emergency_stop": false
+    }
+  ]
+}

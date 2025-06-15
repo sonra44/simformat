@@ -1,0 +1,7 @@
+2025-06-06 21:00:57,616 - qiki - INFO - Logger initialized. Log file: logs/qiki_20250606_210057.log
+2025-06-06 21:00:57,617 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-06 21:00:59,195 - qiki.analyzer - INFO - Analyzer initialized. Session file: data/session_20250606_210059.json
+2025-06-06 21:00:59,195 - qiki.main - INFO - QIKI Simulation initialized successfully
+2025-06-06 21:00:59,195 - qiki.main - INFO - Starting QIKI Simulation main loop...
+2025-06-06 21:00:59,197 - qiki.analyzer - DEBUG - Session data saved to data/session_20250606_210059.json
+2025-06-06 21:00:59,241 - qiki.analyzer - DEBUG - Session data saved to data/session_20250606_210059.json

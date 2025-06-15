@@ -1,0 +1,33 @@
+2025-06-11 01:29:17,508 - qiki - INFO - Central QIKI Logger initialized to level INFO. Log file: logs/qiki_20250611_012917.log
+2025-06-11 01:29:17,508 - qiki.physics - INFO - SciPy Rotation available. Full rotational physics enabled.
+2025-06-11 01:29:17,840 - qiki - WARNING - Using fallback logging due to central logger initialization failure.
+2025-06-11 01:29:17,840 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-11 01:29:17,840 - qiki.structural_sensors - INFO - StructuralSensors initialized.
+2025-06-11 01:29:17,840 - qiki.frame_core - INFO - FrameCore 'QIKI_FrameCore' initialized with base mass 5.00 kg.
+2025-06-11 01:29:17,840 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-11 01:29:17,840 - qiki.power_systems - INFO - QIKI_PowerSystems initialized. Main Battery: 10000.0Wh, Reserve Battery: 2000.0Wh.
+2025-06-11 01:29:17,840 - qiki.thermal_system - INFO - QIKI_ThermalSystem initialized. Initial Core Temp: 20.0°C, Initial Radiator Temp: 10.0°C.
+2025-06-11 01:29:17,841 - qiki.physics - INFO - PhysicsObject 'QIKI_Physics' initialized with mass 38.0 kg at position [0.0, 0.0, 0.0].
+2025-06-11 01:29:17,841 - qiki.agent - INFO - Agent initialized.
+2025-06-11 01:29:17,841 - qiki.sensors - INFO - Sensors initialized with access to PhysicsObject, FrameCore, PowerSystems, and ThermalSystem.
+2025-06-11 01:29:17,841 - qiki.environment - INFO - Environment initialized with gravity [0.0, 0.0, -9.81] and bounds {'x': (-100.0, 100.0), 'y': (-100.0, 100.0), 'z': (-100.0, 100.0)}, bot radius 0.5m.
+2025-06-11 01:29:17,841 - qiki - CRITICAL - An unhandled exception prevented application startup or proper shutdown: Can't instantiate abstract class QikiBotInterface without an implementation for abstract methods 'activate_emergency_stop', 'apply_thruster_force', 'apply_torque', 'deactivate_emergency_stop', 'get_aggregated_sensor_data', 'get_aggregated_system_status', 'get_bot_acceleration', 'get_bot_angular_velocity', 'get_bot_orientation_quat', 'get_bot_position', 'get_bot_velocity', 'get_current_sim_time', 'get_forward_vector', 'get_gravity_vector', 'set_autonomous_mode', 'set_new_target'
+Traceback (most recent call last):
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 423, in <module>
+    asyncio.run(main_entry_point())
+  File "/usr/local/python/3.12.1/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/asyncio/base_events.py", line 684, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 372, in main_entry_point
+    simulation = QikiSimulation()
+                 ^^^^^^^^^^^^^^^^
+  File "/workspaces/simformat/REPAR/QIKIGEMINI/main.py", line 70, in __init__
+    self.bot_interface = QikiBotInterface(
+                         ^^^^^^^^^^^^^^^^^
+TypeError: Can't instantiate abstract class QikiBotInterface without an implementation for abstract methods 'activate_emergency_stop', 'apply_thruster_force', 'apply_torque', 'deactivate_emergency_stop', 'get_aggregated_sensor_data', 'get_aggregated_system_status', 'get_bot_acceleration', 'get_bot_angular_velocity', 'get_bot_orientation_quat', 'get_bot_position', 'get_bot_velocity', 'get_current_sim_time', 'get_forward_vector', 'get_gravity_vector', 'set_autonomous_mode', 'set_new_target'

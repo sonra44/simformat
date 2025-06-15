@@ -1,0 +1,4532 @@
+{
+    "start_time": "20250606_214848",
+    "steps": [
+        {
+            "step": 0,
+            "time": 0.0,
+            "position": [
+                0.021805756392603664,
+                -1.6508100206319454e-05,
+                4.904106345010197
+            ],
+            "velocity": [
+                0.21805756392603662,
+                -0.00016508100206319453,
+                -0.9589365498980336
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.003940266098187,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 1,
+            "time": 0.1,
+            "position": [
+                0.06541293423046968,
+                -1.8929654137264552e-05,
+                4.712337734781312
+            ],
+            "velocity": [
+                0.43607177837866007,
+                -2.4215539309450977e-05,
+                -1.917686102288849
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.928991977329762,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 2,
+            "time": 0.2,
+            "position": [
+                0.13080506318829638,
+                -4.0624179428899516e-05,
+                4.424819736761554
+            ],
+            "velocity": [
+                0.653921289578267,
+                -0.0002169452529163496,
+                -2.875179980197574
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1190.4537864958347,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.27321513956244,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 3,
+            "time": 0.30000000000000004,
+            "position": [
+                0.21795987257332033,
+                -6.99285057526958e-05,
+                4.041720451574356
+            ],
+            "velocity": [
+                0.8715480938502393,
+                -0.0002930432632379629,
+                -3.8309928518719767
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1185.4770919229882,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.022666167430607,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 4,
+            "time": 0.4,
+            "position": [
+                0.3268470851523175,
+                -4.169501229239738e-05,
+                3.563275166674894
+            ],
+            "velocity": [
+                1.0888721257899714,
+                0.00028233493460298417,
+                -4.784452848994624
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1190.4113909049447,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.35312554444431,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 5,
+            "time": 0.5,
+            "position": [
+                0.45744170371707915,
+                -3.155234898907822e-05,
+                2.9896505481952866
+            ],
+            "velocity": [
+                1.305946185647617,
+                0.0001014266330331916,
+                -5.73624618479607
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1133.908774421474,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 23.279185979413157,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 6,
+            "time": 0.6000000000000001,
+            "position": [
+                0.6096956461788009,
+                -2.9838207079131215e-05,
+                2.321189675922307
+            ],
+            "velocity": [
+                1.5225394246172175,
+                1.7141419099470057e-05,
+                -6.684608722729795
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1199.2961909279852,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.720944039542367,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 7,
+            "time": 0.7000000000000001,
+            "position": [
+                0.7835620091092563,
+                -6.332283584133504e-05,
+                1.5581958461374121
+            ],
+            "velocity": [
+                1.7386636293045545,
+                -0.0003348462876220382,
+                -7.6299382978489465
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1190.977455503596,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 23.891557101643286,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 8,
+            "time": 0.8,
+            "position": [
+                0.9789743845697078,
+                -9.566429971363038e-05,
+                0.7010575193201422
+            ],
+            "velocity": [
+                1.9541237546045143,
+                -0.0003234146387229534,
+                -8.5713832681727
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.623619604801277,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 9,
+            "time": 0.9,
+            "position": [
+                1.19586466651661,
+                -0.00013756279542318523,
+                -0.24985128661503742
+            ],
+            "velocity": [
+                2.1689028194690225,
+                -0.00041898495709554844,
+                -9.509088059351795
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.42858133641669,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 10,
+            "time": 1.0,
+            "position": [
+                1.4341363530358766,
+                -0.00014895350444135987,
+                -1.2940520045850197
+            ],
+            "velocity": [
+                2.3827168651926662,
+                -0.0001139070901817463,
+                -10.442007179699823
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.48014888365897,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 11,
+            "time": 1.1,
+            "position": [
+                1.6936883645497811,
+                -0.00017299863521986296,
+                -2.4310911979667837
+            ],
+            "velocity": [
+                2.595520115139044,
+                -0.00024045130778503097,
+                -11.370391933817642
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1171.409512833735,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.47615986090929,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 12,
+            "time": 1.2000000000000002,
+            "position": [
+                1.9743864853292807,
+                -0.00018243422454094634,
+                -3.6604191970920548
+            ],
+            "velocity": [
+                2.8069812077949963,
+                -9.435589321083392e-05,
+                -12.29327999125271
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1114.1971861850373,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.746746774829653,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 13,
+            "time": 1.3,
+            "position": [
+                2.2760820477897297,
+                -0.00019456577137072405,
+                -4.98148342176487
+            ],
+            "velocity": [
+                3.0169556246044884,
+                -0.00012131546829777713,
+                -13.210642246728149
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1144.7380612096097,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.356828677117146,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 14,
+            "time": 1.4000000000000001,
+            "position": [
+                2.5986124261424233,
+                -0.0002024237113604916,
+                -6.393729304698152
+            ],
+            "velocity": [
+                3.2253037835269347,
+                -7.857939989767566e-05,
+                -14.122458829332814
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1085.9653946292915,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.427752133214916,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 15,
+            "time": 1.5,
+            "position": [
+                2.941753924679934,
+                -0.00022807853268249408,
+                -7.896471611347497
+            ],
+            "velocity": [
+                3.4314149853751035,
+                -0.00025654821322002453,
+                -15.027423066493451
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 23.55681435150353,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 16,
+            "time": 1.6,
+            "position": [
+                3.3052869160218585,
+                -0.00024010712018512624,
+                -9.489092625735386
+            ],
+            "velocity": [
+                3.6353299134192465,
+                -0.00012028587502632145,
+                -15.926210143878889
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.26265922872791,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 17,
+            "time": 1.7000000000000002,
+            "position": [
+                3.6889421487774063,
+                -0.00025921026135502373,
+                -11.170904751391035
+            ],
+            "velocity": [
+                3.8365523275554776,
+                -0.0001910314116989749,
+                -16.818121256556484
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1133.4483223641378,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.649128901706202,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 18,
+            "time": 1.8,
+            "position": [
+                4.092424148209246,
+                -0.00028759215092521496,
+                -12.94121692832012
+            ],
+            "velocity": [
+                4.034819994318396,
+                -0.0002838188957019121,
+                -17.703121769290853
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 23.24194261568888,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 19,
+            "time": 1.9000000000000001,
+            "position": [
+                4.515383864621604,
+                -0.00034041059297903965,
+                -14.79928612454806
+            ],
+            "velocity": [
+                4.229597164123573,
+                -0.0005281844205382469,
+                -18.580691962279396
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1190.54238597303,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.932674308002024,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 20,
+            "time": 2.0,
+            "position": [
+                4.957469159425246,
+                -0.0004147611642095417,
+                -16.744421931325093
+            ],
+            "velocity": [
+                4.420852948036423,
+                -0.0007435057123050206,
+                -19.451358067770325
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1159.212010547929,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.462427350397856,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 21,
+            "time": 2.1,
+            "position": [
+                5.418278165584431,
+                -0.00047358868189693133,
+                -18.775898057225067
+            ],
+            "velocity": [
+                4.608090061591855,
+                -0.000588275176873896,
+                -20.314761258999752
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1174.0405353191231,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.816429897349064,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 22,
+            "time": 2.2,
+            "position": [
+                5.8973760045855865,
+                -0.0005420165237740786,
+                -20.892994511064085
+            ],
+            "velocity": [
+                4.790978390011549,
+                -0.0006842784187714727,
+                -21.170964538390194
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1107.0118784810868,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.592174251455976,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 23,
+            "time": 2.3000000000000003,
+            "position": [
+                6.394271671257891,
+                -0.0006151788985229933,
+                -23.094965744608977
+            ],
+            "velocity": [
+                4.968956666723041,
+                -0.000731623747489147,
+                -22.019712335448922
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 23.311233572569108,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 24,
+            "time": 2.4000000000000004,
+            "position": [
+                6.908469283717357,
+                -0.0006785013514002357,
+                -25.381114646847628
+            ],
+            "velocity": [
+                5.1419761245946605,
+                -0.0006332245287724248,
+                -22.861489022386515
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1106.5395662496353,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.297968168469147,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 25,
+            "time": 2.5,
+            "position": [
+                7.439438228750813,
+                -0.0007610299621010326,
+                -27.750750424654544
+            ],
+            "velocity": [
+                5.309689450334555,
+                -0.0008252861070079689,
+                -23.696357778069164
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1148.35451124833,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.12169135955207,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 26,
+            "time": 2.6,
+            "position": [
+                7.986622807211094,
+                -0.0008335002363606059,
+                -30.203203782797747
+            ],
+            "velocity": [
+                5.471845784602812,
+                -0.0007247027425957331,
+                -24.524533581432035
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1173.8282022981527,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.855501912936628,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 27,
+            "time": 2.7,
+            "position": [
+                8.549458470555413,
+                -0.0009300681518947228,
+                -32.73784405155358
+            ],
+            "velocity": [
+                5.628356633443187,
+                -0.0009656791553411675,
+                -25.346402687558353
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 23.422995861931373,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 28,
+            "time": 2.8000000000000003,
+            "position": [
+                9.127362184962955,
+                -0.0010319900619291768,
+                -35.35406599051339
+            ],
+            "velocity": [
+                5.7790371440754225,
+                -0.0010192191003445417,
+                -26.16221938959808
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.692067439293332,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 29,
+            "time": 2.9000000000000004,
+            "position": [
+                9.719740026156122,
+                -0.0011296087097143303,
+                -38.051295809780186
+            ],
+            "velocity": [
+                5.923778411931679,
+                -0.0009761864778515357,
+                -26.972298192667957
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1185.8928301363064,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.73015850700298,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 30,
+            "time": 3.0,
+            "position": [
+                10.326038194527174,
+                -0.0011748489528453276,
+                -40.82903127605907
+            ],
+            "velocity": [
+                6.0629816837105155,
+                -0.0004524024313099724,
+                -27.77735466278883
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.130796245909966,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 31,
+            "time": 3.1,
+            "position": [
+                10.945636899966535,
+                -0.0011938793631241945,
+                -43.68674958846741
+            ],
+            "velocity": [
+                6.195987054393625,
+                -0.00019030410278866872,
+                -28.577183124083376
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.22434982987974,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 32,
+            "time": 3.2,
+            "position": [
+                11.577937840273153,
+                -0.0011867449692322893,
+                -46.623979922242896
+            ],
+            "velocity": [
+                6.3230094030661785,
+                7.134393891905115e-05,
+                -29.372303337754904
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1139.0064996521678,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.841551439508084,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 33,
+            "time": 3.3000000000000003,
+            "position": [
+                12.222358441187904,
+                -0.0012001679532423276,
+                -49.640290510296275
+            ],
+            "velocity": [
+                6.444206009147506,
+                -0.00013422984010038342,
+                -30.163105880533806
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1174.7279162121679,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.311793448393587,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 34,
+            "time": 3.4000000000000004,
+            "position": [
+                12.878304129755572,
+                -0.0012296093262556275,
+                -52.735270652790824
+            ],
+            "velocity": [
+                6.559456885676679,
+                -0.00029441373013300103,
+                -30.949801424945473
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.078596182158993,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 35,
+            "time": 3.5,
+            "position": [
+                13.545223871480673,
+                -0.0012594956200404285,
+                -55.90856054795009
+            ],
+            "velocity": [
+                6.6691974172510164,
+                -0.00029886293784801013,
+                -31.732898951592666
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1171.4380828916812,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.675832492106686,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 36,
+            "time": 3.6,
+            "position": [
+                14.22257110338272,
+                -0.0013100481268741315,
+                -59.159826430566866
+            ],
+            "velocity": [
+                6.773472319020469,
+                -0.0005055250683370297,
+                -32.51265882616781
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.12423152350357,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 37,
+            "time": 3.7,
+            "position": [
+                14.909792724942646,
+                -0.0013413150747625968,
+                -62.488748808929785
+            ],
+            "velocity": [
+                6.872216215599263,
+                -0.0003126694788846518,
+                -33.28922378362918
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1169.0737700321124,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.798287605592407,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 38,
+            "time": 3.8000000000000003,
+            "position": [
+                15.606358618777195,
+                -0.0013756190247832098,
+                -65.89504079960379
+            ],
+            "velocity": [
+                6.9656589383454985,
+                -0.0003430395002061306,
+                -34.06291990674012
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1142.41283519121,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.414003355786203,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 39,
+            "time": 3.9000000000000004,
+            "position": [
+                16.3117869370279,
+                -0.0014110399906172258,
+                -69.37845488901037
+            ],
+            "velocity": [
+                7.054283182507052,
+                -0.00035420965834015965,
+                -34.834140894065825
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1186.3089408002197,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.343679863638595,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 40,
+            "time": 4.0,
+            "position": [
+                17.025586098189894,
+                -0.0014587177073601965,
+                -72.9387519762624
+            ],
+            "velocity": [
+                7.137991611619948,
+                -0.0004767771674297066,
+                -35.60297087252021
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.760899190187047,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 41,
+            "time": 4.1000000000000005,
+            "position": [
+                17.747270076663366,
+                -0.0014923221681687297,
+                -76.57570976410143
+            ],
+            "velocity": [
+                7.216839784734701,
+                -0.0003360446080853332,
+                -36.36957787839041
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.80755129712491,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 42,
+            "time": 4.2,
+            "position": [
+                18.47640093645382,
+                -0.0015464863956689185,
+                -80.28913742148312
+            ],
+            "velocity": [
+                7.2913085979045675,
+                -0.0005416422750018889,
+                -37.13427657381692
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.239387534888802,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 43,
+            "time": 4.3,
+            "position": [
+                19.212548575141152,
+                -0.0015925010330734594,
+                -84.07885676298598
+            ],
+            "velocity": [
+                7.36147638687332,
+                -0.00046014637404540856,
+                -37.89719341502862
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 23.2738974818013,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 44,
+            "time": 4.4,
+            "position": [
+                19.955282829922922,
+                -0.001646612981071295,
+                -87.94470009348267
+            ],
+            "velocity": [
+                7.427342547817678,
+                -0.0005411194799783555,
+                -38.65843330496692
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.10588455584568,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 45,
+            "time": 4.5,
+            "position": [
+                20.704236391409864,
+                -0.0017058920025334857,
+                -91.88653004553561
+            ],
+            "velocity": [
+                7.489535614869431,
+                -0.0005927902146219074,
+                -39.418299520529395
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.648568345963742,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 46,
+            "time": 4.6000000000000005,
+            "position": [
+                21.459032726808957,
+                -0.0017769219466216102,
+                -95.90421107444753
+            ],
+            "velocity": [
+                7.547963353990906,
+                -0.0007102994408812452,
+                -40.17681028911928
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1165.919330383335,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.198955903363515,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 47,
+            "time": 4.7,
+            "position": [
+                22.219297849148948,
+                -0.0018598837813713525,
+                -99.99761596447223
+            ],
+            "velocity": [
+                7.602651223399897,
+                -0.0008296183474974224,
+                -40.93404890024703
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.847708131980706,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 48,
+            "time": 4.800000000000001,
+            "position": [
+                22.984698878338985,
+                -0.0019434512843306947,
+                -104.16663589642765
+            ],
+            "velocity": [
+                7.654010291900392,
+                -0.0008356750295934215,
+                -41.69019931955414
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.1717643221735,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 49,
+            "time": 4.9,
+            "position": [
+                23.754905199620307,
+                -0.002041205947900424,
+                -96.74029584177963
+            ],
+            "velocity": [
+                7.702063212813205,
+                -0.0009775466356972916,
+                32.597041582203694
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.301481064466383,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 50,
+            "time": 5.0,
+            "position": [
+                24.53011384555557,
+                -0.0021528487341247746,
+                -93.55839004507227
+            ],
+            "velocity": [
+                7.75208645935262,
+                -0.0011164278622435074,
+                31.8190579670735
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1181.4532697085137,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.428074377107013,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 51,
+            "time": 5.1000000000000005,
+            "position": [
+                25.31032544942564,
+                -0.002249547797394503,
+                -90.45426064707657
+            ],
+            "velocity": [
+                7.802116038700729,
+                -0.0009669906326972836,
+                31.04129397995703
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.79925721200917,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 52,
+            "time": 5.2,
+            "position": [
+                26.095519675812415,
+                -0.0023456949497582587,
+                -87.42787973227432
+            ],
+            "velocity": [
+                7.851942263867734,
+                -0.0009614715236375555,
+                30.263809148022506
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1197.9069650431131,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.604921749506456,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 53,
+            "time": 5.300000000000001,
+            "position": [
+                26.88570066232484,
+                -0.0024447937485944774,
+                -84.47922403476223
+            ],
+            "velocity": [
+                7.90180986512426,
+                -0.0009909879883621873,
+                29.486556975120934
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1144.4907862218427,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.88542391822937,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 54,
+            "time": 5.4,
+            "position": [
+                27.68085012052338,
+                -0.0025356421637565832,
+                -81.60826625394654
+            ],
+            "velocity": [
+                7.951494581985411,
+                -0.0009084841516210594,
+                28.70957780815683
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1174.9986222609061,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.100179072937795,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 55,
+            "time": 5.5,
+            "position": [
+                28.480966795578546,
+                -0.0026391717977857325,
+                -78.8149835782368
+            ],
+            "velocity": [
+                8.00116675055165,
+                -0.0010352963402914927,
+                27.932826757097278
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1097.1371538217165,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.29351531808662,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 56,
+            "time": 5.6000000000000005,
+            "position": [
+                29.285990640936937,
+                -0.0027339530747153384,
+                -76.09933875627416
+            ],
+            "velocity": [
+                8.050238453583905,
+                -0.0009478127692960578,
+                27.156448219626444
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1189.2284895815687,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.20026113095568,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 57,
+            "time": 5.7,
+            "position": [
+                30.095883834833764,
+                -0.002817986828499815,
+                -73.46129882055129
+            ],
+            "velocity": [
+                8.098931938968278,
+                -0.0008403375378447659,
+                26.38039935722878
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.461447397655853,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 58,
+            "time": 5.800000000000001,
+            "position": [
+                30.910624858580068,
+                -0.002910713095059956,
+                -70.90083520154239
+            ],
+            "velocity": [
+                8.147410237463028,
+                -0.0009272626656014122,
+                25.604636190089057
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.50359355208219,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 59,
+            "time": 5.9,
+            "position": [
+                31.730161385898114,
+                -0.002990726498264819,
+                -68.4179135637685
+            ],
+            "velocity": [
+                8.195365273180448,
+                -0.0008001340320486305,
+                24.829216377739023
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1126.1683399319306,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.47165753958167,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 60,
+            "time": 6.0,
+            "position": [
+                32.554395830221424,
+                -0.003065506008492275,
+                -66.0124865147946
+            ],
+            "velocity": [
+                8.242344443233128,
+                -0.0007477951022745564,
+                24.05427048973892
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1139.82151078231,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.466131432191396,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 61,
+            "time": 6.1000000000000005,
+            "position": [
+                33.3832864515661,
+                -0.0031327109149851596,
+                -63.68452228289188
+            ],
+            "velocity": [
+                8.288906213446763,
+                -0.0006720490649288474,
+                23.279642319027175
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.4408565078494,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 62,
+            "time": 6.2,
+            "position": [
+                34.21677272988476,
+                -0.003227915067983805,
+                -61.43398439227106
+            ],
+            "velocity": [
+                8.334862783186596,
+                -0.0009520415299864502,
+                22.505378906208247
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.516859799696213,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 63,
+            "time": 6.300000000000001,
+            "position": [
+                35.054750820237494,
+                -0.003326721432788314,
+                -59.26082705890741
+            ],
+            "velocity": [
+                8.379780903527324,
+                -0.0009880636480450887,
+                21.73157333363648
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1196.1536663703916,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 27.18854302761784,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 64,
+            "time": 6.4,
+            "position": [
+                35.897080261411816,
+                -0.003443753091551766,
+                -57.16499595708302
+            ],
+            "velocity": [
+                8.423294411743179,
+                -0.0011703165876345233,
+                20.958311018243855
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1092.7914303713185,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.5811636563433,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 65,
+            "time": 6.5,
+            "position": [
+                36.74367125459218,
+                -0.0035484148262208723,
+                -55.14644928460159
+            ],
+            "velocity": [
+                8.465909931803646,
+                -0.0010466173466910599,
+                20.185466724814372
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 27.324263574250757,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 66,
+            "time": 6.6000000000000005,
+            "position": [
+                37.59439059852104,
+                -0.0036373191357814832,
+                -53.20513496027219
+            ],
+            "velocity": [
+                8.507193439288553,
+                -0.0008890430956061094,
+                19.41314324329401
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1144.54934885166,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.530014407189018,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 67,
+            "time": 6.7,
+            "position": [
+                38.4490828990824,
+                -0.0037390232070516464,
+                -51.340998838283774
+            ],
+            "velocity": [
+                8.546923005613639,
+                -0.0010170407127016315,
+                18.641361219884185
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.09039505567506,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 68,
+            "time": 6.800000000000001,
+            "position": [
+                39.30756437596352,
+                -0.003865570576339773,
+                -49.5539829357908
+            ],
+            "velocity": [
+                8.58481476881127,
+                -0.001265473692881265,
+                17.87015902492973
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.422152167035712,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 69,
+            "time": 6.9,
+            "position": [
+                40.169661259237365,
+                -0.003979793310971137,
+                -47.84403232963032
+            ],
+            "velocity": [
+                8.620968832738448,
+                -0.0011422273463136492,
+                17.099506061604743
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1144.5811972395502,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.367889117205937,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 70,
+            "time": 7.0,
+            "position": [
+                41.03515774192867,
+                -0.004097295999523176,
+                -46.21108689537646
+            ],
+            "velocity": [
+                8.654964826913039,
+                -0.0011750268855203819,
+                16.329454342538607
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.93615859231593,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 71,
+            "time": 7.1000000000000005,
+            "position": [
+                41.90385521257204,
+                -0.0042156731128066074,
+                -44.65509105178438
+            ],
+            "velocity": [
+                8.686974706433714,
+                -0.0011837711328343157,
+                15.559958435920796
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.448154628834683,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 72,
+            "time": 7.2,
+            "position": [
+                42.77550608005569,
+                -0.004344872775787036,
+                -43.17598322294847
+            ],
+            "velocity": [
+                8.716508674836495,
+                -0.0012919966298042841,
+                14.791078288359122
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.759728980580086,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 73,
+            "time": 7.300000000000001,
+            "position": [
+                43.64985040701361,
+                -0.004464361060181996,
+                -41.773703451402305
+            ],
+            "velocity": [
+                8.743443269579146,
+                -0.001194882843949602,
+                14.022797715461625
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.72399599699024,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 74,
+            "time": 7.4,
+            "position": [
+                44.52658537166047,
+                -0.004576112192246661,
+                -40.44818974691586
+            ],
+            "velocity": [
+                8.76734964646855,
+                -0.0011175113206466512,
+                13.255137044864489
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.457628885897403,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 75,
+            "time": 7.5,
+            "position": [
+                45.40538779410973,
+                -0.00466878209994178,
+                -39.19938249237939
+            ],
+            "velocity": [
+                8.788024224492586,
+                -0.0009266990769511972,
+                12.488072545364634
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1138.3591225712948,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.00485243063596,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 76,
+            "time": 7.6000000000000005,
+            "position": [
+                46.285958941945445,
+                -0.0047577720509586405,
+                -38.02722717003819
+            ],
+            "velocity": [
+                8.80571147835715,
+                -0.0008898995101685971,
+                11.72155322341207
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.01263609496779,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 77,
+            "time": 7.7,
+            "position": [
+                47.16794036320845,
+                -0.004840577373222557,
+                -36.93167157106191
+            ],
+            "velocity": [
+                8.819814212630053,
+                -0.0008280532226391579,
+                10.955555989762747
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1141.12389302235,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.166483598733034,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 78,
+            "time": 7.800000000000001,
+            "position": [
+                48.050986761081425,
+                -0.004943202070388198,
+                -35.912668606733305
+            ],
+            "velocity": [
+                8.830463978729716,
+                -0.001026246971656412,
+                10.190029643286039
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1188.0136639123964,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.464341594257146,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 79,
+            "time": 7.9,
+            "position": [
+                48.93465620513599,
+                -0.005037148431019975,
+                -34.970172340268235
+            ],
+            "velocity": [
+                8.836694440545605,
+                -0.0009394636063177747,
+                9.424962664650705
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.786911751557707,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 80,
+            "time": 8.0,
+            "position": [
+                49.81857551029955,
+                -0.005148956555333825,
+                -34.10414884454331
+            ],
+            "velocity": [
+                8.839193051635654,
+                -0.0011180812431384984,
+                8.66023495724922
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1144.4339601355748,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.853496532746792,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 81,
+            "time": 8.1,
+            "position": [
+                50.70227452486657,
+                -0.005234999114861516,
+                -33.31456912912087
+            ],
+            "velocity": [
+                8.836990145670152,
+                -0.0008604255952769136,
+                7.895797154224377
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1139.6185438486707,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.688506956477816,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 82,
+            "time": 8.200000000000001,
+            "position": [
+                51.58537118334954,
+                -0.0053468459666579345,
+                -32.60141174446428
+            ],
+            "velocity": [
+                8.830966584829726,
+                -0.0011184685179641827,
+                7.131573846565905
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.168314296837853,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 83,
+            "time": 8.3,
+            "position": [
+                52.46738155605515,
+                -0.005424779761904285,
+                -31.96466658798465
+            ],
+            "velocity": [
+                8.82010372705618,
+                -0.0007793379524635057,
+                6.367451564796314
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1123.6164693630005,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.540043780339914,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 84,
+            "time": 8.4,
+            "position": [
+                53.34784974670401,
+                -0.005471277417027602,
+                -31.40433194207134
+            ],
+            "velocity": [
+                8.80468190648852,
+                -0.0004649765512331681,
+                5.603346459133095
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1185.8626634261352,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.958901215360108,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 85,
+            "time": 8.5,
+            "position": [
+                54.226312006396135,
+                -0.0054518687307003304,
+                -30.920417429311602
+            ],
+            "velocity": [
+                8.784622596921263,
+                0.00019408686327271508,
+                4.839145127597382
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.834277365218146,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 86,
+            "time": 8.6,
+            "position": [
+                55.102244108573004,
+                -0.005414281659944134,
+                -30.51294857316417
+            ],
+            "velocity": [
+                8.759321021768677,
+                0.0003758707075619624,
+                4.0746885614743045
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 23.93784765189123,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 87,
+            "time": 8.700000000000001,
+            "position": [
+                55.975141044013604,
+                -0.005363331985317759,
+                -30.18196063502501
+            ],
+            "velocity": [
+                8.728969354405981,
+                0.0005094967462637504,
+                3.3098793813915943
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.159822502801493,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 88,
+            "time": 8.8,
+            "position": [
+                56.844560654669365,
+                -0.005340926338836382,
+                -29.927491304573664
+            ],
+            "velocity": [
+                8.694196106557595,
+                0.00022405646481376575,
+                2.544693304513471
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.513495843267016,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 89,
+            "time": 8.9,
+            "position": [
+                57.71005055135453,
+                -0.0052700486089133705,
+                -29.74959011048285
+            ],
+            "velocity": [
+                8.654898966851592,
+                0.0007087772992301108,
+                1.779011940908143
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.016055819816792,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 90,
+            "time": 9.0,
+            "position": [
+                58.5711051748197,
+                -0.005206570564514785,
+                -29.648325406858234
+            ],
+            "velocity": [
+                8.610546234651743,
+                0.0006347804439858528,
+                1.0126470362461348
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1160.554086329779,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.758302014933218,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 91,
+            "time": 9.1,
+            "position": [
+                59.42724416655534,
+                -0.0051202598682298164,
+                -29.62377401149038
+            ],
+            "velocity": [
+                8.56138991735642,
+                0.0008631069628496865,
+                0.245513953678548
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.160706942037386,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 92,
+            "time": 9.200000000000001,
+            "position": [
+                60.278058941731075,
+                -0.005056617239212228,
+                -29.6760063489758
+            ],
+            "velocity": [
+                8.50814775175738,
+                0.0006364262901758803,
+                -0.5223233748542236
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.072390341624537,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 93,
+            "time": 9.3,
+            "position": [
+                61.123185272776844,
+                -0.0049340509906080875,
+                -29.805088281610622
+            ],
+            "velocity": [
+                8.451263310457708,
+                0.0012256624860414128,
+                -1.2908193263482133
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1186.99924167573,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.313958551830467,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 94,
+            "time": 9.4,
+            "position": [
+                61.962170757090206,
+                -0.0048266807333063235,
+                -30.011118253880877
+            ],
+            "velocity": [
+                8.38985484313364,
+                0.0010737025730176357,
+                -2.060299722702545
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1043.1395317634456,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.127501973220003,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 95,
+            "time": 9.5,
+            "position": [
+                62.794608002004146,
+                -0.004739230720748289,
+                -30.294191155040732
+            ],
+            "velocity": [
+                8.324372449139432,
+                0.0008745001255803506,
+                -2.830729011598558
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1195.1155370342292,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.974628416820895,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 96,
+            "time": 9.600000000000001,
+            "position": [
+                63.620170463701754,
+                -0.00469093974650929,
+                -30.654384829341502
+            ],
+            "velocity": [
+                8.255624616976103,
+                0.0004829097423899912,
+                -3.601936743007711
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1056.6839061037704,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.20783975040249,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 97,
+            "time": 9.700000000000001,
+            "position": [
+                64.43854410539402,
+                -0.004619341207347273,
+                -31.091780343336044
+            ],
+            "velocity": [
+                8.183736416922606,
+                0.0007159853916201704,
+                -4.3739551399454175
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.326085685570877,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 98,
+            "time": 9.8,
+            "position": [
+                65.2494087336517,
+                -0.004494980435319795,
+                -31.60646343533563
+            ],
+            "velocity": [
+                8.108646282576828,
+                0.0012436077202747796,
+                -5.146830919995864
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 23.198891995877798,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 99,
+            "time": 9.9,
+            "position": [
+                66.05248390512995,
+                -0.004346689524938532,
+                -32.19851326376382
+            ],
+            "velocity": [
+                8.030751714782456,
+                0.00148290910381263,
+                -5.9204982842818845
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1158.1293088425414,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.543392818559834,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 100,
+            "time": 10.0,
+            "position": [
+                66.84754675722685,
+                -0.004183172067722196,
+                -32.867990962243404
+            ],
+            "velocity": [
+                7.950628520969095,
+                0.001635174572163358,
+                -6.694776984795835
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1056.687578331096,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.953957251610706,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 101,
+            "time": 10.100000000000001,
+            "position": [
+                67.63438629139529,
+                -0.0040448369875469865,
+                -33.61495514378488
+            ],
+            "velocity": [
+                7.868395341684433,
+                0.0013833508017520914,
+                -7.46964181541477
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.20640166423598,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 102,
+            "time": 10.200000000000001,
+            "position": [
+                68.41278437141538,
+                -0.003944478423789929,
+                -34.439470246402145
+            ],
+            "velocity": [
+                7.7839808002009745,
+                0.0010035856375705731,
+                -8.245151026172595
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1110.6747964117403,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.074416910294868,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 103,
+            "time": 10.3,
+            "position": [
+                69.1825398593133,
+                -0.003832783805169871,
+                -35.3415959519832
+            ],
+            "velocity": [
+                7.697554878979042,
+                0.0011169461862005783,
+                -9.021257055810533
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.91271586503264,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 104,
+            "time": 10.4,
+            "position": [
+                69.943523446738,
+                -0.0037250745308693694,
+                -36.32136431548114
+            ],
+            "velocity": [
+                7.609835874247111,
+                0.001077092743005015,
+                -9.797683634979375
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 23.544546078427068,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 105,
+            "time": 10.5,
+            "position": [
+                70.695597344212,
+                -0.003621243714002341,
+                -37.37881260016993
+            ],
+            "velocity": [
+                7.520738974740008,
+                0.001038308168670287,
+                -10.57448284688789
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1082.6499269841524,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.18606406250508,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 106,
+            "time": 10.600000000000001,
+            "position": [
+                71.43870057132132,
+                -0.0035253583271029603,
+                -38.51394382340596
+            ],
+            "velocity": [
+                7.4310322710931125,
+                0.0009588538689938063,
+                -11.351312232360272
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.534708011332246,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 107,
+            "time": 10.700000000000001,
+            "position": [
+                72.17271568830313,
+                -0.003403121002033953,
+                -39.72678714503298
+            ],
+            "velocity": [
+                7.34015116981811,
+                0.00122237325069007,
+                -12.128433216270203
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.186618647205247,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 108,
+            "time": 10.8,
+            "position": [
+                72.89758979631699,
+                -0.003281767200872823,
+                -41.01734463603616
+            ],
+            "velocity": [
+                7.2487410801386085,
+                0.001213538011611305,
+                -12.905574910031756
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.026307128993626,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 109,
+            "time": 10.9,
+            "position": [
+                73.6132746787342,
+                -0.0031690052555957754,
+                -42.38561418144359
+            ],
+            "velocity": [
+                7.156848824172081,
+                0.001127619452770474,
+                -13.682695454074349
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 23.703125545484603,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 110,
+            "time": 11.0,
+            "position": [
+                74.3197213782361,
+                -0.003027089290241756,
+                -43.83159728418099
+            ],
+            "velocity": [
+                7.064466995019015,
+                0.001419159653540193,
+                -14.459831027373937
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 26.662587059658073,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 111,
+            "time": 11.100000000000001,
+            "position": [
+                75.01695213182148,
+                -0.002853789568578393,
+                -45.35526198907447
+            ],
+            "velocity": [
+                6.972307535853851,
+                0.0017329972166336307,
+                -15.236647048934838
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 23.708541812808306,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 112,
+            "time": 11.200000000000001,
+            "position": [
+                75.70495236852841,
+                -0.0026624049179466234,
+                -46.95659100941978
+            ],
+            "velocity": [
+                6.880002367069295,
+                0.001913846506317695,
+                -16.013290203453092
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.790430787378273,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 113,
+            "time": 11.3,
+            "position": [
+                76.38372363371359,
+                -0.002458963775948213,
+                -48.63556301478726
+            ],
+            "velocity": [
+                6.787712651851726,
+                0.0020344114199841025,
+                -16.78972005367476
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1200.0,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 25.068174141407958,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 114,
+            "time": 11.4,
+            "position": [
+                77.0532938924739,
+                -0.002256784478655779,
+                -50.39214305273384
+            ],
+            "velocity": [
+                6.6957025876031295,
+                0.0020217929729243397,
+                -17.56580037946585
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1197.4499171640618,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 27.95955309324201,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        },
+        {
+            "step": 115,
+            "time": 11.5,
+            "position": [
+                77.7136776400115,
+                -0.002028202814641844,
+                -52.2263035841767
+            ],
+            "velocity": [
+                6.603837475375932,
+                0.0022858166401393473,
+                -18.341605314428552
+            ],
+            "orientation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "main_battery_percentage": 100.0,
+            "reserve_battery_percentage": 100.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 1109.9205640861578,
+            "current_draw_w": 105.0,
+            "core_temperature_c": 24.199859790257882,
+            "target": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "emergency_stop": false,
+            "autonomous_mode": true
+        }
+    ],
+    "end_time": "20250606_214848",
+    "total_steps": 116,
+    "duration": 11.5
+}

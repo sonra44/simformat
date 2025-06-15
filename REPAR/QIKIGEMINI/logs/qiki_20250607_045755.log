@@ -1,0 +1,25 @@
+2025-06-07 04:57:55,166 - qiki - INFO - Logger initialized. Log file: logs/qiki_20250607_045755.log
+2025-06-07 04:57:55,167 - qiki.main - INFO - Initializing QIKI Simulation...
+2025-06-07 04:57:55,167 - qiki.frame_core - INFO - QIKI_Frame initialized with base mass 5.0 kg.
+2025-06-07 04:57:55,167 - qiki.power_sensors - INFO - PowerSensors initialized.
+2025-06-07 04:57:55,167 - qiki.power_systems - INFO - QIKI_PowerSystem initialized. Total mass: 16.00 kg.
+2025-06-07 04:57:55,167 - qiki.thermal_system - INFO - ThermalSystem initialized. Core temp: 20.0°C
+2025-06-07 04:57:55,168 - qiki.agent - INFO - Agent initialized.
+2025-06-07 04:57:55,168 - qiki.sensors - INFO - Sensors initialized with access to PhysicsObject, FrameCore, PowerSystems, and ThermalSystem.
+2025-06-07 04:57:56,867 - qiki.analyzer - INFO - Analyzer initialized. Session file: data/session_20250607_045756.json
+2025-06-07 04:57:56,868 - qiki.main - INFO - QIKI Simulation initialized successfully.
+2025-06-07 04:57:56,868 - qiki.main - INFO - Starting QIKI Simulation main loop...
+2025-06-07 04:57:56,868 - qiki.main - ERROR - An error occurred during simulation: type object 'Config' has no attribute 'SOLAR_EFFICIENCY_NOISE'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/QIKIGEMINI/main.py", line 91, in run
+    self.power_systems.update(self.dt, total_power_demand_w, solar_flux_factor=1.0, panel_orientation_factor=1.0)
+  File "/data/data/com.termux/files/home/QIKIGEMINI/hardware/power_systems.py", line 142, in update
+    generated_power_w = self.generate_power(solar_flux_factor, panel_orientation_factor)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/QIKIGEMINI/hardware/power_systems.py", line 90, in generate_power
+    generation_factor = solar_flux_factor * panel_orientation_factor * (1.0 - np.random.normal(0, Config.SOLAR_EFFICIENCY_NOISE))
+                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Config' has no attribute 'SOLAR_EFFICIENCY_NOISE'
+2025-06-07 04:57:56,883 - qiki.main - INFO - Simulation ended. Total real time: 0.02 seconds.
+2025-06-07 04:57:56,883 - qiki.analyzer - INFO - Analysis finalized. Total steps: 0
+2025-06-07 04:57:56,947 - qiki.main - INFO - Application exited.

@@ -1,0 +1,201 @@
+{
+    "start_time": "20250614_155659",
+    "steps": [
+        {
+            "step": 1,
+            "time": 0.016666666666666666,
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                -0.1635
+            ],
+            "orientation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "stress_level": 0.0,
+            "main_battery_percentage": 0.0,
+            "reserve_battery_percentage": 0.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 0.0,
+            "current_draw_w": 0.0,
+            "core_temperature_c": 20.0,
+            "agent_status": {
+                "target": [
+                    10.0,
+                    10.0,
+                    10.0
+                ],
+                "autonomous": true,
+                "emergency_stop": false,
+                "last_decision_time": 1749916619.0900528,
+                "command_count": 1
+            }
+        },
+        {
+            "step": 3,
+            "time": 0.03333333333333333,
+            "position": [
+                0.0,
+                0.0,
+                -0.002725
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                -0.32699481933139535
+            ],
+            "orientation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "stress_level": 0.0,
+            "main_battery_percentage": 0.0,
+            "reserve_battery_percentage": 0.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 0.0,
+            "current_draw_w": 0.0,
+            "core_temperature_c": 20.0,
+            "agent_status": {
+                "target": [
+                    10.0,
+                    10.0,
+                    10.0
+                ],
+                "autonomous": true,
+                "emergency_stop": false,
+                "last_decision_time": 1749916619.0900528,
+                "command_count": 2
+            }
+        },
+        {
+            "step": 5,
+            "time": 0.05,
+            "position": [
+                0.0,
+                0.0,
+                -0.008174913655523256
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                -0.49047409731359115
+            ],
+            "orientation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "stress_level": 0.0,
+            "main_battery_percentage": 0.0,
+            "reserve_battery_percentage": 0.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 0.0,
+            "current_draw_w": 0.0,
+            "core_temperature_c": 20.0,
+            "agent_status": {
+                "target": [
+                    10.0,
+                    10.0,
+                    10.0
+                ],
+                "autonomous": true,
+                "emergency_stop": false,
+                "last_decision_time": 1749916619.0900528,
+                "command_count": 2
+            }
+        },
+        {
+            "step": 6,
+            "time": 0.06666666666666667,
+            "position": [
+                0.0,
+                0.0,
+                -0.01634948194408311
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                -0.6539274762205416
+            ],
+            "orientation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "angular_velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "integrity_percentage": 100.0,
+            "stress_level": 0.0,
+            "main_battery_percentage": 0.0,
+            "reserve_battery_percentage": 0.0,
+            "total_battery_percentage": 100.0,
+            "solar_panel_output_w": 0.0,
+            "current_draw_w": 0.0,
+            "core_temperature_c": 20.0,
+            "agent_status": {
+                "target": [
+                    10.0,
+                    10.0,
+                    10.0
+                ],
+                "autonomous": true,
+                "emergency_stop": false,
+                "last_decision_time": 1749916619.0900528,
+                "command_count": 2
+            }
+        }
+    ],
+    "statistics": {
+        "total_steps": 4,
+        "simulation_duration_s": 0.05,
+        "total_distance_traveled_m": 0.01634948194408311,
+        "max_velocity_mps": 0.6539274762205416,
+        "avg_velocity_mps": 0.408724098216382,
+        "total_power_demanded_wh": 0.0,
+        "min_battery_percentage": 100.0,
+        "avg_battery_percentage": 100.0,
+        "max_solar_output_w": 0.0,
+        "avg_solar_output_w": 0.0,
+        "min_integrity_percentage": 100.0,
+        "avg_integrity_percentage": 100.0,
+        "max_stress_level": 0.0,
+        "avg_stress_level": 0.0,
+        "max_core_temperature_c": 20.0,
+        "min_core_temperature_c": 20.0,
+        "avg_core_temperature_c": 20.0
+    },
+    "end_time": "20250614_155659"
+}
