@@ -1,0 +1,773 @@
+# ================== СИСТЕМА МАШИННОГО ОБУЧЕНИЯ ==================
+import numpy as np
+from collections import deque
+import pickle
+import json
+from typing import Dict, List, Tuple, Any, Optional
+from abc import ABC, abstractmethod
+import threading
+import queue
+
+class NeuralNetwork:
+    """Простая нейронная сеть для принятия решений"""
+    
+    def __init__(self, layer_sizes: List[int], learning_rate: float = 0.01):
+        self.layer_sizes = layer_sizes
+        self.learning_rate = learning_rate
+        self.weights = []
+        self.biases = []
+        
+        # Инициализация весов и смещений
+        for i in range(len(layer_sizes) - 1):
+            weight = np.random.randn(layer_sizes[i], layer_sizes[i + 1]) * 0.1
+            bias = np.zeros((1, layer_sizes[i + 1]))
+            self.weights.append(weight)
+            self.biases.append(bias)
+    
+    def sigmoid(self, x):
+        return 1 / (1 + np.exp(-np.clip(x, -500, 500)))
+    
+    def sigmoid_derivative(self, x):
+        return x * (1 - x)
+    
+    def relu(self, x):
+        return np.maximum(0, x)
+    
+    def relu_derivative(self, x):
+        return (x > 0).astype(float)
+    
+    def forward(self, inputs: np.ndarray) -> np.ndarray:
+        """Прямое распространение"""
+        self.activations = [inputs]
+        
+        for i, (weight, bias) in enumerate(zip(self.weights, self.biases)):
+            z = np.dot(self.activations[-1], weight) + bias
+            if i < len(self.weights) - 1:  # Скрытые слои
+                activation = self.relu(z)
+            else:  # Выходной слой
+                activation = self.sigmoid(z)
+            self.activations.append(activation)
+        
+        return self.activations[-1]
+    
+    def backward(self, inputs: np.ndarray, targets: np.ndarray):
+        """Обратное распространение ошибки"""
+        m = inputs.shape[0]
+        
+        # Прямое распространение
+        output = self.forward(inputs)
+        
+        # Вычисление ошибки
+        error = output - targets
+        deltas = [error * self.sigmoid_derivative(output)]
+        
+        # Обратное распространение
+        for i in range(len(self.weights) - 2, -1, -1):
+            error = deltas[-1].dot(self.weights[i + 1].T)
+            delta = error * self.relu_derivative(self.activations[i + 1])
+            deltas.append(delta)
+        
+        deltas.reverse()
+        
+        # Обновление весов и смещений
+        for i in range(len(self.weights)):
+            self.weights[i] -= self.learning_rate * self.activations[i].T.dot(deltas[i]) / m
+            self.biases[i] -= self.learning_rate * np.sum(deltas[i], axis=0, keepdims=True) / m
+    
+    def train(self, inputs: np.ndarray, targets: np.ndarray, epochs: int = 100):
+        """Обучение сети"""
+        for epoch in range(epochs):
+            self.backward(inputs, targets)
+            if epoch % 20 == 0:
+                loss = np.mean((self.forward(inputs) - targets) ** 2)
+                # print(f"Epoch {epoch}, Loss: {loss:.6f}")
+    
+    def predict(self, inputs: np.ndarray) -> np.ndarray:
+        """Предсказание"""
+        return self.forward(inputs)
+    
+    def save(self, filepath: str):
+        """Сохранение модели"""
+        model_data = {
+            'layer_sizes': self.layer_sizes,
+            'learning_rate': self.learning_rate,
+            'weights': [w.tolist() for w in self.weights],
+            'biases': [b.tolist() for b in self.biases]
+        }
+        with open(filepath, 'w') as f:
+            json.dump(model_data, f)
+    
+    def load(self, filepath: str):
+        """Загрузка модели"""
+        with open(filepath, 'r') as f:
+            model_data = json.load(f)
+        
+        self.layer_sizes = model_data['layer_sizes']
+        self.learning_rate = model_data['learning_rate']
+        self.weights = [np.array(w) for w in model_data['weights']]
+        self.biases = [np.array(b) for b in model_data['biases']]
+
+class QLearningAgent:
+    """Q-Learning агент для обучения с подкреплением"""
+    
+    def __init__(self, state_size: int, action_size: int, learning_rate: float = 0.1, 
+                 discount_factor: float = 0.95, epsilon: float = 0.1):
+        self.state_size = state_size
+        self.action_size = action_size
+        self.learning_rate = learning_rate
+        self.discount_factor = discount_factor
+        self.epsilon = epsilon
+        self.epsilon_min = 0.01
+        self.epsilon_decay = 0.995
+        
+        # Q-таблица
+        self.q_table = np.zeros((state_size, action_size))
+        
+        # История обучения
+        self.training_history = deque(maxlen=1000)
+        self.total_rewards = 0
+        self.episode_count = 0
+    
+    def get_action(self, state: int) -> int:
+        """Выбор действия с epsilon-greedy стратегией"""
+        if np.random.random() <= self.epsilon:
+            return np.random.choice(self.action_size)
+        return np.argmax(self.q_table[state])
+    
+    def update(self, state: int, action: int, reward: float, next_state: int, done: bool):
+        """Обновление Q-таблицы"""
+        target = reward
+        if not done:
+            target += self.discount_factor * np.max(self.q_table[next_state])
+        
+        self.q_table[state, action] += self.learning_rate * (target - self.q_table[state, action])
+        
+        # Обновление epsilon
+        if self.epsilon > self.epsilon_min:
+            self.epsilon *= self.epsilon_decay
+        
+        # Логирование
+        self.training_history.append({
+            'state': state,
+            'action': action,
+            'reward': reward,
+            'next_state': next_state,
+            'done': done
+        })
+        
+        self.total_rewards += reward
+        if done:
+            self.episode_count += 1
+    
+    def get_performance_stats(self):
+        """Статистика производительности агента"""
+        if not self.training_history:
+            return {}
+        
+        recent_episodes = list(self.training_history)[-100:]
+        rewards = [ep['reward'] for ep in recent_episodes]
+        
+        return {
+            'total_episodes': self.episode_count,
+            'total_rewards': self.total_rewards,
+            'average_reward': np.mean(rewards),
+            'epsilon': self.epsilon,
+            'q_table_sparsity': np.count_nonzero(self.q_table) / self.q_table.size
+        }
+
+class ReinforcementLearningSystem:
+    """Система обучения с подкреплением для управления агентами"""
+    
+    def __init__(self, config: AIConfig):
+        self.config = config
+        self.agents = {}
+        self.environment_state = {}
+        self.reward_functions = {}
+        self.training_data = deque(maxlen=10000)
+        
+    def register_agent(self, agent_name: str, state_size: int, action_size: int):
+        """Регистрация агента для обучения"""
+        self.agents[agent_name] = QLearningAgent(
+            state_size=state_size,
+            action_size=action_size,
+            learning_rate=self.config.learning_rate
+        )
+    
+    def register_reward_function(self, agent_name: str, reward_func):
+        """Регистрация функции вознаграждения"""
+        self.reward_functions[agent_name] = reward_func
+    
+    def get_state_vector(self, context: Dict) -> np.ndarray:
+        """Преобразование контекста в вектор состояния"""
+        state_features = [
+            context.get('power_level', 0) / 100.0,
+            context.get('temperature', 0) / 120.0,
+            context.get('cpu_load', 0) / 100.0,
+            context.get('signal_strength', 0) / 100.0,
+            context.get('speed', 0) / 10.0,
+            context.get('system_health', 0) / 100.0
+        ]
+        return np.array(state_features)
+    
+    def update_agent(self, agent_name: str, old_state: Dict, action: int, 
+                    new_state: Dict, done: bool = False):
+        """Обновление агента после действия"""
+        if agent_name not in self.agents:
+            return
+        
+        agent = self.agents[agent_name]
+        
+        # Вычисление вознаграждения
+        reward = 0
+        if agent_name in self.reward_functions:
+            reward = self.reward_functions[agent_name](old_state, action, new_state)
+        
+        # Дискретизация состояний (простая)
+        old_state_idx = self._discretize_state(old_state)
+        new_state_idx = self._discretize_state(new_state)
+        
+        # Обновление агента
+        agent.update(old_state_idx, action, reward, new_state_idx, done)
+        
+        # Сохранение данных обучения
+        self.training_data.append({
+            'agent': agent_name,
+            'timestamp': datetime.now(),
+            'old_state': old_state,
+            'action': action,
+            'new_state': new_state,
+            'reward': reward
+        })
+    
+    def _discretize_state(self, state: Dict) -> int:
+        """Простая дискретизация состояния"""
+        # Упрощенная дискретизация для примера
+        power_level = min(9, int(state.get('power_level', 0) / 10))
+        temp_level = min(9, int(state.get('temperature', 0) / 12))
+        health_level = min(9, int(state.get('system_health', 0) / 10))
+        
+        return power_level * 100 + temp_level * 10 + health_level
+    
+    def get_action(self, agent_name: str, state: Dict) -> int:
+        """Получение действия от агента"""
+        if agent_name not in self.agents:
+            return 0
+        
+        state_idx = self._discretize_state(state)
+        return self.agents[agent_name].get_action(state_idx)
+
+class KnowledgeBase:
+    """База знаний для хранения и использования накопленного опыта"""
+    
+    def __init__(self, db_path: str = "qiki_knowledge.db"):
+        self.db_path = db_path
+        self.init_database()
+        self.patterns = {}
+        self.rules = []
+        
+    def init_database(self):
+        """Инициализация базы данных"""
+        import sqlite3
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS experiences (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                timestamp TEXT,
+                component TEXT,
+                situation TEXT,
+                action TEXT,
+                outcome TEXT,
+                success_rate REAL
+            )
+        ''')
+        
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS patterns (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                pattern_name TEXT UNIQUE,
+                pattern_data TEXT,
+                confidence REAL,
+                usage_count INTEGER DEFAULT 0
+            )
+        ''')
+        
+        conn.commit()
+        conn.close()
+    
+    def add_experience(self, component: str, situation: str, action: str, 
+                      outcome: str, success: bool):
+        """Добавление опыта в базу знаний"""
+        import sqlite3
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        
+        # Проверяем, есть ли уже такой опыт
+        cursor.execute('''
+            SELECT success_rate, id FROM experiences 
+            WHERE component=? AND situation=? AND action=?
+        ''', (component, situation, action))
+        
+        result = cursor.fetchone()
+        
+        if result:
+            # Обновляем существующий опыт
+            old_success_rate, exp_id = result
+            new_success_rate = (old_success_rate + (1.0 if success else 0.0)) / 2
+            cursor.execute('''
+                UPDATE experiences SET success_rate=?, outcome=? WHERE id=?
+            ''', (new_success_rate, outcome, exp_id))
+        else:
+            # Добавляем новый опыт
+            cursor.execute('''
+                INSERT INTO experiences 
+                (timestamp, component, situation, action, outcome, success_rate)
+                VALUES (?, ?, ?, ?, ?, ?)
+            ''', (datetime.now().isoformat(), component, situation, action, 
+                  outcome, 1.0 if success else 0.0))
+        
+        conn.commit()
+        conn.close()
+    
+    def get_best_action(self, component: str, situation: str) -> Optional[str]:
+        """Получение лучшего действия для ситуации"""
+        import sqlite3
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        
+        cursor.execute('''
+            SELECT action, success_rate FROM experiences 
+            WHERE component=? AND situation=? 
+            ORDER BY success_rate DESC LIMIT 1
+        ''', (component, situation))
+        
+        result = cursor.fetchone()
+        conn.close()
+        
+        return result[0] if result and result[1] > 0.5 else None
+    
+    def learn_pattern(self, pattern_name: str, data: Dict, confidence: float = 0.8):
+        """Изучение нового паттерна"""
+        import sqlite3
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        
+        pattern_json = json.dumps(data)
+        
+        cursor.execute('''
+            INSERT OR REPLACE INTO patterns 
+            (pattern_name, pattern_data, confidence, usage_count)
+            VALUES (?, ?, ?, COALESCE((SELECT usage_count FROM patterns WHERE pattern_name=?), 0))
+        ''', (pattern_name, pattern_json, confidence, pattern_name))
+        
+        conn.commit()
+        conn.close()
+        
+        self.patterns[pattern_name] = data
+    
+    def get_pattern(self, pattern_name: str) -> Optional[Dict]:
+        """Получение паттерна"""
+        if pattern_name in self.patterns:
+            return self.patterns[pattern_name]
+        
+        import sqlite3
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        
+        cursor.execute('''
+            SELECT pattern_data FROM patterns WHERE pattern_name=?
+        ''', (pattern_name,))
+        
+        result = cursor.fetchone()
+        conn.close()
+        
+        if result:
+            pattern = json.loads(result[0])
+            self.patterns[pattern_name] = pattern
+            return pattern
+        
+        return None
+
+# ================== ПРОДВИНУТЫЕ АВТОНОМНЫЕ АГЕНТЫ ==================
+class BaseAdvancedAgent(ABC):
+    """Базовый класс для продвинутых агентов"""
+    
+    def __init__(self, name: str, priority: int = 1, use_ml: bool = True):
+        self.name = name
+        self.priority = priority
+        self.active = True
+        self.performance = 100.0
+        self.use_ml = use_ml
+        
+        # ML компоненты
+        self.neural_network = None
+        self.knowledge_base = KnowledgeBase()
+        self.decision_history = deque(maxlen=1000)
+        self.learning_enabled = True
+        
+        # Метрики
+        self.decisions_made = 0
+        self.successful_decisions = 0
+        self.last_decision_time = 0
+        
+        # Состояние агента
+        self.current_state = {}
+        self.last_action = None
+        self.action_space = self._define_action_space()
+        
+        if use_ml:
+            self._initialize_ml_components()
+    
+    @abstractmethod
+    def _define_action_space(self) -> List[str]:
+        """Определение пространства действий агента"""
+        pass
+    
+    @abstractmethod
+    def _evaluate_situation(self, context: Dict) -> Dict:
+        """Оценка текущей ситуации"""
+        pass
+    
+    @abstractmethod
+    def _execute_action(self, action: str, context: Dict) -> Dict:
+        """Выполнение действия"""
+        pass
+    
+    def _initialize_ml_components(self):
+        """Инициализация ML компонентов"""
+        # Создание простой нейронной сети
+        input_size = 10  # Размер входного вектора состояния
+        hidden_sizes = [64, 32, 16]
+        output_size = len(self.action_space)
+        
+        layer_sizes = [input_size] + hidden_sizes + [output_size]
+        self.neural_network = NeuralNetwork(layer_sizes)
+        
+        # Попытка загрузить предобученную модель
+        model_path = f"{self.name.lower()}_model.json"
+        if os.path.exists(model_path):
+            try:
+                self.neural_network.load(model_path)
+            except Exception as e:
+                print(f"Не удалось загрузить модель для {self.name}: {e}")
+    
+    def execute(self, context: Dict) -> str:
+        """Основной метод выполнения агента"""
+        if not self.active:
+            return f"{self.name}_INACTIVE"
+        
+        current_time = time.time()
+        
+        try:
+            # Оценка ситуации
+            situation = self._evaluate_situation(context)
+            
+            # Выбор действия
+            if self.use_ml and self.neural_network:
+                action = self._choose_ml_action(situation, context)
+            else:
+                action = self._choose_rule_based_action(situation, context)
+            
+            # Выполнение действия
+            result = self._execute_action(action, context)
+            
+            # Обучение на основе результата
+            if self.learning_enabled:
+                self._learn_from_result(situation, action, result)
+            
+            # Обновление метрик
+            self.decisions_made += 1
+            if result.get('success', False):
+                self.successful_decisions += 1
+            
+            self.last_decision_time = current_time
+            self.last_action = action
+            self.current_state = situation
+            
+            # Деградация производительности
+            self.performance *= 0.9999  # Очень медленная деградация
+            self.performance = max(70, min(100, self.performance))
+            
+            return result.get('message', f"{self.name}_EXECUTED")
+            
+        except Exception as e:
+            self.performance *= 0.99
+            return f"{self.name}_ERROR: {str(e)}"
+    
+    def _choose_ml_action(self, situation: Dict, context: Dict) -> str:
+        """Выбор действия с использованием ML"""
+        # Преобразование ситуации в вектор признаков
+        features = self._situation_to_features(situation, context)
+        features = np.array(features).reshape(1, -1)
+        
+        # Получение предсказания от нейронной сети
+        predictions = self.neural_network.predict(features)[0]
+        
+        # Выбор действия с учетом exploration
+        if random.random() < 0.1:  # 10% exploration
+            action_idx = random.randint(0, len(self.action_space) - 1)
+        else:
+            action_idx = np.argmax(predictions)
+        
+        return self.action_space[action_idx]
+    
+    def _choose_rule_based_action(self, situation: Dict, context: Dict) -> str:
+        """Выбор действия на основе правил"""
+        # Попытка найти лучшее действие в базе знаний
+        situation_desc = self._describe_situation(situation)
+        best_action = self.knowledge_base.get_best_action(self.name, situation_desc)
+        
+        if best_action and best_action in self.action_space:
+            return best_action
+        
+        # Возврат к действию по умолчанию
+        return self.action_space[0] if self.action_space else "default"
+    
+    def _situation_to_features(self, situation: Dict, context: Dict) -> List[float]:
+        """Преобразование ситуации в вектор признаков"""
+        features = [
+            situation.get('urgency', 0) / 10.0,
+            situation.get('complexity', 0) / 10.0,
+            situation.get('risk', 0) / 10.0,
+            context.get('power', {}).get('charge', 0) / 100.0,
+            context.get('thermal', {}).get('temperature', 0) / 120.0,
+            context.get('processor', {}).get('cpu_load', 0) / 100.0,
+            context.get('communication', {}).get('signal_strength', 0) / 100.0,
+            self.performance / 100.0,
+            time.time() % 86400 / 86400,  # Время суток
+            len(self.decision_history) / 1000.0
+        ]
+        
+        # Дополнение до нужного размера
+        while len(features) < 10:
+            features.append(0.0)
+        
+        return features[:10]
+    
+    def _describe_situation(self, situation: Dict) -> str:
+        """Текстовое описание ситуации"""
+        urgency = situation.get('urgency', 0)
+        if urgency > 7:
+            return "critical"
+        elif urgency > 4:
+            return "urgent"
+        else:
+            return "normal"
+    
+    def _learn_from_result(self, situation: Dict, action: str, result: Dict):
+        """Обучение на основе результата"""
+        success = result.get('success', False)
+        
+        # Добавление опыта в базу знаний
+        situation_desc = self._describe_situation(situation)
+        outcome = result.get('message', 'unknown')
+        self.knowledge_base.add_experience(self.name, situation_desc, action, outcome, success)
+        
+        # Сохранение в историю решений
+        decision_record = {
+            'timestamp': datetime.now(),
+            'situation': situation,
+            'action': action,
+            'result': result,
+            'success': success
+        }
+        self.decision_history.append(decision_record)
+        
+        # Обучение нейронной сети (периодически)
+        if self.use_ml and len(self.decision_history) > 50 and self.decisions_made % 20 == 0:
+            self._train_neural_network()
+    
+    def _train_neural_network(self):
+        """Обучение нейронной сети на накопленных данных"""
+        if not self.neural_network or len(self.decision_history) < 10:
+            return
+        
+        # Подготовка данных для обучения
+        X, y = [], []
+        
+        for record in list(self.decision_history)[-100:]:  # Последние 100 решений
+            features = self._situation_to_features(record['situation'], {})
+            action_idx = self.action_space.index(record['action'])
+            
+            # Создание целевого вектора
+            target = np.zeros(len(self.action_space))
+            reward = 1.0 if record['success'] else 0.0
+            target[action_idx] = reward
+            
+            X.append(features)
+            y.append(target)
+        
+        if X and y:
+            X = np.array(X)
+            y = np.array(y)
+            
+            # Обучение
+            self.neural_network.train(X, y, epochs=10)
+            
+            # Периодическое сохранение модели
+            if self.decisions_made % 100 == 0:
+                model_path = f"{self.name.lower()}_model.json"
+                try:
+                    self.neural_network.save(model_path)
+                except Exception as e:
+                    print(f"Не удалось сохранить модель для {self.name}: {e}")
+    
+    def get_status(self):
+        """Получение статуса агента"""
+        if self.performance > 90:
+            return Status.NOMINAL
+        elif self.performance > 75:
+            return Status.DEGRADED
+        elif self.performance > 50:
+            return Status.CRITICAL
+        else:
+            return Status.OFFLINE
+    
+    def get_performance_metrics(self) -> Dict:
+        """Получение метрик производительности"""
+        success_rate = 0
+        if self.decisions_made > 0:
+            success_rate = self.successful_decisions / self.decisions_made
+        
+        return {
+            'performance': self.performance,
+            'decisions_made': self.decisions_made,
+            'success_rate': success_rate,
+            'learning_enabled': self.learning_enabled,
+            'ml_enabled': self.use_ml,
+            'knowledge_base_size': len(self.decision_history)
+        }
+
+class IntelligentPowerAgent(BaseAdvancedAgent):
+    """Интеллектуальный агент управления питанием"""
+    
+    def __init__(self):
+        super().__init__("PowerIntelligence", priority=10, use_ml=True)
+        self.power_optimization_strategies = [
+            "conservative", "balanced", "performance", "emergency"
+        ]
+        self.current_strategy = "balanced"
+        
+    def _define_action_space(self) -> List[str]:
+        return [
+            "maintain_current",
+            "enable_power_save",
+            "optimize_distribution",
+            "activate_fast_charge",
+            "emergency_shutdown_non_critical",
+            "balance_cells",
+            "reduce_system_load"
+        ]
+    
+    def _evaluate_situation(self, context: Dict) -> Dict:
+        power = context.get('power')
+        if not power:
+            return {'urgency': 0, 'complexity': 1, 'risk': 0}
+        
+        charge_level = getattr(power, 'charge', 0)
+        health = getattr(power, 'health', 100)
+        temperature = getattr(power, 'temperature', 25)
+        
+        # Оценка срочности
+        urgency = 0
+        if charge_level < 15:
+            urgency = 10
+        elif charge_level < 30:
+            urgency = 7
+        elif charge_level < 50:
+            urgency = 4
+        
+        # Оценка сложности
+        complexity = 1
+        if health < 80:
+            complexity += 3
+        if temperature > 45:
+            complexity += 2
+        
+        # Оценка риска
+        risk = 0
+        if charge_level < 10:
+            risk = 10
+        elif health < 70:
+            risk = 6
+        elif temperature > 50:
+            risk = 5
+        
+        return {
+            'urgency': urgency,
+            'complexity': complexity,
+            'risk': risk,
+            'charge_level': charge_level,
+            'health': health,
+            'temperature': temperature
+        }
+    
+    def _execute_action(self, action: str, context: Dict) -> Dict:
+        power = context.get('power')
+        if not power:
+            return {'success': False, 'message': 'POWER_SYSTEM_UNAVAILABLE'}
+        
+        try:
+            if action == "enable_power_save":
+                context['emergency_power_save'] = True
+                self.current_strategy = "conservative"
+                return {'success': True, 'message': 'POWER_SAVE_ACTIVATED'}
+            
+            elif action == "activate_fast_charge":
+                if hasattr(power, 'fast_charging'):
+                    power.fast_charging = True
+                return {'success': True, 'message': 'FAST_CHARGE_ENABLED'}
+            
+            elif action == "balance_cells":
+                if hasattr(power, 'balancing_active'):
+                    power.balancing_active = True
+                return {'success': True, 'message': 'CELL_BALANCING_ACTIVE'}
+            
+            elif action == "optimize_distribution":
+                # Логика оптимизации распределения энергии
+                self.current_strategy = "balanced"
+                return {'success': True, 'message': 'POWER_DISTRIBUTION_OPTIMIZED'}
+            
+            elif action == "emergency_shutdown_non_critical":
+                context['emergency_power_save'] = True
+                context['shutdown_non_critical'] = True
+                return {'success': True, 'message': 'NON_CRITICAL_SYSTEMS_SHUTDOWN'}
+            
+            elif action == "reduce_system_load":
+                context['reduce_system_load'] = True
+                return {'success': True, 'message': 'SYSTEM_LOAD_REDUCED'}
+            
+            else:
+                return {'success': True, 'message': 'POWER_NOMINAL'}
+                
+        except Exception as e:
+            return {'success': False, 'message': f'POWER_ACTION_FAILED: {str(e)}'}
+
+class IntelligentThermalAgent(BaseAdvancedAgent):
+    """Интеллектуальный агент управления температурой"""
+    
+    def __init__(self):
+        super().__init__("ThermalIntelligence", priority=9, use_ml=True)
+        self.cooling_strategies = deque(maxlen=10)
+        self.thermal_patterns = {}
+        
+    def _define_action_space(self) -> List[str]:
+        return [
+            "maintain_current",
+            "increase_cooling",
+            "activate_emergency_cooling",
+            "reduce_system_performance",
+            "optimize_airflow",
+            "adjust_fan_curves",
+            "relocate_thermal_load"
+        ]
+    
+    def _evaluate_situation(self, context: Dict) -> Dict:
+        thermal = context.get('thermal')
+        if not thermal:
+            return {'urgency': 0, 'complexity': 1, 'risk': 0}
+        
+        if hasattr(thermal, 'get_average_temperature'):
+            avg_temp = thermal.get_average_temperature()
+            max_

@@ -1,0 +1,311 @@
+import numpy as np
+from typing import Dict, Tuple, Optional, Any
+from system.logger import Logger
+from core.agents.base_agent import BaseAgent
+from simulation.physics_engine import PhysicsObject
+from config.system_config import SystemConfig
+
+logger = Logger.get_logger(__name__)
+
+class QikiAgent(BaseAgent):
+    """
+    Главный ИИ-агент QIKI, отвечающий за принятие решений на основе данных сенсоров
+    и команд оператора. Использует модульную архитектуру для делегирования
+    специализированным субагентам.
+    """
+    
+    def __init__(self, initial_state: Dict[str, Any], environment):
+        super().__init__(initial_state)
+        self.environment = environment
+        
+        # Состояние агента
+        self.last_applied_linear_force = np.array([0.0, 0.0, 0.0])
+        self.last_applied_torque_vector = np.array([0.0, 0.0, 0.0])
+        self.autonomous_mode = SystemConfig.RUN_AUTONOMOUSLY
+        
+        # Счетчики и таймеры
+        self.decision_count = 0
+        self.emergency_stop_active = False
+        self.last_emergency_check = 0.0
+        
+        # Автономные цели и состояния
+        self.current_target = None
+        self.scan_angle = 0.0
+        self.last_scan_direction = 1.0  # 1 для правого поворота, -1 для левого
+        
+        # Ограничения безопасности
+        self.max_velocity = SystemConfig.MAX_VELOCITY_LIMIT
+        self.max_angular_velocity = SystemConfig.MAX_ANGULAR_VELOCITY_LIMIT
+        
+        logger.info(f"QikiAgent initialized. Autonomous mode: {self.autonomous_mode}")
+        logger.info(f"Config version: {SystemConfig.CONFIG_VERSION}")
+
+    def make_decision(self, sensor_data: Dict[str, Any], 
+                     operator_command: str = '', dt: float = None) -> Tuple[np.ndarray, np.ndarray]:
+        """
+        Принимает решение о линейной силе и векторе крутящего момента.
+        
+        Args:
+            sensor_data: Словарь с данными от всех сенсоров
+            operator_command: Команда от оператора
+            dt: Шаг симуляции (если None, используется из конфигурации)
+            
+        Returns:
+            Кортеж (linear_force, torque_vector) - векторы сил и крутящих моментов
+        """
+        if dt is None:
+            dt = SystemConfig.SIMULATION_STEP
+            
+        self.decision_count += 1
+        
+        # Проверка аварийных ситуаций
+        if self._check_emergency_conditions(sensor_data):
+            return self._emergency_stop()
+        
+        # Инициализация сил
+        linear_force = np.array([0.0, 0.0, 0.0])
+        torque_vector = np.array([0.0, 0.0, 0.0])
+        
+        # Приоритет команд оператора над автономным режимом
+        if operator_command:
+            return self._process_operator_command(operator_command, sensor_data)
+        
+        # Автономный режим
+        if self.autonomous_mode and SystemConfig.RUN_AUTONOMOUSLY:
+            return self._autonomous_decision(sensor_data, dt)
+        
+        # Режим ожидания (без команд)
+        logger.debug("Agent in standby mode - no operator command or autonomous mode disabled")
+        return linear_force, torque_vector
+
+    def _process_operator_command(self, command: str, 
+                                sensor_data: Dict[str, Any]) -> Tuple[np.ndarray, np.ndarray]:
+        """Обрабатывает команды оператора."""
+        linear_force = np.array([0.0, 0.0, 0.0])
+        torque_vector = np.array([0.0, 0.0, 0.0])
+        
+        command_map = {
+            'w': (np.array([0.0, 0.0, SystemConfig.THRUSTER_FORCE_MAGNITUDE]), 
+                  np.array([0.0, 0.0, 0.0]), "Forward thrust"),
+            's': (np.array([0.0, 0.0, -SystemConfig.THRUSTER_FORCE_MAGNITUDE]), 
+                  np.array([0.0, 0.0, 0.0]), "Backward thrust"),
+            'a': (np.array([-SystemConfig.THRUSTER_FORCE_MAGNITUDE, 0.0, 0.0]), 
+                  np.array([0.0, 0.0, 0.0]), "Strafe Left"),
+            'd': (np.array([SystemConfig.THRUSTER_FORCE_MAGNITUDE, 0.0, 0.0]), 
+                  np.array([0.0, 0.0, 0.0]), "Strafe Right"),
+            'q': (np.array([0.0, 0.0, 0.0]), 
+                  np.array([SystemConfig.TORQUE_MAGNITUDE, 0.0, 0.0]), "Pitch Up"),
+            'e': (np.array([0.0, 0.0, 0.0]), 
+                  np.array([-SystemConfig.TORQUE_MAGNITUDE, 0.0, 0.0]), "Pitch Down"),
+            'z': (np.array([0.0, 0.0, 0.0]), 
+                  np.array([0.0, SystemConfig.TORQUE_MAGNITUDE, 0.0]), "Yaw Left"),
+            'c': (np.array([0.0, 0.0, 0.0]), 
+                  np.array([0.0, -SystemConfig.TORQUE_MAGNITUDE, 0.0]), "Yaw Right"),
+            'x': (np.array([0.0, 0.0, 0.0]), 
+                  np.array([0.0, 0.0, 0.0]), "Stop"),
+        }
+        
+        if command in command_map:
+            linear_force, torque_vector, description = command_map[command]
+            logger.debug(f"Operator command: {description} ({command})")
+            
+            # Применяем ограничения безопасности
+            linear_force, torque_vector = self._apply_safety_limits(
+                linear_force, torque_vector, sensor_data)
+            
+        elif command == 'p':
+            logger.info("Simulation pause requested")
+            # Здесь можно добавить логику паузы
+            
+        elif command == 'k':
+            logger.info("Simulation termination requested")
+            raise SystemExit("Operator requested termination")
+            
+        else:
+            logger.warning(f"Unknown operator command: {command}")
+        
+        return linear_force, torque_vector
+
+    def _autonomous_decision(self, sensor_data: Dict[str, Any], dt: float) -> Tuple[np.ndarray, np.ndarray]:
+        """Принимает автономные решения на основе данных сенсоров."""
+        linear_force = np.array([0.0, 0.0, 0.0])
+        torque_vector = np.array([0.0, 0.0, 0.0])
+        
+        # Получаем текущее состояние
+        bot_position = sensor_data.get('navigation', {}).get('position', np.array([0.0, 0.0, 0.0]))
+        bot_velocity = sensor_data.get('navigation', {}).get('velocity', np.array([0.0, 0.0, 0.0]))
+        
+        # Проверяем наличие целей от радара
+        radar_detections = sensor_data.get('radar_detections', [])
+        
+        if radar_detections:
+            # Режим следования к цели
+            linear_force, torque_vector = self._pursue_target(
+                radar_detections, bot_position, bot_velocity)
+        else:
+            # Режим сканирования
+            linear_force, torque_vector = self._scan_environment(dt)
+        
+        # Применяем ограничения безопасности
+        linear_force, torque_vector = self._apply_safety_limits(
+            linear_force, torque_vector, sensor_data)
+        
+        return linear_force, torque_vector
+
+    def _pursue_target(self, radar_detections: list, bot_position: np.ndarray, 
+                      bot_velocity: np.ndarray) -> Tuple[np.ndarray, np.ndarray]:
+        """Логика преследования цели."""
+        # Выбираем ближайшую цель
+        target = min(radar_detections, 
+                    key=lambda t: np.linalg.norm(t.get('position', np.array([0,0,0])) - bot_position))
+        
+        target_position = target.get('position', np.array([0.0, 0.0, 0.0]))
+        direction_vector = target_position - bot_position
+        distance = np.linalg.norm(direction_vector)
+        
+        linear_force = np.array([0.0, 0.0, 0.0])
+        torque_vector = np.array([0.0, 0.0, 0.0])
+        
+        if distance > SystemConfig.AUTONOMOUS_TARGET_THRESHOLD:
+            # Нормализуем направление и применяем силу
+            if distance > 0:
+                normalized_direction = direction_vector / distance
+                
+                # Рассчитываем необходимую силу с учетом текущей скорости
+                desired_velocity = normalized_direction * min(
+                    SystemConfig.AUTONOMOUS_MAX_VELOCITY, distance)
+                velocity_error = desired_velocity - bot_velocity
+                
+                # Простой PD-регулятор
+                linear_force = velocity_error * SystemConfig.AUTONOMOUS_THRUST_MAGNITUDE / SystemConfig.AUTONOMOUS_MAX_VELOCITY
+                
+                # Ограничиваем силу
+                force_magnitude = np.linalg.norm(linear_force)
+                if force_magnitude > SystemConfig.AUTONOMOUS_THRUST_MAGNITUDE:
+                    linear_force = linear_force / force_magnitude * SystemConfig.AUTONOMOUS_THRUST_MAGNITUDE
+                
+                logger.debug(f"Pursuing target at distance {distance:.2f}m, force: {np.linalg.norm(linear_force):.2f}N")
+        else:
+            logger.debug(f"Near target (distance: {distance:.2f}m), holding position")
+            # Небольшая стабилизация позиции
+            linear_force = -bot_velocity * 0.1
+        
+        self.current_target = target_position
+        return linear_force, torque_vector
+
+    def _scan_environment(self, dt: float) -> Tuple[np.ndarray, np.ndarray]:
+        """Логика сканирования окружающей среды."""
+        # Медленное вращение для сканирования
+        scan_torque = SystemConfig.AUTONOMOUS_SCAN_TORQUE_MAGNITUDE * self.last_scan_direction
+        
+        # Меняем направление сканирования каждые 90 градусов
+        self.scan_angle += abs(scan_torque) * dt / SystemConfig.BOT_INERTIA_TENSOR[1, 1]
+        if self.scan_angle > np.pi/2:  # 90 градусов
+            self.last_scan_direction *= -1
+            self.scan_angle = 0.0
+        
+        torque_vector = np.array([0.0, 0.0, scan_torque])
+        linear_force = np.array([0.0, 0.0, 0.0])
+        
+        logger.debug(f"Scanning environment, torque: {scan_torque:.2f}Nm")
+        return linear_force, torque_vector
+
+    def _apply_safety_limits(self, linear_force: np.ndarray, torque_vector: np.ndarray,
+                           sensor_data: Dict[str, Any]) -> Tuple[np.ndarray, np.ndarray]:
+        """Применяет ограничения безопасности к силам и моментам."""
+        if not SystemConfig.EMERGENCY_STOP_ENABLED:
+            return linear_force, torque_vector
+        
+        # Получаем текущие скорости
+        current_velocity = sensor_data.get('navigation', {}).get('velocity', np.array([0.0, 0.0, 0.0]))
+        current_angular_velocity = sensor_data.get('navigation', {}).get('angular_velocity', np.array([0.0, 0.0, 0.0]))
+        
+        # Ограничиваем линейную скорость
+        velocity_magnitude = np.linalg.norm(current_velocity)
+        if velocity_magnitude > self.max_velocity:
+            # Применяем тормозящую силу
+            brake_force = -current_velocity / velocity_magnitude * SystemConfig.THRUSTER_FORCE_MAGNITUDE * 0.5
+            linear_force = brake_force
+            logger.warning(f"Velocity limit exceeded ({velocity_magnitude:.2f} m/s), applying brakes")
+        
+        # Ограничиваем угловую скорость
+        angular_velocity_magnitude = np.linalg.norm(current_angular_velocity)
+        if angular_velocity_magnitude > self.max_angular_velocity:
+            # Применяем тормозящий момент
+            brake_torque = -current_angular_velocity / angular_velocity_magnitude * SystemConfig.TORQUE_MAGNITUDE * 0.5
+            torque_vector = brake_torque
+            logger.warning(f"Angular velocity limit exceeded ({angular_velocity_magnitude:.2f} rad/s), applying brakes")
+        
+        # Ограничиваем максимальные силы
+        force_magnitude = np.linalg.norm(linear_force)
+        if force_magnitude > SystemConfig.THRUSTER_FORCE_MAGNITUDE:
+            linear_force = linear_force / force_magnitude * SystemConfig.THRUSTER_FORCE_MAGNITUDE
+        
+        torque_magnitude = np.linalg.norm(torque_vector)
+        if torque_magnitude > SystemConfig.TORQUE_MAGNITUDE:
+            torque_vector = torque_vector / torque_magnitude * SystemConfig.TORQUE_MAGNITUDE
+        
+        return linear_force, torque_vector
+
+    def _check_emergency_conditions(self, sensor_data: Dict[str, Any]) -> bool:
+        """Проверяет аварийные условия."""
+        if not SystemConfig.EMERGENCY_STOP_ENABLED:
+            return False
+        
+        # Проверка уровня батареи
+        battery_level = sensor_data.get('power_system', {}).get('battery_level_percent', 100.0)
+        if battery_level < 5.0:
+            logger.error(f"Critical battery level: {battery_level}%")
+            return True
+        
+        # Проверка температуры
+        cpu_temp = sensor_data.get('thermal_system', {}).get('cpu_temperature_c', 20.0)
+        if cpu_temp > SystemConfig.MAX_OPERATING_TEMP_C:
+            logger.error(f"Critical CPU temperature: {cpu_temp}°C")
+            return True
+        
+        if cpu_temp < SystemConfig.MIN_OPERATING_TEMP_C:
+            logger.error(f"Critical low CPU temperature: {cpu_temp}°C")
+            return True
+        
+        # Проверка топлива
+        fuel_level = sensor_data.get('fuel_system', {}).get('fuel_level_percent', 100.0)
+        if fuel_level < SystemConfig.FUEL_RESERVE_THRESHOLD * 100:
+            logger.warning(f"Low fuel level: {fuel_level}%")
+            # Не аварийная остановка, но предупреждение
+        
+        return False
+
+    def _emergency_stop(self) -> Tuple[np.ndarray, np.ndarray]:
+        """Выполняет аварийную остановку."""
+        if not self.emergency_stop_active:
+            logger.critical("EMERGENCY STOP ACTIVATED")
+            self.emergency_stop_active = True
+        
+        # Возвращаем нулевые силы
+        return np.array([0.0, 0.0, 0.0]), np.array([0.0, 0.0, 0.0])
+
+    def set_autonomous_mode(self, enabled: bool):
+        """Включает/выключает автономный режим."""
+        self.autonomous_mode = enabled
+        logger.info(f"Autonomous mode {'enabled' if enabled else 'disabled'}")
+
+    def set_last_applied_forces(self, linear_force: np.ndarray, torque_vector: np.ndarray):
+        """Сохраняет последние примененные силы и моменты для использования сенсорами."""
+        self.last_applied_linear_force = linear_force.copy()
+        self.last_applied_torque_vector = torque_vector.copy()
+
+    def get_last_applied_forces(self) -> Tuple[np.ndarray, np.ndarray]:
+        """Возвращает последние примененные силы и моменты."""
+        return self.last_applied_linear_force.copy(), self.last_applied_torque_vector.copy()
+
+    def get_agent_status(self) -> Dict[str, Any]:
+        """Возвращает текущий статус агента."""
+        return {
+            "autonomous_mode": self.autonomous_mode,
+            "emergency_stop_active": self.emergency_stop_active,
+            "decision_count": self.decision_count,
+            "current_target": self.current_target.tolist() if self.current_target is not None else None,
+            "last_applied_linear_force": self.last_applied_linear_force.tolist(),
+            "last_applied_torque_vector": self.last_applied_torque_vector.tolist()
+        }
